@@ -1,0 +1,121 @@
+version: 2
+
+models:
+  - name: dim_country
+    description: "Country dimension. Grain: one row per ISO3 code."
+    columns:
+      - name: country_id
+        data_tests: [not_null, unique]
+      - name: country_name
+        data_tests: [not_null]
+      - name: income_level
+        data_tests:
+          # A closed set, asserted rather than assumed. If the World Bank adds a
+          # category this fails loudly instead of a dashboard quietly growing a bar
+          # nobody can explain.
+          - accepted_values:
+              arguments:
+                values:
+                  - "Low income"
+                  - "Lower middle income"
+                  - "Upper middle income"
+                  - "High income"
+      - name: latitude
+        data_tests:
+          - dbt_utils.accepted_range:
+              arguments: {min_value: -90, max_value: 90, inclusive: true}
+      - name: longitude
+        data_tests:
+          - dbt_utils.accepted_range:
+              arguments: {min_value: -180, max_value: 180, inclusive: true}
+
+  - name: dim_indicator
+    description: "Indicator dimension. Grain: one row per World Bank series code."
+    columns:
+      - name: indicator_id
+        data_tests: [not_null, unique]
+      - name: indicator_name
+        data_tests: [not_null]
+
+  - name: fct_indicator_observation
+    description: >
+      Analytics-ready fact. Grain is one row per country, indicator and year. Long
+      shape, with the few dimension attributes every query needs denormalised on.
+    data_tests:
+      # The grain, and also the tripwire for the most dangerous failure mode of a
+      # dbt-clickhouse incremental model: with unique_key unset the materialisation
+      # silently degrades to a plain append, duplicates accumulate, and nothing
+      # errors. This test is what turns that into a red build.
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [country_id, indicator_id, obs_year]
+      # Row-count bounds live in tests/assert_fact_row_count_in_range.sql as a
+      # singular test: five countries times nine indicators times roughly 66 years is
+      # 2,970, and a model that had degraded to an append breaches the upper bound on
+      # its second run.
+    columns:
+      - name: country_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: "ref('dim_country')", field: country_id}
+      - name: indicator_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: "ref('dim_indicator')", field: indicator_id}
+      - name: obs_year
+        data_tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments: {min_value: 1960, max_value: 2100, inclusive: true}
+      - name: is_unmeasured
+        data_tests: [not_null]
+      - name: country_name
+        description: >
+          Denormalised from the dimension through an inner join. not_null is the check
+          that the join actually matched: with join_use_nulls=1 a miss is NULL rather
+          than an empty string, so this catches it.
+        data_tests: [not_null]
+      - name: indicator_name
+        data_tests: [not_null]
+
+  - name: agg_country_year_features
+    description: >
+      Machine-learning-ready feature table. Grain is exactly one row per country and
+      year. Flat and wide, one column per configured indicator, nulls preserved rather
+      than imputed, with completeness and series vintage carried on the row.
+    data_tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [country_id, obs_year]
+    columns:
+      - name: country_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments: {to: "ref('dim_country')", field: country_id}
+      - name: obs_year
+        data_tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments: {min_value: 1960, max_value: 2100, inclusive: true}
+      - name: feature_count
+        description: "How many of the configured feature slots are populated on this row."
+        data_tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments: {min_value: 0, max_value: 9, inclusive: true}
+      - name: feature_completeness_pct
+        data_tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments: {min_value: 0, max_value: 100, inclusive: true}
+      - name: population_total
+        description: >
+          The only fully dense series in the configured set, 330 of 330 observations.
+          not_null here is therefore a meaningful assertion rather than an optimistic
+          one, and it is the canary for the pivot losing a column: if the indicator
+          code in the ml_features var stopped matching, this column would go entirely
+          null.
+        data_tests: [not_null]

@@ -1,0 +1,53 @@
+# ---------------------------------------------------------------------------
+# Committed on purpose, and it contains no secret.
+#
+# Every credential is an env_var with NO default. That is deliberate: a profile
+# where the password falls back to a default value will connect successfully to
+# the wrong place, or fail with an authentication error that says nothing about the
+# real cause, which is a missing environment variable. With no default, dbt fails
+# immediately and names the variable.
+#
+# Non-secret values do get defaults, so `dbt debug` works inside the pipeline
+# container without any extra setup.
+# ---------------------------------------------------------------------------
+
+wb_cdc_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: clickhouse
+      driver: native
+      host: "{{ env_var('CLICKHOUSE_HOST', 'clickhouse') }}"
+      port: "{{ env_var('CLICKHOUSE_NATIVE_PORT', '9000') | int }}"
+      user: "{{ env_var('CLICKHOUSE_USER') }}"
+      password: "{{ env_var('CLICKHOUSE_PASSWORD') }}"
+
+      # The default database for models that do not override it. Layer databases
+      # come from the +schema config in dbt_project.yml, resolved verbatim by the
+      # generate_schema_name macro.
+      schema: marts
+
+      secure: False
+      connect_timeout: 10
+      send_receive_timeout: 300
+      threads: 4
+
+      custom_settings:
+        # ClickHouse defaults join_use_nulls to 0, which turns a LEFT JOIN miss into
+        # a type default: 0 for numbers, empty string for strings. A not_null test
+        # then passes on a row whose join silently found nothing, and an average over
+        # the column is quietly wrong because the misses became zeroes. Turning it on
+        # makes a missing join look missing.
+        #
+        # This is set here AND server-side in config/clickhouse/limits.xml, so an
+        # ad-hoc query in a SQL client behaves the same way as a dbt model. A
+        # correctness setting that only applies to one client is a trap for the next
+        # person.
+        join_use_nulls: 1
+
+        # Wait for a mutation to finish before the statement returns. Without this,
+        # the delete half of a delete+insert incremental run is asynchronous, so the
+        # insert can land before the delete has been applied and the run ends with
+        # duplicates that disappear later. That is the worst kind of bug: it depends
+        # on timing and it heals itself before you can look at it.
+        mutations_sync: 1

@@ -1,0 +1,109 @@
+name: wb_cdc_analytics
+version: "1.0.0"
+config-version: 2
+profile: wb_cdc_analytics
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+
+# Absolute, and outside the project directory on purpose.
+#
+# The project directory is bind-mounted READ-ONLY into the containers, so the
+# default location (<project>/dbt_packages) is unusable twice over: `dbt deps`
+# cannot write there at runtime, and packages installed there at image build time are
+# shadowed by the mount and invisible. Resolving them into /opt/dbt-packages at build
+# time makes the image self-contained, so a pipeline run needs no network call for
+# packages and CI gets exactly the versions the image was built with.
+#
+# Note that this is a project-file key, not an environment variable: there is no
+# DBT_PACKAGES_INSTALL_PATH, which is a quiet way to lose an afternoon.
+packages-install-path: "/opt/dbt-packages"
+
+# target-path and log-path are deliberately NOT set here. dbt 1.11 deprecates both
+# in dbt_project.yml, so they are supplied as the DBT_TARGET_PATH and DBT_LOG_PATH
+# environment variables instead (set in docker/pipeline.Dockerfile and
+# docker/airflow.Dockerfile). Both point outside the bind mount, so a containerised
+# run cannot leave root-owned artifacts in the developer's working tree.
+
+clean-targets: ["target", "dbt_packages"]
+
+# ---------------------------------------------------------------------------
+# Fail before running anything if the connection resolved somewhere unexpected.
+#
+# A misconfigured environment variable otherwise surfaces as models being built
+# successfully in the wrong database, which is far more expensive to unpick than a
+# failed run. This costs one query per invocation.
+# ---------------------------------------------------------------------------
+on-run-start:
+  - "{{ assert_target_database() }}"
+
+vars:
+  # The oldest year the World Bank series cover. Referenced by a range test rather
+  # than repeated as a literal in several places.
+  min_obs_year: 1960
+  max_obs_year: 2100
+  # Lookback window for the incremental fact model. Wider than the pipeline's actual
+  # cadence on purpose: an incremental boundary that is exactly the run interval
+  # loses any row whose change landed during the run itself.
+  cdc_lookback_hours: 48
+
+  # ---------------------------------------------------------------------------
+  # The ML feature mart's column layout.
+  #
+  # A feature table is inherently wide with named columns, so the pivot cannot be
+  # fully dynamic. Declaring the mapping here rather than hardcoding nine CASE
+  # expressions in SQL keeps the indicator set config-driven end to end: adding a
+  # series means one line in ingest/indicators.yml and one line here, and the model
+  # generates the column. It also means the mapping from an opaque World Bank code to
+  # a readable feature name is written down in one place instead of implied by SQL.
+  #
+  # Keep in step with ingest/indicators.yml. The mart has a test that fails if an
+  # ingested indicator has no feature column, so drift is caught rather than assumed
+  # away.
+  # ---------------------------------------------------------------------------
+  ml_features:
+    - {indicator: "IC.BUS.NREG", column: "new_businesses_registered"}
+    - {indicator: "IC.BUS.NDNS.ZS", column: "new_business_density"}
+    - {indicator: "FX.OWN.TOTL.ZS", column: "account_ownership_pct"}
+    - {indicator: "FS.AST.PRVT.GD.ZS", column: "private_credit_pct_gdp"}
+    - {indicator: "NY.GDP.MKTP.KD.ZG", column: "gdp_growth_pct"}
+    - {indicator: "NY.GNP.PCAP.CD", column: "gni_per_capita_usd"}
+    - {indicator: "SP.POP.TOTL", column: "population_total"}
+    - {indicator: "SL.UEM.TOTL.ZS", column: "unemployment_pct"}
+    - {indicator: "SI.POV.DDAY", column: "poverty_headcount_pct"}
+
+models:
+  wb_cdc_analytics:
+    # -----------------------------------------------------------------------
+    # Staging: cleaned, standardised, deduplicated current state.
+    #
+    # Materialised as VIEWS, deliberately. Staging here does exactly three things:
+    # deduplicate the CDC landing table, drop tombstones, and rename. None of that
+    # benefits from being stored, and storing it would add a second copy of the raw
+    # data that can go stale between runs. The cost is that the FINAL read happens
+    # at query time, which at this volume is not measurable. The scaling section of
+    # the design report names the row count at which this decision flips.
+    # -----------------------------------------------------------------------
+    staging:
+      +schema: staging
+      +materialized: view
+      +tags: ["staging"]
+
+    # -----------------------------------------------------------------------
+    # Marts: analytics-ready and ML-ready outputs. Stored, because these are what
+    # gets queried repeatedly.
+    #
+    # NOTE ON ENGINES: no engine is set at this level, on purpose. A Replacing
+    # engine inherited from a directory-level config would apply to models that
+    # never declare an order_by, and dbt-clickhouse emits ORDER BY (tuple()) when
+    # order_by is unset. An empty sort key means every row shares it, so a
+    # ReplacingMergeTree would collapse the entire table to ONE row, silently. Engine
+    # and sort key are therefore always declared together in the model's own
+    # config() block, never split across files.
+    # -----------------------------------------------------------------------
+    marts:
+      +schema: marts
+      +materialized: table
+      +tags: ["marts"]

@@ -1,0 +1,79 @@
+version: 2
+
+# The minimum test bar for this layer: the grain is unique and not null, and the CDC
+# metadata is sane. Everything a downstream join or aggregation assumes is asserted
+# here, at the earliest layer where it can be, rather than at the mart where a
+# failure sits further from its cause.
+#
+# Generic test parameters are nested under `arguments:`, which is the form dbt 1.11
+# expects. The older flat style still runs but emits a deprecation warning per test,
+# and a build with sixteen warnings trains the reader to ignore warnings.
+
+models:
+  - name: stg_country
+    description: "Cleaned, deduplicated current state of the country dimension. One row per ISO3 code."
+    columns:
+      - name: country_id
+        description: "ISO 3166-1 alpha-3. The grain of this model."
+        data_tests:
+          - not_null
+          - unique
+      - name: country_name
+        data_tests: [not_null]
+      - name: cdc_version
+        description: >
+          Postgres LSN of the change event. Must be present, or the engine's
+          "latest version wins" rule has nothing to order by.
+        data_tests: [not_null]
+      - name: is_concessional_borrower
+        data_tests: [not_null]
+
+  - name: stg_indicator
+    description: "Cleaned, deduplicated current state of the indicator dimension."
+    columns:
+      - name: indicator_id
+        data_tests:
+          - not_null
+          - unique
+      - name: indicator_name
+        data_tests: [not_null]
+
+  - name: stg_observation
+    description: >
+      Cleaned, deduplicated current state of the observation fact. Rows with a null
+      obs_value are retained deliberately: a null means the series was not measured
+      that year, which is different information from zero.
+    data_tests:
+      # The composite grain. A single-column unique test cannot express this, and
+      # without it a CDC deduplication bug would fan out every downstream join.
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns: [country_id, indicator_id, obs_year]
+    columns:
+      - name: country_id
+        data_tests:
+          - not_null
+          # Referential integrity asserted at staging, not only at the mart. The fact
+          # model uses inner joins, so a broken reference would surface there as
+          # silently fewer rows; here it surfaces as a named failure.
+          - relationships:
+              arguments:
+                to: ref('stg_country')
+                field: country_id
+      - name: indicator_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_indicator')
+                field: indicator_id
+      - name: obs_year
+        data_tests:
+          - not_null
+          - dbt_utils.accepted_range:
+              arguments:
+                min_value: 1960
+                max_value: 2100
+                inclusive: true
+      - name: is_unmeasured
+        data_tests: [not_null]

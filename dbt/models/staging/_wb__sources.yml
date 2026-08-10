@@ -1,0 +1,81 @@
+version: 2
+
+sources:
+  - name: raw
+    description: >
+      CDC landing tables in ClickHouse, written only by the materialized views that
+      read the Kafka engine tables. dbt reads this layer and never writes to it, so
+      the write boundary stays single-owner: exactly one process can have put a row
+      here.
+    database: raw
+    schema: raw
+
+    # -----------------------------------------------------------------------
+    # Freshness is declared on the SOURCE, which is the earliest point at which
+    # staleness can be detected.
+    #
+    # This is deliberate and it is the thing most projects get backwards. Test
+    # coverage concentrated on the last layer tells you a mart is wrong long after
+    # the cause; a freshness block on the source tells you the pipeline stopped
+    # while the marts still look perfectly consistent, because a mart built from
+    # stale-but-valid data passes every uniqueness and referential test there is.
+    #
+    # _synced_at is the ClickHouse-side arrival time, so this measures the whole
+    # chain from Postgres commit to landing table, not just one hop.
+    #
+    # The thresholds are loose because the two dimensions genuinely change rarely.
+    # Connector liveness is a separate signal with a tight threshold, measured
+    # against the Debezium heartbeat in ops.cdc_heartbeat_lag. Conflating the two is
+    # what makes an idle dimension page someone at 3am.
+    # -----------------------------------------------------------------------
+    freshness:
+      warn_after: {count: 12, period: hour}
+      error_after: {count: 48, period: hour}
+    loaded_at_field: "toDateTime(_synced_at)"
+
+    tables:
+      - name: country
+        description: Country dimension as replicated from PostgreSQL. One row per ISO3 code, latest version.
+        columns:
+          - name: country_id
+            description: ISO 3166-1 alpha-3 code. The source primary key, and therefore the ReplacingMergeTree sort key.
+          - name: _version
+            description: Postgres LSN of the change event. The engine's version column.
+          - name: _is_deleted
+            description: 1 for a tombstone. Always filtered by the ch_current_state macro.
+
+      - name: indicator
+        description: Indicator dimension. One row per World Bank series id, latest version.
+        columns:
+          - name: indicator_id
+            description: World Bank series code, for example IC.BUS.NREG.
+
+      - name: observation
+        description: >
+          Observation fact as replicated from PostgreSQL. One row per country,
+          indicator and year, latest version.
+        # Tighter than the source default: the fact table is the one that actually
+        # moves on every run, so it is the one whose silence is informative.
+        freshness:
+          warn_after: {count: 6, period: hour}
+          error_after: {count: 24, period: hour}
+        columns:
+          - name: country_id
+            description: ISO3 code. Foreign key to country.
+          - name: indicator_id
+            description: World Bank series code. Foreign key to indicator.
+          - name: obs_year
+            description: Observation year.
+          - name: obs_value
+            description: >
+              The measured value, nullable. A null means the series was not measured
+              that year, which is different information from zero and is preserved
+              rather than coalesced.
+
+      - name: cdc_event_log
+        description: >
+          Immutable append-only log of every change event, keyed on the Kafka
+          coordinate triple so redelivery converges rather than duplicating. Retained
+          30 days. Not modelled downstream; it exists so a modelling mistake can be
+          corrected by re-deriving rather than by re-snapshotting the source.
+        loaded_at_field: "toDateTime(_consumed_at)"
