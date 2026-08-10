@@ -1,0 +1,28 @@
+# Pinned deliberately, and pinned to the set pip's resolver actually converges
+# on rather than to the newest of each package.
+#
+# Why: `pip install dbt-core dbt-clickhouse` succeeds, but it first tries
+# dbt-core 1.12.0, discovers that dbt-clickhouse 1.10.1 requires
+# dbt-adapters<1.23.0 while dbt-core 1.12.0 requires dbt-adapters>=1.24.5, and
+# backtracks. Pinning the converged set makes the image build single-shot and
+# removes a class of "works on my machine" drift.
+#
+# Verified 2026-08-10: this exact set resolves in one pass, 67 packages, exit 0.
+
+# --- dbt on ClickHouse -----------------------------------------------------
+dbt-core==1.11.12
+dbt-clickhouse==1.10.1
+dbt-adapters==1.22.10
+
+# --- ingestion -------------------------------------------------------------
+httpx==0.28.1
+tenacity==9.1.2
+psycopg[binary]==3.2.9
+pydantic==2.11.7
+pydantic-settings==2.10.1
+
+# --- ClickHouse client used by the verification and check code -------------
+clickhouse-connect==1.6.0
+
+# --- metrics ---------------------------------------------------------------
+prometheus-client==0.23.1

@@ -1,0 +1,9 @@
+# Host-side development and CI dependencies. Deliberately separate from
+# pipeline.txt so the CI fast lane installs a small set and does not need dbt or
+# a database driver to run the unit tests.
+-r pipeline.txt
+
+pytest==8.4.1
+pytest-cov==6.2.1
+respx==0.22.0
+ruff==0.12.5

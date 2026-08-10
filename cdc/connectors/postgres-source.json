@@ -1,0 +1,108 @@
+{
+  "//": [
+    "Debezium PostgreSQL source connector. Property names are Debezium 3.x.",
+    "",
+    "Four properties commonly copied from older tutorials fail silently or loudly",
+    "against 3.x, so they are called out here:",
+    "  database.server.name          renamed to topic.prefix",
+    "  plugin.name                   defaults to decoderbufs, which needs a server",
+    "                                extension that is not installed; pgoutput is",
+    "                                built into Postgres 10+ and is set explicitly",
+    "  delete.handling.mode          renamed to delete.tombstone.handling.mode",
+    "                                and moved onto the transform",
+    "  tombstones.on.delete          now defaults to true",
+    "",
+    "PG_REPL_PASSWORD is substituted by scripts/bootstrap.sh at registration time,",
+    "so this file stays committable with no credential in it.",
+    "",
+    "Registered with PUT /connectors/<name>/config, never POST. PUT is",
+    "create-or-update, so re-running bootstrap is idempotent; POST returns 409 on",
+    "the second call and breaks any retry."
+  ],
+
+  "connector.class": "io.debezium.connector.postgresql.PostgresConnector",
+  "tasks.max": "1",
+
+  "database.hostname": "postgres",
+  "database.port": "5432",
+  "database.user": "${PG_REPL_USER}",
+  "database.password": "${PG_REPL_PASSWORD}",
+  "database.dbname": "${POSTGRES_DB}",
+
+  "topic.prefix": "${CDC_TOPIC_PREFIX}",
+
+  "plugin.name": "pgoutput",
+  "slot.name": "${PG_REPL_SLOT}",
+  "publication.name": "${PG_PUBLICATION}",
+  "publication.autocreate.mode": "disabled",
+
+  "schema.include.list": "wb",
+  "table.include.list": "wb.country,wb.indicator,wb.observation",
+
+  "snapshot.mode": "initial",
+
+  "//time_and_number_encoding": [
+    "time.precision.mode=connect makes DATE arrive as int32 days since epoch and",
+    "TIMESTAMP as int64 millis, both Kafka Connect logical types, instead of",
+    "Debezium's adaptive microsecond variants. TIMESTAMPTZ is a ZonedTimestamp",
+    "ISO-8601 string either way. Pinning the mode means the ClickHouse casts are",
+    "written against one documented encoding rather than whichever default the",
+    "connector version happens to have.",
+    "decimal.handling.mode=double is belt and braces: the source columns are",
+    "already double precision precisely so no NUMERIC is base64-encoded on the",
+    "wire, but if a NUMERIC is ever added this keeps it a JSON number."
+  ],
+  "time.precision.mode": "connect",
+  "decimal.handling.mode": "double",
+
+  "//heartbeat": [
+    "The single most important operational setting here. A logical replication",
+    "slot only advances its confirmed_flush_lsn when the consumer acknowledges an",
+    "event. If the captured tables are idle while other activity on the cluster",
+    "keeps producing WAL, the slot stays pinned and WAL accumulates behind it",
+    "until the disk fills, with nothing in the connector looking wrong.",
+    "The heartbeat writes to a captured table on a timer, which produces an event",
+    "the connector acknowledges, which drags the slot forward. It is a keepalive",
+    "for the replication slot, and max_slot_wal_keep_size on the server is the",
+    "backstop if it is ever missing."
+  ],
+  "heartbeat.interval.ms": "10000",
+  "heartbeat.action.query": "UPDATE wb.cdc_heartbeat SET beat_at = now(), beat_count = beat_count + 1 WHERE id = 1",
+
+  "//slot_lifecycle": [
+    "slot.drop.on.stop=false so a restart resumes from the recorded LSN instead of",
+    "re-snapshotting. The consequence is that stopping the stack leaves a slot",
+    "retaining WAL, which is why `make down` drops it explicitly and the README",
+    "says so."
+  ],
+  "slot.drop.on.stop": "false",
+
+  "topic.creation.default.replication.factor": "1",
+  "topic.creation.default.partitions": "1",
+
+  "//transform": [
+    "ExtractNewRecordState flattens Debezium's before/after envelope to the new row",
+    "state, which is what a warehouse landing table wants.",
+    "delete.tombstone.handling.mode=rewrite is what makes deletes visible: instead",
+    "of dropping the delete or emitting a null-valued tombstone, it emits the row",
+    "with a __deleted marker. Without it, a delete either vanishes (and the",
+    "warehouse keeps a row the source no longer has) or arrives as a null the",
+    "consumer has to special-case.",
+    "add.fields carries the operation and the log coordinates through, and __lsn is",
+    "what the ReplacingMergeTree uses as its version column."
+  ],
+  "transforms": "unwrap",
+  "transforms.unwrap.type": "io.debezium.transforms.ExtractNewRecordState",
+  "transforms.unwrap.delete.tombstone.handling.mode": "rewrite",
+  "transforms.unwrap.add.fields": "op,table,lsn,source.ts_ms",
+
+  "//tombstones": [
+    "false because the rewrite mode above already represents deletes as real rows.",
+    "Leaving it true would additionally emit a null-valued record per delete, which",
+    "the ClickHouse Kafka engine would have to parse and discard."
+  ],
+  "tombstones.on.delete": "false",
+
+  "errors.log.enable": "true",
+  "errors.log.include.messages": "true"
+}

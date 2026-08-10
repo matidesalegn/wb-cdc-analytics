@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+  librdkafka settings for the Kafka engine tables.
+
+  auto_offset_reset=earliest is the setting that matters. librdkafka defaults to
+  `latest`, which means a consumer group reading a topic for the first time skips
+  everything already in it. In this pipeline that would silently discard the
+  entire Debezium initial snapshot: the topic has rows, the Kafka engine table
+  reports no errors, and the landing table is empty. The failure looks like a
+  broken materialized view and is actually an offset policy.
+
+  This is set server-side rather than per table because it should hold for every
+  Kafka engine table in this deployment, and because a per-table override that
+  someone forgets to copy onto the next table reintroduces the same silent gap.
+-->
+<clickhouse>
+    <kafka>
+        <auto_offset_reset>earliest</auto_offset_reset>
+        <!-- Keep the consumer's own retries bounded and visible. A consumer that
+             retries forever without surfacing anything is the other way a Kafka
+             engine table goes quiet. -->
+        <session_timeout_ms>30000</session_timeout_ms>
+        <heartbeat_interval_ms>3000</heartbeat_interval_ms>
+        <!-- librdkafka logs at a level ClickHouse maps into its own log; keeping
+             it at notice means a broker problem shows up in
+             `docker compose logs clickhouse` instead of nowhere. -->
+        <debug>consumer</debug>
+        <log_level>4</log_level>
+    </kafka>
+</clickhouse>

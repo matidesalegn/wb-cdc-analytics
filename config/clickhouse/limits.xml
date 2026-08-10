@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!--
+  ClickHouse sizes its caches and memory limit against total host RAM by
+  default. In a Compose stack that shares a laptop with Redpanda, a JVM, Airflow
+  and two Go services, that means ClickHouse claims memory the others need and
+  the failure surfaces as an unrelated container being OOM-killed.
+
+  Capping it here is not tuning for performance, it is making the stack's
+  resource envelope predictable so a reviewer's machine behaves like ours.
+  These values are deliberately small; the scaling section of the design report
+  covers what changes when this runs on dedicated hardware.
+-->
+<clickhouse>
+    <!-- Ceiling for the whole server, as a fraction of container-visible RAM. -->
+    <max_server_memory_usage_to_ram_ratio>0.4</max_server_memory_usage_to_ram_ratio>
+
+    <!-- Caches: defaults are sized for a dedicated box. -->
+    <mark_cache_size>268435456</mark_cache_size>
+    <uncompressed_cache_size>0</uncompressed_cache_size>
+
+    <!-- Deliberately NOT shrinking background_pool_size here. The obvious
+         instinct on a laptop is to cut it, but ClickHouse enforces
+         background_pool_size * background_merges_mutations_concurrency_ratio >=
+         number_of_free_entries_in_pool_to_execute_mutation (20), and the server
+         refuses to start with BAD_ARGUMENTS if that does not hold. Lowering it
+         to 4 gives 8, which fails. The pools are threads, not resident memory,
+         so capping memory above is the control that actually matters. -->
+
+    <profiles>
+        <default>
+            <!-- Per-query ceiling, so one bad analytical query cannot take the
+                 server down and stall CDC ingestion with it. -->
+            <max_memory_usage>2000000000</max_memory_usage>
+
+            <!-- ClickHouse defaults join_use_nulls to 0, which turns a LEFT JOIN
+                 miss into a type default: 0 for numbers, empty string for
+                 strings. A not_null test then passes on data that is silently
+                 wrong. Turning it on makes a missed join look like a missed
+                 join. dbt sets this per-connection too; setting it server-side
+                 means an ad-hoc query in a client behaves the same way. -->
+            <join_use_nulls>1</join_use_nulls>
+        </default>
+    </profiles>
+</clickhouse>

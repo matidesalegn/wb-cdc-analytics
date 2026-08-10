@@ -1,0 +1,277 @@
+# ---------------------------------------------------------------------------
+# wb-cdc-analytics
+#
+# Profiles map to make targets:
+#   make up       core path only          (no profile: postgres, redpanda, connect, clickhouse)
+#   make up-mon   core + observability    (--profile observability)
+#   make up-all   everything              (+ orchestration, console)
+#
+# Conventions applied throughout:
+#   - every image tag is pinned, never :latest
+#   - every stateful service has a healthcheck, and dependents gate on
+#     service_healthy rather than on mere start order
+#   - required secrets use ${VAR:?...} so the stack refuses to start
+#     half-configured instead of coming up with an empty password
+#   - every published port binds to 127.0.0.1 only, on a non-default host port,
+#     so this stack cannot collide with something already running
+#   - config is mounted read-only
+# ---------------------------------------------------------------------------
+name: wb-cdc-analytics
+
+x-pipeline-env: &pipeline-env
+  # Source API
+  WB_API_BASE: ${WB_API_BASE:-https://api.worldbank.org/v2}
+  WB_COUNTRIES: ${WB_COUNTRIES:-TCD;ETH;KEN;RWA;SSD}
+  WB_PER_PAGE: ${WB_PER_PAGE:-100}
+  WB_REQUEST_TIMEOUT_SECONDS: ${WB_REQUEST_TIMEOUT_SECONDS:-30}
+  WB_MAX_RETRIES: ${WB_MAX_RETRIES:-5}
+  SOURCE_API_MODE: ${SOURCE_API_MODE:-live}
+  # Postgres OLTP
+  POSTGRES_HOST: postgres
+  POSTGRES_PORT: "5432"
+  POSTGRES_DB: ${POSTGRES_DB:-wbsource}
+  POSTGRES_USER: ${POSTGRES_USER:-wbapp}
+  POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?run 'make env' first}
+  # ClickHouse OLAP
+  CLICKHOUSE_HOST: clickhouse
+  CLICKHOUSE_HTTP_PORT: "8123"
+  CLICKHOUSE_NATIVE_PORT: "9000"
+  CLICKHOUSE_DB: ${CLICKHOUSE_DB:-analytics}
+  CLICKHOUSE_USER: ${CLICKHOUSE_USER:-analytics}
+  CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:?run 'make env' first}
+  # Thresholds, shared by the DAG gates and the alert rules so they cannot drift
+  CDC_LAG_ERROR_SECONDS: ${CDC_LAG_ERROR_SECONDS:-300}
+  CDC_SLOT_LAG_ERROR_BYTES: ${CDC_SLOT_LAG_ERROR_BYTES:-1073741824}
+
+services:
+
+  # -------------------------------------------------------------------------
+  # PostgreSQL: the OLTP system of record and the CDC source.
+  #
+  # The command flags are the whole reason CDC works here, so they are explicit
+  # rather than hidden in a mounted postgresql.conf:
+  #   wal_level=logical         emit row-level change events, not just physical WAL
+  #   max_replication_slots     headroom for the Debezium slot plus a spare
+  #   max_wal_senders           one walsender per slot
+  #   max_slot_wal_keep_size    THE safety valve. An inactive replication slot
+  #                             retains WAL forever, and that is how a forgotten
+  #                             slot fills a production disk. This caps the
+  #                             damage: past 2 GB the slot is invalidated and the
+  #                             server protects itself instead of running out of
+  #                             space. Losing a slot is recoverable; losing the
+  #                             primary's disk is not.
+  # -------------------------------------------------------------------------
+  postgres:
+    image: postgres:17-alpine
+    command:
+      - postgres
+      - -c
+      - wal_level=logical
+      - -c
+      - max_replication_slots=4
+      - -c
+      - max_wal_senders=4
+      - -c
+      - wal_keep_size=128MB
+      - -c
+      - max_slot_wal_keep_size=2GB
+      - -c
+      - shared_buffers=128MB
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-wbsource}
+      POSTGRES_USER: ${POSTGRES_USER:-wbapp}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?run 'make env' first}
+      PG_REPL_USER: ${PG_REPL_USER:-debezium}
+      PG_REPL_PASSWORD: ${PG_REPL_PASSWORD:?run 'make env' first}
+      PG_PUBLICATION: ${PG_PUBLICATION:-wb_cdc_pub}
+    volumes:
+      # Runs only on an empty data directory. scripts/bootstrap.sh re-applies the
+      # same DDL idempotently on every start, so an edited schema does not
+      # require wiping the volume.
+      - ./sql/oltp:/docker-entrypoint-initdb.d:ro
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "127.0.0.1:${POSTGRES_HOST_PORT:-55432}:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-wbapp} -d ${POSTGRES_DB:-wbsource}"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 10s
+    restart: unless-stopped
+
+  # -------------------------------------------------------------------------
+  # Redpanda: Kafka-API-compatible log, one container, no ZooKeeper and no KRaft
+  # configuration to get wrong.
+  #
+  # Dual listener on purpose. INTERNAL is what Connect and ClickHouse use inside
+  # the network; EXTERNAL is what rpk from the host uses. A single listener
+  # cannot advertise a hostname that resolves both inside and outside the
+  # network, which is the usual cause of "it connects then immediately fails".
+  #
+  # Memory is capped explicitly. Redpanda sizes itself to the whole machine by
+  # default, which on a reviewer's laptop starves everything else.
+  # -------------------------------------------------------------------------
+  redpanda:
+    image: redpandadata/redpanda:v26.1.15
+    command:
+      - redpanda
+      - start
+      # dev-container is Redpanda's own single-node preset. It sets
+      # overprovisioned, zero reserved memory, fsync bypass and
+      # auto_create_topics_enabled in one flag, which is both fewer moving parts
+      # and self-documenting about what this deployment is. Note that the
+      # `--set key=value` form must be space-separated: rpk does not recognise
+      # `--set=key=value` and passes it straight through to the broker, which
+      # then refuses to start on an unrecognised option.
+      - --mode
+      - dev-container
+      - --smp=1
+      - --memory=1G
+      - --node-id=0
+      - --check=false
+      - --kafka-addr=INTERNAL://0.0.0.0:9092,EXTERNAL://0.0.0.0:19092
+      - --advertise-kafka-addr=INTERNAL://redpanda:9092,EXTERNAL://127.0.0.1:${REDPANDA_KAFKA_HOST_PORT:-59092}
+      # Listen on all interfaces, advertise the service name. Getting these two
+      # the same way round is the usual cause of a broker that accepts a
+      # connection and then drops it.
+      - --rpc-addr=0.0.0.0:33145
+      - --advertise-rpc-addr=redpanda:33145
+    ports:
+      - "127.0.0.1:${REDPANDA_KAFKA_HOST_PORT:-59092}:19092"
+      # Admin API. Serves /public_metrics, which Prometheus scrapes directly, so
+      # this stack needs no JMX exporter sidecar for the broker.
+      - "127.0.0.1:${REDPANDA_ADMIN_HOST_PORT:-59644}:9644"
+    volumes:
+      - redpandadata:/var/lib/redpanda/data
+    healthcheck:
+      # rpk exits non-zero when the cluster is unhealthy, but grep on the
+      # reported field is more explicit about what "healthy" means here.
+      test: ["CMD-SHELL", "rpk cluster health 2>/dev/null | grep -qE 'Healthy:.+true'"]
+      interval: 5s
+      timeout: 5s
+      retries: 24
+      start_period: 10s
+    restart: unless-stopped
+
+  # -------------------------------------------------------------------------
+  # Debezium Kafka Connect.
+  #
+  # The *_REPLICATION_FACTOR values are not optional: Connect's three internal
+  # topics default to replication factor 3, and on a single broker that makes
+  # the worker fail to start with an error that does not mention replication.
+  #
+  # Any CONNECT_-prefixed variable becomes a worker property, lowercased with
+  # underscores turned into dots (verified against this image's entrypoint), so
+  # CONNECT_KEY_CONVERTER_SCHEMAS_ENABLE sets key.converter.schemas.enable.
+  #
+  # Heap is capped because the JVM default is a fraction of host RAM.
+  # -------------------------------------------------------------------------
+  connect:
+    image: quay.io/debezium/connect:3.6.1.Final
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redpanda:
+        condition: service_healthy
+    environment:
+      BOOTSTRAP_SERVERS: redpanda:9092
+      GROUP_ID: wb-cdc-connect
+      CONFIG_STORAGE_TOPIC: _connect_configs
+      OFFSET_STORAGE_TOPIC: _connect_offsets
+      STATUS_STORAGE_TOPIC: _connect_status
+      CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR: "1"
+      CONNECT_OFFSET_STORAGE_REPLICATION_FACTOR: "1"
+      CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: "1"
+      # Plain JSON without embedded schemas. Trade-off recorded in the report:
+      # this drops one container and keeps topics readable with `rpk topic
+      # consume`, at the cost of a wire-level schema-evolution contract.
+      KEY_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
+      CONNECT_KEY_CONVERTER_SCHEMAS_ENABLE: "false"
+      CONNECT_VALUE_CONVERTER_SCHEMAS_ENABLE: "false"
+      # Flush offsets more often than the 60s default so a demo restart does not
+      # replay a minute of events.
+      OFFSET_FLUSH_INTERVAL_MS: "10000"
+      HEAP_OPTS: -Xms256m -Xmx512m
+    ports:
+      - "127.0.0.1:${CONNECT_HOST_PORT:-58083}:8083"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8083/connectors > /dev/null"]
+      interval: 5s
+      timeout: 5s
+      # JVM plus plugin scan takes 30-45s cold. start_period covers that without
+      # inflating the steady-state interval.
+      retries: 24
+      start_period: 40s
+    restart: unless-stopped
+
+  # -------------------------------------------------------------------------
+  # ClickHouse: the OLAP target.
+  #
+  # config.d/prometheus.xml enables the native /metrics endpoint on 9363, so
+  # Prometheus scrapes ClickHouse directly with no exporter container.
+  # config.d/limits.xml caps memory so ClickHouse does not size itself to the
+  # whole host and starve the rest of the stack.
+  # -------------------------------------------------------------------------
+  clickhouse:
+    image: clickhouse/clickhouse-server:25.8
+    depends_on:
+      redpanda:
+        condition: service_healthy
+    environment:
+      CLICKHOUSE_DB: ${CLICKHOUSE_DB:-analytics}
+      CLICKHOUSE_USER: ${CLICKHOUSE_USER:-analytics}
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:?run 'make env' first}
+      # The pipeline user creates the raw and staging databases, which needs
+      # more than the default grant on one database.
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: "1"
+    volumes:
+      - ./observability/clickhouse/prometheus.xml:/etc/clickhouse-server/config.d/prometheus.xml:ro
+      - ./config/clickhouse/limits.xml:/etc/clickhouse-server/config.d/limits.xml:ro
+      - ./config/clickhouse/kafka.xml:/etc/clickhouse-server/config.d/kafka.xml:ro
+      - chdata:/var/lib/clickhouse
+    ports:
+      - "127.0.0.1:${CLICKHOUSE_HTTP_HOST_PORT:-58123}:8123"
+      - "127.0.0.1:${CLICKHOUSE_NATIVE_HOST_PORT:-59001}:9000"
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+    healthcheck:
+      # /ping needs no authentication, so the healthcheck carries no credential.
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8123/ping | grep -q Ok"]
+      interval: 5s
+      timeout: 3s
+      retries: 24
+      start_period: 15s
+    restart: unless-stopped
+
+  # -------------------------------------------------------------------------
+  # The pipeline runner. Not started by `up`; invoked with
+  # `docker compose run --rm pipeline ...` from the Makefile, which is why it
+  # sits behind a profile.
+  # -------------------------------------------------------------------------
+  pipeline:
+    build:
+      context: .
+      dockerfile: docker/pipeline.Dockerfile
+    profiles: ["tools"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+      clickhouse:
+        condition: service_healthy
+    environment: *pipeline-env
+    volumes:
+      # Bind-mounted for a fast edit loop. The image also contains a copy so CI
+      # can run it with no mount.
+      - ./ingest:/app/ingest:ro
+      - ./dbt:/app/dbt:ro
+      - ./scripts:/app/scripts:ro
+      - ./tests:/app/tests:ro
+
+volumes:
+  pgdata:
+  redpandadata:
+  chdata:

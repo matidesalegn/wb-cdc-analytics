@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+  ClickHouse exposes Prometheus metrics natively. Enabling this endpoint means
+  the stack needs no ClickHouse exporter container: Prometheus scrapes
+  clickhouse:9363/metrics directly.
+
+  All four families are on because each answers a different question the
+  observability deliverable asks for:
+    metrics               current gauges (memory, connections, parts)
+    events                cumulative counters (inserted rows, merges, failures)
+    asynchronous_metrics  sampled host and server state (disk, uptime)
+    errors                per-error-code counters, which is how a silent
+                          Kafka-engine parse failure becomes visible as a
+                          rising error count rather than as nothing at all
+-->
+<clickhouse>
+    <prometheus>
+        <endpoint>/metrics</endpoint>
+        <port>9363</port>
+        <metrics>true</metrics>
+        <events>true</events>
+        <asynchronous_metrics>true</asynchronous_metrics>
+        <errors>true</errors>
+    </prometheus>
+</clickhouse>
