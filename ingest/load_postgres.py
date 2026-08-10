@@ -24,9 +24,10 @@ from __future__ import annotations
 
 import json
 import logging
+from collections.abc import Sequence
 from dataclasses import dataclass
-from datetime import datetime, timezone
-from typing import Any, Sequence
+from datetime import UTC, datetime
+from typing import Any
 
 import psycopg
 from psycopg import sql
@@ -59,9 +60,20 @@ class TableSpec:
 COUNTRY_SPEC = TableSpec(
     name="wb.country",
     columns=(
-        "country_id", "iso2_code", "name", "region_id", "region_name",
-        "admin_region_id", "income_level_id", "income_level", "lending_type_id",
-        "lending_type", "capital_city", "longitude", "latitude", "source_hash",
+        "country_id",
+        "iso2_code",
+        "name",
+        "region_id",
+        "region_name",
+        "admin_region_id",
+        "income_level_id",
+        "income_level",
+        "lending_type_id",
+        "lending_type",
+        "capital_city",
+        "longitude",
+        "latitude",
+        "source_hash",
     ),
     conflict_columns=("country_id",),
 )
@@ -69,8 +81,14 @@ COUNTRY_SPEC = TableSpec(
 INDICATOR_SPEC = TableSpec(
     name="wb.indicator",
     columns=(
-        "indicator_id", "name", "source_id", "source_name", "source_note",
-        "unit", "topics", "source_hash",
+        "indicator_id",
+        "name",
+        "source_id",
+        "source_name",
+        "source_note",
+        "unit",
+        "topics",
+        "source_hash",
     ),
     conflict_columns=("indicator_id",),
 )
@@ -78,8 +96,13 @@ INDICATOR_SPEC = TableSpec(
 OBSERVATION_SPEC = TableSpec(
     name="wb.observation",
     columns=(
-        "country_id", "indicator_id", "obs_year", "obs_value", "obs_decimals",
-        "api_last_updated", "source_hash",
+        "country_id",
+        "indicator_id",
+        "obs_year",
+        "obs_value",
+        "obs_decimals",
+        "api_last_updated",
+        "source_hash",
     ),
     conflict_columns=("country_id", "indicator_id", "obs_year"),
 )
@@ -119,9 +142,7 @@ def _build_upsert(spec: TableSpec, row_count: int) -> sql.Composed:
     bare_table = sql.Identifier(spec.name.split(".")[-1])
 
     columns = sql.SQL(", ").join(sql.Identifier(c) for c in spec.columns)
-    one_row = sql.SQL("({})").format(
-        sql.SQL(", ").join(sql.Placeholder() for _ in spec.columns)
-    )
+    one_row = sql.SQL("({})").format(sql.SQL(", ").join(sql.Placeholder() for _ in spec.columns))
     values = sql.SQL(", ").join([one_row] * row_count)
     conflict = sql.SQL(", ").join(sql.Identifier(c) for c in spec.conflict_columns)
     assignments = sql.SQL(", ").join(
@@ -144,9 +165,7 @@ def _build_upsert(spec: TableSpec, row_count: int) -> sql.Composed:
     )
 
 
-def _upsert(
-    cursor: psycopg.Cursor, spec: TableSpec, records: Sequence[Any]
-) -> LoadStats:
+def _upsert(cursor: psycopg.Cursor, spec: TableSpec, records: Sequence[Any]) -> LoadStats:
     stats = LoadStats()
     for start in range(0, len(records), BATCH_SIZE):
         chunk = records[start : start + BATCH_SIZE]
@@ -178,8 +197,7 @@ def _record_rejections(
     for start in range(0, len(rejections), BATCH_SIZE):
         chunk = rejections[start : start + BATCH_SIZE]
         cursor.executemany(
-            "INSERT INTO ops.ingest_reject (stream_name, reason, payload) "
-            "VALUES (%s, %s, %s)",
+            "INSERT INTO ops.ingest_reject (stream_name, reason, payload) VALUES (%s, %s, %s)",
             [(stream, r.reason, json.dumps(r.payload, default=str)) for r in chunk],
         )
 
@@ -228,7 +246,7 @@ class PostgresLoader:
         no audit row claiming success rather than an orphaned one.
         """
         conn = self.connection
-        started = datetime.now(timezone.utc)
+        started = datetime.now(UTC)
 
         with conn.cursor() as cursor:
             cursor.execute(
@@ -237,7 +255,10 @@ class PostgresLoader:
                 (stream, started),
             )
             row = cursor.fetchone()
-            assert row is not None
+            if row is None:
+                # Not an assert: asserts are removed under python -O, and losing this
+                # check would turn a missing run_id into a confusing TypeError later.
+                raise RuntimeError("failed to create an ops.ingest_run row")
             run_id = row[0]
 
             try:
@@ -250,8 +271,12 @@ class PostgresLoader:
                     "rows_seen = %s, rows_inserted = %s, rows_updated = %s, "
                     "rows_unchanged = %s, rows_rejected = %s WHERE run_id = %s",
                     (
-                        result.seen, stats.inserted, stats.updated,
-                        stats.unchanged, stats.rejected, run_id,
+                        result.seen,
+                        stats.inserted,
+                        stats.updated,
+                        stats.unchanged,
+                        stats.rejected,
+                        run_id,
                     ),
                 )
 
@@ -302,9 +327,7 @@ class PostgresLoader:
             cursor.execute(
                 sql.SQL("SELECT {col} FROM {tbl}").format(
                     col=sql.Identifier(column),
-                    tbl=sql.SQL(".").join(
-                        sql.Identifier(part) for part in table.split(".")
-                    ),
+                    tbl=sql.SQL(".").join(sql.Identifier(part) for part in table.split(".")),
                 )
             )
             return {row[0] for row in cursor.fetchall()}

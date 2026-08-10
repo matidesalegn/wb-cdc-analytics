@@ -35,7 +35,6 @@ from __future__ import annotations
 
 import logging
 import os
-import time
 from wsgiref.simple_server import make_server
 
 import clickhouse_connect
@@ -81,7 +80,7 @@ class PipelineCollector:
     def _collect_clickhouse(self):
         try:
             client = self._clickhouse()
-        except Exception as exc:  # noqa: BLE001 - a scrape must not crash the process
+        except Exception as exc:
             log.warning("clickhouse unreachable: %s", exc)
             return
 
@@ -112,7 +111,7 @@ class PipelineCollector:
                 "Change events retained in the 30 day log, by source table and operation.",
                 labels=["src_table", "op"],
             )
-            for table, ev, ins, upd, dele, since in client.query(
+            for table, _events, ins, upd, dele, since in client.query(
                 "SELECT src_table, events_30d, inserts, updates, deletes, "
                 "seconds_since_last_change FROM ops.cdc_freshness"
             ).result_rows:
@@ -130,7 +129,9 @@ class PipelineCollector:
                 "Rows per pipeline layer, deduplicated and excluding tombstones.",
                 labels=["layer"],
             )
-            for layer, count in client.query("SELECT layer, rows FROM ops.layer_counts").result_rows:
+            for layer, count in client.query(
+                "SELECT layer, rows FROM ops.layer_counts"
+            ).result_rows:
                 layer_rows.add_metric([layer], float(count))
 
             for db, table in (
@@ -139,12 +140,19 @@ class PipelineCollector:
                 ("marts", "agg_country_year_features"),
             ):
                 try:
-                    n = client.query(f"SELECT count() FROM {db}.{table}").result_rows[0][0]
+                    # Suppression justified: db and table iterate the hardcoded tuple
+                    # above, so no caller can influence either, and a table name
+                    # cannot be a bound parameter in SQL.
+                    n = client.query(
+                        f"SELECT count() FROM {db}.{table}"  # noqa: S608
+                    ).result_rows[0][0]
                     layer_rows.add_metric([f"{db}.{table}"], float(n))
-                except Exception:  # noqa: BLE001 - not built yet is a valid state
+                except Exception as exc:
                     # Deliberately no zero here. A model that has never been built is
                     # not a model with zero rows, and conflating them would hide a
-                    # failed dbt run behind a plausible-looking number.
+                    # failed dbt run behind a plausible-looking number. Logged at debug
+                    # so the reason is discoverable rather than silently swallowed.
+                    log.debug("layer %s.%s not queryable yet: %s", db, table, exc)
                     pass
             yield layer_rows
 
@@ -172,18 +180,19 @@ class PipelineCollector:
             ).result_rows:
                 parts.add_metric([database, table], float(n))
             yield parts
-        except Exception as exc:  # noqa: BLE001
+        except Exception as exc:
             log.warning("clickhouse collection failed: %s", exc)
         finally:
             try:
                 client.close()
-            except Exception:  # noqa: BLE001
-                pass
+            except Exception as exc:
+                # Closing an already-broken connection is not worth failing a scrape over.
+                log.debug("clickhouse client close failed: %s", exc)
 
     def _collect_postgres(self):
         try:
             conn = self._postgres()
-        except Exception as exc:  # noqa: BLE001
+        except Exception as exc:
             log.warning("postgres unreachable: %s", exc)
             return
 
@@ -253,10 +262,13 @@ class PipelineCollector:
                     labels=["table"],
                 )
                 for table in ("country", "indicator", "observation"):
-                    cur.execute(f"SELECT count(*) FROM wb.{table}")  # noqa: S608 - fixed list
+                    # Suppression justified: `table` iterates the hardcoded tuple four
+                    # lines above, so no caller can influence it, and a table name
+                    # cannot be a bound parameter in SQL.
+                    cur.execute(f"SELECT count(*) FROM wb.{table}")  # noqa: S608
                     source_rows.add_metric([f"wb.{table}"], float(cur.fetchone()[0]))
                 yield source_rows
-        except Exception as exc:  # noqa: BLE001
+        except Exception as exc:
             log.warning("postgres collection failed: %s", exc)
         finally:
             conn.close()

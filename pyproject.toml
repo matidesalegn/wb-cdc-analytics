@@ -1,0 +1,60 @@
+[project]
+name = "wb-cdc-analytics"
+version = "1.0.0"
+description = "Public REST API to ClickHouse analytics pipeline via PostgreSQL and Debezium CDC"
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = ["dbt_packages", ".venv"]
+
+[tool.ruff.lint]
+# E,F  pycodestyle and pyflakes, the baseline
+# I    import sorting, so a diff never contains an import reshuffle
+# UP   pyupgrade, keeps the code idiomatic for the pinned Python
+# B    bugbear, catches the mutable-default and loop-variable-capture classes of bug
+# S    bandit security rules. Included on purpose in a data project: it is what flags a
+#      hardcoded credential or a shell injection before a reviewer has to
+# C4   comprehension simplifications
+# RUF  ruff's own rules
+select = ["E", "F", "I", "UP", "B", "S", "C4", "RUF"]
+ignore = [
+    # Line length is enforced by the formatter, not the linter, so flagging it twice just
+    # produces noise on lines the formatter has deliberately left long (URLs, SQL).
+    "E501",
+    # PEP 695 type parameters (class Foo[T]) need Python 3.12. The containers run 3.12
+    # but the development host here runs 3.11, and adopting the new syntax makes the
+    # module unimportable for host-side pytest and ruff. Portable tooling beats syntax
+    # modernity; revisit when the host moves to 3.12.
+    "UP046",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# Tests assert, and assert is what pytest is built on. S106 covers the obviously-fake
+# credentials the fixtures pass to Settings, which has no defaults for them on purpose.
+"tests/**" = ["S101", "S106"]
+# The DAG files are executed by Airflow's parser, which requires module-level side
+# effects; and the `with DAG(...)` idiom builds objects that are never referenced.
+"dags/**" = ["S101"]
+# The exporter and gates deliberately catch broad exceptions: a scrape or a health check
+# must not crash the process it runs in, and each site says why.
+"ingest/exporter.py" = ["BLE001"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.pytest.ini_options]
+testpaths = ["tests/unit"]
+# Fail on an unregistered marker rather than silently skipping, and make warnings
+# visible so a deprecation does not accumulate unnoticed.
+addopts = "-q --strict-markers --strict-config"
+filterwarnings = [
+    "default",
+    # clickhouse_connect and psycopg both emit these under Python 3.12 and neither is
+    # actionable here.
+    "ignore::DeprecationWarning:clickhouse_connect.*",
+]
+markers = [
+    "integration: needs a running stack (deselect with '-m \"not integration\"')",
+]

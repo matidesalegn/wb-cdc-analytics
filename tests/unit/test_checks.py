@@ -88,9 +88,7 @@ class TestIndicatorGate:
 
 class TestObservationGate:
     def test_accepts_valid_rows(self):
-        result = gate_observations(
-            [(None, obs())], ALLOWED_COUNTRIES, ALLOWED_INDICATORS
-        )
+        result = gate_observations([(None, obs())], ALLOWED_COUNTRIES, ALLOWED_INDICATORS)
         assert len(result.accepted) == 1
 
     def test_rejects_a_country_with_no_dimension_row(self):
@@ -125,9 +123,7 @@ class TestObservationGate:
 
     def test_accepts_a_null_value(self):
         # A null is "not measured that year", which is legitimate and must pass.
-        result = gate_observations(
-            [(None, obs(value=None))], ALLOWED_COUNTRIES, ALLOWED_INDICATORS
-        )
+        result = gate_observations([(None, obs(value=None))], ALLOWED_COUNTRIES, ALLOWED_INDICATORS)
         assert len(result.accepted) == 1
         assert result.accepted[0].obs_value is None
 
@@ -139,9 +135,7 @@ class TestObservationGate:
         assert "duplicate natural key" in result.rejected[0].reason
 
     def test_the_whole_recorded_stream_passes(self, observation_pages):
-        rows = [
-            (None, r) for page in observation_pages for r in (page[1] or [])
-        ]
+        rows = [(None, r) for page in observation_pages for r in (page[1] or [])]
         result = gate_observations(rows, ALLOWED_COUNTRIES, ALLOWED_INDICATORS)
         assert len(result.accepted) == 330
         assert result.rejected == []

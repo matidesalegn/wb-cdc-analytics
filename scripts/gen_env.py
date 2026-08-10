@@ -72,7 +72,7 @@ def main() -> int:
         return 1
 
     if TARGET.exists() and not args.force:
-        print(f".env already exists, leaving it alone. Use --force to rotate secrets.")
+        print(".env already exists, leaving it alone. Use --force to rotate secrets.")
         return 0
 
     if TARGET.exists() and args.force:

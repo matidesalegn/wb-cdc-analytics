@@ -79,9 +79,7 @@ def parse_envelope(payload: Any) -> tuple[PageMeta, list[dict[str, Any]]]:
     if len(payload) == 1 and isinstance(payload[0], dict) and "message" in payload[0]:
         messages = payload[0].get("message") or []
         detail = "; ".join(
-            f"{m.get('key', '?')}: {m.get('value', '?')}"
-            for m in messages
-            if isinstance(m, dict)
+            f"{m.get('key', '?')}: {m.get('value', '?')}" for m in messages if isinstance(m, dict)
         )
         raise SourceContractError(f"API returned an error envelope with HTTP 200: {detail}")
 
@@ -147,7 +145,7 @@ def to_float(value: Any) -> float | None:
         return None
     if isinstance(value, bool):
         return None
-    if isinstance(value, (int, float)):
+    if isinstance(value, int | float):
         return float(value)
     text = str(value).strip()
     if not text:
@@ -293,9 +291,7 @@ class ObservationRecord(BaseModel):
     source_hash: str
 
     @classmethod
-    def from_api(
-        cls, record: dict[str, Any], last_updated: date | None
-    ) -> ObservationRecord:
+    def from_api(cls, record: dict[str, Any], last_updated: date | None) -> ObservationRecord:
         # Use countryiso3code, NOT country.id. On this endpoint country.id is the
         # ISO2 code ("ET") while countryiso3code is the ISO3 ("ETH"), and the
         # dimension table is keyed on ISO3. Joining on the wrong one produces a

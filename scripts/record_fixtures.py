@@ -60,9 +60,7 @@ def fetch_pages(client: httpx.Client, path: str, max_pages: int = 50) -> list:
     page = 1
     total_pages: int | None = None
     while page <= max_pages:
-        response = client.get(
-            path, params={"format": "json", "per_page": PER_PAGE, "page": page}
-        )
+        response = client.get(path, params={"format": "json", "per_page": PER_PAGE, "page": page})
         # utf-8-sig: some responses carry a BOM.
         try:
             payload = json.loads(response.content.decode("utf-8-sig"))
@@ -118,7 +116,7 @@ def main() -> int:
             print(f"recording {path}")
             try:
                 write(path, fetch_pages(client, path))
-            except Exception as exc:  # noqa: BLE001 - a recorder should report and continue
+            except Exception as exc:
                 print(f"  FAILED: {type(exc).__name__}: {exc}", file=sys.stderr)
                 return 1
     print("\nfixtures recorded. Run: SOURCE_API_MODE=fixture make ingest")

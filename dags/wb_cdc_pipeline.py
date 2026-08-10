@@ -61,6 +61,7 @@ RUNBOOK
 
 from __future__ import annotations
 
+import itertools
 import logging
 import os
 from datetime import timedelta
@@ -149,7 +150,6 @@ with DAG(
     # screen.
     doc_md=__doc__,
 ) as dag:
-
     start = EmptyOperator(task_id="start")
 
     # Dimensions before facts. Not cosmetic: wb.observation has foreign keys to both
@@ -162,7 +162,7 @@ with DAG(
                 python_callable=_run_ingest,
                 op_kwargs={"stream": stream},
                 doc_md=f"Fetch the {stream} dimension and upsert it. Unchanged rows are "
-                       f"not rewritten, so no spurious CDC events are emitted.",
+                f"not rewritten, so no spurious CDC events are emitted.",
             )
 
     ingest_observations = PythonOperator(
@@ -173,7 +173,7 @@ with DAG(
         # generous ceiling because the upstream latency is not ours to control.
         execution_timeout=timedelta(minutes=45),
         doc_md="Fetch 2,970 observations. Asserts per-indicator completeness, which is "
-               "the only check that catches an archived indicator still serving metadata.",
+        "the only check that catches an archived indicator still serving metadata.",
     )
 
     gate_parity = PythonOperator(
@@ -182,7 +182,7 @@ with DAG(
         op_kwargs={"name": "cdc_parity", "fn": gates.gate_cdc_parity},
         retries=0,  # a gate failing is a real condition; retrying only delays the alert
         doc_md="Block until ClickHouse matches PostgreSQL. This is how a continuous CDC "
-               "leg is represented honestly inside a scheduled graph.",
+        "leg is represented honestly inside a scheduled graph.",
     )
 
     gate_lag = PythonOperator(
@@ -191,7 +191,7 @@ with DAG(
         op_kwargs={"name": "cdc_lag", "fn": gates.gate_cdc_lag},
         retries=0,
         doc_md="Connector liveness, measured against the Debezium heartbeat rather than "
-               "a business table, so an idle dimension cannot look like a stall.",
+        "a business table, so an idle dimension cannot look like a stall.",
     )
 
     gate_source = PythonOperator(
@@ -200,7 +200,7 @@ with DAG(
         op_kwargs={"name": "source_health", "fn": gates.gate_source_health},
         retries=0,
         doc_md="Assert the replication slot is not hoarding WAL. A pipeline that "
-               "degrades its own source is worse than one that stops.",
+        "degrades its own source is worse than one that stops.",
     )
 
     # dbt build, not dbt run: build interleaves each model with its tests, so a failing
@@ -231,7 +231,7 @@ with DAG(
         op_kwargs={"name": "marts_reconcile", "fn": gates.gate_marts_reconcile},
         retries=0,
         doc_md="Re-assert the two most important dbt tests in the DAG's critical path, "
-               "so the guarantee holds even if someone ran `dbt run` without tests.",
+        "so the guarantee holds even if someone ran `dbt run` without tests.",
     )
 
     # A join, not a verdict. all_done means this runs however the upstream went, which
@@ -252,8 +252,8 @@ with DAG(
         trigger_rule=TriggerRule.ONE_FAILED,
         retries=0,
         doc_md="Makes the DAG run's state tell the truth. `end` uses all_done so the "
-               "graph has one leaf, but all_done also succeeds when upstream tasks "
-               "failed. This second leaf can only run when something failed.",
+        "graph has one leaf, but all_done also succeeds when upstream tasks "
+        "failed. This second leaf can only run when something failed.",
     )
 
     critical_path = [
@@ -265,8 +265,8 @@ with DAG(
         dbt_marts,
         gate_marts,
     ]
-    # Sequential critical path.
-    for upstream, downstream in zip(critical_path, critical_path[1:]):
+    # Sequential critical path. pairwise says "successive pairs" directly.
+    for upstream, downstream in itertools.pairwise(critical_path):
         upstream >> downstream
 
     # The two health gates run in parallel with the transformation, because neither

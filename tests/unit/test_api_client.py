@@ -12,22 +12,22 @@ import json
 import httpx
 import pytest
 
-from ingest.api_client import FixtureFetcher, LiveFetcher, WorldBankClient
+from ingest.api_client import (
+    FixtureFetcher,
+    LiveFetcher,
+    RetryableHTTPError,
+    WorldBankClient,
+)
 from ingest.contracts import SourceContractError
 
-HTML_400 = (
-    "﻿<?xml version=\"1.0\" encoding=\"utf-8\"?>"
-    "<html><body><h1>Request Error</h1></body></html>"
-)
+HTML_400 = '﻿<?xml version="1.0" encoding="utf-8"?><html><body><h1>Request Error</h1></body></html>'
 
 
 class TestPagination:
     def test_reads_every_page_of_a_multi_page_stream(self, settings):
         """The recorded fixture is 4 pages of 330 rows, so this is a real loop."""
         client = WorldBankClient(settings, fetcher=FixtureFetcher())
-        rows = list(
-            client.fetch_observations("TCD;ETH;KEN;RWA;SSD", "IC.BUS.NREG")
-        )
+        rows = list(client.fetch_observations("TCD;ETH;KEN;RWA;SSD", "IC.BUS.NREG"))
         assert len(rows) == 330
 
     def test_single_page_stream_terminates(self, settings):
@@ -50,8 +50,16 @@ class TestPagination:
         def page(n: int, pages_claim: int, rows: int) -> list:
             return [
                 {"page": n, "pages": pages_claim, "per_page": 2, "total": 6},
-                [{"countryiso3code": "ETH", "indicator": {"id": "X"}, "date": str(2000 + i),
-                  "value": 1.0, "decimal": 0} for i in range(rows)],
+                [
+                    {
+                        "countryiso3code": "ETH",
+                        "indicator": {"id": "X"},
+                        "date": str(2000 + i),
+                        "value": 1.0,
+                        "decimal": 0,
+                    }
+                    for i in range(rows)
+                ],
             ]
 
         responses = [page(1, 3, 2), page(2, 1, 2), page(3, 1, 2)]
@@ -63,9 +71,11 @@ class TestPagination:
             def get(self, path, params):
                 index = self.calls
                 self.calls += 1
-                return responses[index] if index < len(responses) else [
-                    {"page": index + 1, "pages": 1, "per_page": 2, "total": 6}, []
-                ]
+                return (
+                    responses[index]
+                    if index < len(responses)
+                    else [{"page": index + 1, "pages": 1, "per_page": 2, "total": 6}, []]
+                )
 
             def close(self) -> None:
                 return None
@@ -182,7 +192,9 @@ class TestRetryPolicy:
             calls["n"] += 1
             return httpx.Response(400, text=HTML_400)
 
-        with pytest.raises(Exception):
+        # The specific type matters: tenacity re-raises the last RetryableHTTPError, so
+        # a blind `Exception` would also pass if the client crashed for another reason.
+        with pytest.raises(RetryableHTTPError):
             self._fetcher(settings, handler).get("country/ETH", {})
         assert calls["n"] <= 6, "retry attempts must be capped"
 

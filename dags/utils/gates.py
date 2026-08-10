@@ -158,8 +158,14 @@ def gate_source_health() -> dict:
         )
 
     for slot_name, active, retained in slots:
-        emit(log, "replication_slot_checked", slot=slot_name, active=active,
-             retained_bytes=retained, threshold=threshold)
+        emit(
+            log,
+            "replication_slot_checked",
+            slot=slot_name,
+            active=active,
+            retained_bytes=retained,
+            threshold=threshold,
+        )
         if retained > threshold:
             raise GateFailed(
                 f"Replication slot {slot_name} is retaining {retained} bytes of WAL "
@@ -181,16 +187,19 @@ def gate_marts_reconcile() -> dict:
     client = _clickhouse()
     try:
         staging = client.query("SELECT count() FROM staging.stg_observation").result_rows[0][0]
-        fact = client.query(
-            "SELECT count() FROM marts.fct_indicator_observation"
-        ).result_rows[0][0]
+        fact = client.query("SELECT count() FROM marts.fct_indicator_observation").result_rows[0][0]
         feature_rows, feature_keys = client.query(
-            "SELECT count(), uniqExact((country_id, obs_year)) "
-            "FROM marts.agg_country_year_features"
+            "SELECT count(), uniqExact((country_id, obs_year)) FROM marts.agg_country_year_features"
         ).result_rows[0]
 
-        emit(log, "marts_reconciled", staging=staging, fact=fact,
-             feature_rows=feature_rows, feature_keys=feature_keys)
+        emit(
+            log,
+            "marts_reconciled",
+            staging=staging,
+            fact=fact,
+            feature_rows=feature_rows,
+            feature_keys=feature_keys,
+        )
 
         if fact != staging:
             raise GateFailed(

@@ -27,7 +27,11 @@ import urllib.request
 
 def fetch_status(url: str, timeout: float = 5.0) -> dict | None:
     try:
-        with urllib.request.urlopen(url, timeout=timeout) as response:
+        # Suppression justified below: `url` is composed from this script's own --url
+        # argument and a connector name, both operator-supplied, and the scheme is
+        # always http(s). (A comment that STARTS with the word noqa is itself parsed as
+        # a directive, which is why this one does not.)
+        with urllib.request.urlopen(url, timeout=timeout) as response:  # noqa: S310
             return json.loads(response.read().decode("utf-8"))
     except (urllib.error.URLError, urllib.error.HTTPError, json.JSONDecodeError, TimeoutError):
         return None
@@ -40,7 +44,9 @@ def classify(status: dict) -> tuple[str, str]:
     task_states = [task.get("state", "UNKNOWN") for task in tasks]
 
     if connector_state == "FAILED":
-        return "failed", status.get("connector", {}).get("trace", "connector FAILED").splitlines()[0]
+        return "failed", status.get("connector", {}).get("trace", "connector FAILED").splitlines()[
+            0
+        ]
 
     for task in tasks:
         if task.get("state") == "FAILED":

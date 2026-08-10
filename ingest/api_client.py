@@ -18,8 +18,9 @@ from __future__ import annotations
 
 import json
 import logging
+from collections.abc import Iterator
 from pathlib import Path
-from typing import Any, Iterator, Protocol
+from typing import Any, Protocol
 
 import httpx
 from tenacity import (
@@ -72,9 +73,7 @@ class Fetcher(Protocol):
 class LiveFetcher:
     """Fetch from the public API, with bounded retries on transient failures."""
 
-    def __init__(
-        self, settings: Settings, transport: httpx.BaseTransport | None = None
-    ) -> None:
+    def __init__(self, settings: Settings, transport: httpx.BaseTransport | None = None) -> None:
         self._settings = settings
         self._client = httpx.Client(
             base_url=settings.wb_api_base,
@@ -144,15 +143,14 @@ class LiveFetcher:
                 log.warning(
                     "HTTP %s with a non-JSON body on %s params=%s, treating as "
                     "transient and retrying",
-                    response.status_code, path, params,
+                    response.status_code,
+                    path,
+                    params,
                 )
-                raise RetryableHTTPError(
-                    f"HTTP {response.status_code} with a non-JSON body"
-                )
+                raise RetryableHTTPError(f"HTTP {response.status_code} with a non-JSON body")
             # JSON body on a 4xx: a real client error. Do not retry it.
             raise SourceContractError(
-                f"HTTP {response.status_code} for {path} with {params}: "
-                f"{response.text[:200]}"
+                f"HTTP {response.status_code} for {path} with {params}: {response.text[:200]}"
             )
 
         decoded = _decode_json(response)
@@ -269,7 +267,10 @@ class WorldBankClient:
                 total_pages = meta.pages
                 log.info(
                     "%s: %s rows across %s page(s) of %s",
-                    path, meta.total, total_pages, self._settings.wb_per_page,
+                    path,
+                    meta.total,
+                    total_pages,
+                    self._settings.wb_per_page,
                 )
 
             if not rows:

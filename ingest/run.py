@@ -13,7 +13,7 @@ from __future__ import annotations
 import argparse
 import logging
 import sys
-from typing import Iterator
+from collections.abc import Iterator
 
 from ingest.api_client import WorldBankClient
 from ingest.checks import (
@@ -63,7 +63,9 @@ def ingest_countries(client: WorldBankClient, loader: PostgresLoader) -> LoadSta
     got = {record.country_id for record in result.accepted}
     missing = allowed - got
     if missing:
-        raise GateFailure(f"country: configured countries missing from the source: {sorted(missing)}")
+        raise GateFailure(
+            f"country: configured countries missing from the source: {sorted(missing)}"
+        )
 
     return loader.load("country", COUNTRY_SPEC, result)
 
@@ -104,9 +106,7 @@ def ingest_observations(client: WorldBankClient, loader: PostgresLoader) -> Load
 
     def rows() -> Iterator[tuple[object, dict]]:
         for indicator in catalogue.indicators:
-            for meta, row in client.fetch_observations(
-                catalogue.country_path, indicator.id
-            ):
+            for meta, row in client.fetch_observations(catalogue.country_path, indicator.id):
                 # The series vintage is reported once per response, not per row, so
                 # it is carried down here onto every observation.
                 yield meta.lastupdated, row

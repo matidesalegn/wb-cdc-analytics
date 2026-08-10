@@ -24,9 +24,10 @@ reject" is a question with an answer.
 from __future__ import annotations
 
 import math
+from collections.abc import Iterable
 from dataclasses import dataclass, field
 from datetime import date
-from typing import Any, Generic, Iterable, TypeVar
+from typing import Any, Generic, TypeVar
 
 from ingest.contracts import (
     CountryRecord,
@@ -34,8 +35,6 @@ from ingest.contracts import (
     ObservationRecord,
     SourceContractError,
 )
-
-T = TypeVar("T", CountryRecord, IndicatorRecord, ObservationRecord)
 
 # The World Bank series start in 1960. An observation outside this window is not a
 # late data point, it is a parsing mistake, so the bound is an assertion rather
@@ -49,6 +48,9 @@ MAX_OBS_YEAR = 2100
 class Rejection:
     reason: str
     payload: dict[str, Any]
+
+
+T = TypeVar("T", CountryRecord, IndicatorRecord, ObservationRecord)
 
 
 @dataclass
@@ -120,9 +122,7 @@ def check_observation(
 # ---------------------------------------------------------------------------
 
 
-def gate_countries(
-    rows: Iterable[dict[str, Any]], allowed: set[str]
-) -> GateResult[CountryRecord]:
+def gate_countries(rows: Iterable[dict[str, Any]], allowed: set[str]) -> GateResult[CountryRecord]:
     result: GateResult[CountryRecord] = GateResult()
     seen_keys: set[str] = set()
     for raw in rows:
@@ -162,9 +162,7 @@ def gate_indicators(
             result.reject(reason, raw)
             continue
         if record.indicator_id in seen_keys:
-            result.reject(
-                f"duplicate indicator_id {record.indicator_id!r} within the batch", raw
-            )
+            result.reject(f"duplicate indicator_id {record.indicator_id!r} within the batch", raw)
             continue
         seen_keys.add(record.indicator_id)
         result.accepted.append(record)

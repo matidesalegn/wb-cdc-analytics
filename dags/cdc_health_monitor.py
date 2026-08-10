@@ -65,7 +65,6 @@ with DAG(
     tags=["cdc", "monitoring"],
     doc_md=__doc__,
 ) as dag:
-
     check_lag = PythonOperator(
         task_id="check_cdc_lag",
         python_callable=_check,
