@@ -1,0 +1,91 @@
+%% Data model for the staging and mart layers. The landing layer mirrors the OLTP
+%% schema plus CDC metadata, so it is not repeated here.
+erDiagram
+    STG_COUNTRY {
+        String country_id PK "ISO3. Grain."
+        String iso2_code
+        String country_name
+        String region_name "trailing space trimmed at the boundary"
+        String income_level
+        String lending_type "IDA / IBRD / Blend"
+        Bool is_concessional_borrower "derived once, here"
+        Float64 longitude
+        Float64 latitude
+        UInt64 cdc_version "Postgres LSN"
+    }
+
+    STG_INDICATOR {
+        String indicator_id PK "e.g. IC.BUS.NREG. Grain."
+        String indicator_name
+        String source_name
+        String topics "flattened, sorted"
+        String unit
+        UInt64 cdc_version
+    }
+
+    STG_OBSERVATION {
+        String country_id PK,FK
+        String indicator_id PK,FK
+        Int16 obs_year PK "composite grain"
+        Float64 obs_value "NULLABLE: null means not measured"
+        Bool is_unmeasured "explicit, so null density is countable"
+        Date series_vintage "World Bank revision date"
+        UInt64 cdc_version
+    }
+
+    DIM_COUNTRY {
+        String country_id PK "MergeTree, ORDER BY (country_id)"
+        String country_name
+        String region_name
+        String income_level
+        Bool is_concessional_borrower
+    }
+
+    DIM_INDICATOR {
+        String indicator_id PK "MergeTree, ORDER BY (indicator_id)"
+        String indicator_name
+        LowCardinality source_name
+        LowCardinality topics
+    }
+
+    FCT_INDICATOR_OBSERVATION {
+        String country_id PK,FK "ORDER BY (country_id, indicator_id, obs_year)"
+        String indicator_id PK,FK
+        Int16 obs_year PK
+        Float64 obs_value
+        Bool is_unmeasured
+        Date series_vintage
+        String country_name "denormalised: the common query is one scan"
+        String region_name
+        String income_level
+        String indicator_name
+        DateTime64 cdc_synced_at "incremental boundary"
+    }
+
+    AGG_COUNTRY_YEAR_FEATURES {
+        String country_id PK,FK "ORDER BY (country_id, obs_year)"
+        Int16 obs_year PK "grain: one row per country-year"
+        Float64 new_businesses_registered "one column per configured indicator"
+        Float64 new_business_density
+        Float64 account_ownership_pct
+        Float64 private_credit_pct_gdp
+        Float64 gdp_growth_pct
+        Float64 gni_per_capita_usd
+        Float64 population_total
+        Float64 unemployment_pct
+        Float64 poverty_headcount_pct
+        UInt8 feature_slots "9"
+        UInt8 feature_count "populated of 9"
+        Float64 feature_completeness_pct
+        Date max_series_vintage "point-in-time honesty"
+    }
+
+    STG_COUNTRY   ||--o{ STG_OBSERVATION : "country_id"
+    STG_INDICATOR ||--o{ STG_OBSERVATION : "indicator_id"
+    STG_COUNTRY   ||--|| DIM_COUNTRY : "1:1"
+    STG_INDICATOR ||--|| DIM_INDICATOR : "1:1"
+    STG_OBSERVATION ||--|| FCT_INDICATOR_OBSERVATION : "1:1, reconciled by a test"
+    DIM_COUNTRY   ||--o{ FCT_INDICATOR_OBSERVATION : "inner join"
+    DIM_INDICATOR ||--o{ FCT_INDICATOR_OBSERVATION : "inner join"
+    FCT_INDICATOR_OBSERVATION }o--|| AGG_COUNTRY_YEAR_FEATURES : "pivoted to one row per country-year"
+    DIM_COUNTRY   ||--o{ AGG_COUNTRY_YEAR_FEATURES : "inner join"

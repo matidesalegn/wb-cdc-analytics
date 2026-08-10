@@ -1,0 +1,62 @@
+%% Architecture. Rendered by `make render`, and also embedded as a fenced mermaid block
+%% in the README, which GitHub renders natively so no toolchain is needed to read it.
+flowchart LR
+    subgraph src["Source"]
+        API["World Bank Indicators API v2<br/>public, no auth<br/>page / per_page pagination"]
+    end
+
+    subgraph oltp["OLTP: PostgreSQL 17"]
+        direction TB
+        ING["ingest<br/>pagination, retry with jitter,<br/>envelope validation,<br/>pre-load gate"]
+        WB[("wb.country<br/>wb.indicator<br/>wb.observation<br/><i>natural keys as PKs</i>")]
+        OPS[("ops.ingest_run<br/>ops.ingest_watermark<br/>ops.ingest_reject<br/><i>not replicated</i>")]
+        HB[("wb.cdc_heartbeat<br/><i>slot keepalive</i>")]
+        ING -->|"change-detecting upsert<br/>data + watermark, one txn"| WB
+        ING --> OPS
+    end
+
+    subgraph cdc["CDC transport"]
+        direction TB
+        DBZ["Debezium 3.6.1<br/>pgoutput, explicit publication"]
+        RP[["Redpanda<br/>wbcdc.wb.*"]]
+        DBZ --> RP
+    end
+
+    subgraph olap["OLAP: ClickHouse 25.8"]
+        direction TB
+        KE["Kafka engine tables<br/><i>JSONAsString: typing cannot stall the consumer</i>"]
+        MV{{"materialized views<br/>JSONExtract only"}}
+        LOG[("raw.cdc_event_log<br/>ReplacingMergeTree on<br/>topic/partition/offset<br/><i>at-least-once made convergent</i>")]
+        RAW[("raw.country / indicator / observation<br/>ReplacingMergeTree(_version, _is_deleted)<br/><i>_version = Postgres LSN</i>")]
+        STG["staging.stg_*<br/><i>views: FINAL + tombstone filter,<br/>in one macro</i>"]
+        MARTS[("marts.dim_country<br/>marts.dim_indicator<br/>marts.fct_indicator_observation<br/>marts.agg_country_year_features")]
+        KE --> MV
+        MV --> LOG
+        MV --> RAW
+        RAW --> STG
+        STG -->|dbt| MARTS
+    end
+
+    subgraph orch["Orchestration and observability"]
+        direction TB
+        AF["Airflow<br/>gates: parity, CDC lag,<br/>source health, reconciliation"]
+        PROM["Prometheus<br/>10 tested alert rules"]
+        GRAF["Grafana<br/>provisioned, 9 panels"]
+        PROM --> GRAF
+    end
+
+    API -->|"HTTPS, 36 paginated requests"| ING
+    WB -.->|"WAL, logical decoding"| DBZ
+    HB -.->|"10s timer"| DBZ
+    RP --> KE
+
+    AF ==>|triggers| ING
+    AF ==>|"dbt build"| MARTS
+    RAW -.->|"lag, parity, freshness"| PROM
+    WB -.->|"replication slot WAL"| PROM
+    olap -.-> PROM
+
+    classDef store fill:#e8f0fe,stroke:#4285f4,stroke-width:1px
+    classDef proc fill:#fff4e5,stroke:#f9ab00,stroke-width:1px
+    class WB,OPS,HB,LOG,RAW,MARTS store
+    class ING,DBZ,STG,AF proc
