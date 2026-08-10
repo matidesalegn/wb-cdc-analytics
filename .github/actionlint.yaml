@@ -1,0 +1,9 @@
+# Declares the custom self-hosted runner label so actionlint does not report it as unknown.
+#
+# Without this, `actionlint` flags every `runs-on: [self-hosted, linux, x64, wbcdc]` with
+# "label wbcdc is unknown", which is correct (it cannot know) but drowns the real findings.
+# Declaring it here doubles as documentation: `wbcdc` is repository-specific on purpose, so
+# no other repository's workflow can be scheduled onto this runner.
+self-hosted-runner:
+  labels:
+    - wbcdc

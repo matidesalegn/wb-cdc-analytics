@@ -14,6 +14,21 @@
 # Deliberately NOT here: any deploy step. There is no environment to deploy to, and a
 # workflow that pretends otherwise is theatre. What CI validates instead is that a
 # reviewer's `make demo` will work, which is the actual promise this repository makes.
+#
+# RUNNERS. Every job runs on a self-hosted runner rather than a GitHub-hosted one, because
+# hosted-runner minutes are not currently available on this account and every hosted run
+# ends in startup_failure before a single step executes. The runner is dedicated to this
+# repository: Docker, Compose v2, and enough disk for the 6.4 GB of images and roughly 2 GB
+# of volumes the integration lane needs. The `wbcdc` label is repository-specific so no
+# other repository's workflow can land on it. Two runner processes, so the five fast-lane
+# jobs still run in parallel rather than serialising.
+#
+# A self-hosted runner is persistent where a hosted one is ephemeral, so two things are
+# handled outside this file by runner job hooks: a pre-job reset that removes any container
+# and volume left by a previous run, and a post-job prune of dangling images. The pre-job
+# reset is load-bearing rather than tidy: actions/checkout runs `git clean -ffdx`, which
+# deletes the gitignored .env, so every run generates fresh secrets while the Postgres and
+# ClickHouse volumes would still hold the previous run's passwords. See docs/ci-evidence.md.
 # ---------------------------------------------------------------------------
 name: CI
 
@@ -42,7 +57,7 @@ jobs:
   # -------------------------------------------------------------------------
   lint:
     name: Lint and format
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64, wbcdc]
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
@@ -59,7 +74,7 @@ jobs:
   # -------------------------------------------------------------------------
   unit:
     name: Unit tests
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64, wbcdc]
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
@@ -91,7 +106,7 @@ jobs:
   # -------------------------------------------------------------------------
   static:
     name: Static checks and conventions
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64, wbcdc]
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
@@ -159,7 +174,7 @@ jobs:
   # -------------------------------------------------------------------------
   dags:
     name: Airflow DAG integrity
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64, wbcdc]
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
@@ -183,13 +198,15 @@ jobs:
         env:
           AIRFLOW__CORE__LOAD_EXAMPLES: "False"
           AIRFLOW__CORE__DAGS_FOLDER: ${{ github.workspace }}/dags
-          AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: sqlite:////tmp/airflow-ci.db
+          AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: sqlite:///${{ runner.temp }}/airflow-ci.db
           AIRFLOW__CORE__EXECUTOR: SequentialExecutor
           POSTGRES_PASSWORD: ci-not-a-real-secret
           CLICKHOUSE_PASSWORD: ci-not-a-real-secret
           PYTHONPATH: ${{ github.workspace }}
         run: |
-          airflow db migrate > /dev/null 2>&1
+          # Not muted: on a persistent runner a stale metadata DB makes this fail, and
+          # hiding the output turns that into an inexplicable DagBag error later.
+          airflow db migrate
           python - <<'PY'
           import sys
           from airflow.models import DagBag
@@ -217,7 +234,7 @@ jobs:
   # -------------------------------------------------------------------------
   dbt:
     name: dbt parse and compile
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64, wbcdc]
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
@@ -238,8 +255,8 @@ jobs:
         env:
           CLICKHOUSE_USER: ci
           CLICKHOUSE_PASSWORD: ci-not-a-real-secret
-          DBT_TARGET_PATH: /tmp/dbt-target
-          DBT_LOG_PATH: /tmp/dbt-logs
+          DBT_TARGET_PATH: ${{ runner.temp }}/dbt-target
+          DBT_LOG_PATH: ${{ runner.temp }}/dbt-logs
         run: |
           dbt deps --project-dir dbt --profiles-dir dbt
           dbt parse --project-dir dbt --profiles-dir dbt
@@ -251,21 +268,35 @@ jobs:
     # Only on main and on demand. The pulls alone are several GB, so running this on
     # every pull request would make CI something people work around rather than with.
     if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64, wbcdc]
     timeout-minutes: 45
     needs: [lint, unit, static]
+    # Serialised independently of ref. The Compose project name and host ports are fixed, so
+    # two integration runs sharing one runner host would attach to the same containers and
+    # volumes and assert on each other's data. cancel-in-progress is false because a
+    # half-torn-down stack is worse than a queued run.
+    concurrency:
+      group: integration-stack
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
 
-      - name: Reclaim runner disk
-        # The stack's images total roughly 8 GB and a GitHub runner ships with about 14 GB
-        # free, most of it preinstalled toolchains this job never uses. Without this the
-        # job fails partway through an image pull, which reads as a network problem.
+      - name: Assert enough disk for the image set
+        # On a GitHub-hosted runner this step used to delete preinstalled toolchains
+        # (/usr/share/dotnet, /opt/ghc and friends) to make room for the 6.4 GB of images
+        # this lane pulls. On a purpose-built self-hosted runner that reclaims nothing, and
+        # doing it with `|| true` on a machine that has real toolchains installed would
+        # destroy them silently. So the reclaim is gone and the requirement it existed to
+        # satisfy is asserted directly: fail loudly and early, rather than partway through
+        # a pull with an error that reads like a network problem.
         run: |
-          df -h / | tail -1
-          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc \
-                      /usr/local/share/boost /usr/share/swift || true
-          df -h / | tail -1
+          df -h /
+          avail_gb=$(df --output=avail --block-size=1G / | tail -1 | tr -dc '0-9')
+          echo "available: ${avail_gb} GB"
+          if [ "${avail_gb:-0}" -lt 25 ]; then
+            echo "::error::only ${avail_gb} GB free; this lane needs ~11 GB steady plus headroom for image churn. Run 'docker image prune -f' and 'docker builder prune -f' on the runner."
+            exit 1
+          fi
 
       - name: Run the whole pipeline, offline
         # This is `make demo`: preflight, generate secrets, start the stack, apply DDL,
@@ -291,8 +322,8 @@ jobs:
         env:
           SOURCE_API_MODE: fixture
         run: |
-          docker compose run --rm pipeline python -m ingest.run 2>&1 | tee /tmp/second-run.log
-          grep -q "unchanged=2970" /tmp/second-run.log \
+          docker compose run --rm pipeline python -m ingest.run 2>&1 | tee ${{ runner.temp }}/second-run.log
+          grep -q "unchanged=2970" ${{ runner.temp }}/second-run.log \
             || { echo "::error::a second ingestion did not report unchanged=2970; change detection has regressed"; exit 1; }
           echo "idempotency confirmed: the second run wrote nothing"
 
@@ -350,7 +381,7 @@ jobs:
     # A single required check for branch protection, so adding a job later does not mean
     # editing the protection rule and forgetting.
     if: always()
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, linux, x64, wbcdc]
     needs: [lint, unit, static, dags, dbt]
     steps:
       - name: Verdict
