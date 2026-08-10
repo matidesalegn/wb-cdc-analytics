@@ -1,0 +1,7 @@
+# Files the DAG processor must not parse as DAGs.
+#
+# Without this, the scheduler imports every .py under dags/ on every parse cycle,
+# including helper modules and tests. That wastes parse time, and worse, an import
+# error in a helper surfaces as a DAG import error against a file that contains no DAG,
+# which sends you looking in the wrong place.
+utils/

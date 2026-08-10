@@ -272,6 +272,144 @@ services:
       - ./tests:/app/tests:ro
 
   # -------------------------------------------------------------------------
+  # Orchestration.
+  #
+  # TOPOLOGY, stated plainly because it is a demo choice and not what production would
+  # look like. Airflow runs here as `airflow standalone`: one process containing the
+  # scheduler, the API server and the triggerer, with LocalExecutor and its own
+  # PostgreSQL metadata database. That is two containers instead of the four or five a
+  # split webserver/scheduler/worker/redis topology needs, and on a laptop already
+  # running a broker, a JVM and two databases the difference is the difference between
+  # the stack fitting and not fitting.
+  #
+  # The production topology is described in the design report rather than half-built
+  # here: KubernetesExecutor, one pod per task, DAG factories, and TaskGroups for
+  # per-entity fan-out. Describing what has genuinely been operated is more honest than
+  # a shrunken imitation of it.
+  #
+  # The metadata database is SEPARATE from the OLTP source on purpose. Sharing one
+  # server would put Airflow's own high-churn task-instance writes into the same
+  # cluster the CDC replication slot reads from, which muddies both the WAL volume and
+  # the story about what the pipeline replicates.
+  # -------------------------------------------------------------------------
+  airflow-db:
+    image: postgres:16-alpine
+    profiles: ["orchestration"]
+    environment:
+      POSTGRES_DB: ${AIRFLOW_METADB_NAME:-airflow}
+      POSTGRES_USER: ${AIRFLOW_METADB_USER:-airflow}
+      POSTGRES_PASSWORD: ${AIRFLOW_METADB_PASSWORD:?run 'make env' first}
+    volumes:
+      - airflowdb:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${AIRFLOW_METADB_USER:-airflow} -d ${AIRFLOW_METADB_NAME:-airflow}"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+      start_period: 10s
+    restart: unless-stopped
+
+  # One-shot initialisation, so the long-running service never races the migration.
+  # `airflow standalone` would migrate on its own, but it also generates a RANDOM admin
+  # password and writes it to a file inside the container, which is useless to a
+  # reviewer. Creating the user here with the password from .env means `make urls`
+  # prints credentials that actually work. standalone then finds a user already present
+  # and skips creating one.
+  airflow-init:
+    build:
+      context: .
+      dockerfile: docker/airflow.Dockerfile
+    profiles: ["orchestration"]
+    depends_on:
+      airflow-db:
+        condition: service_healthy
+    environment: &airflow-env
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: >-
+        postgresql+psycopg2://${AIRFLOW_METADB_USER:-airflow}:${AIRFLOW_METADB_PASSWORD}@airflow-db:5432/${AIRFLOW_METADB_NAME:-airflow}
+      AIRFLOW__CORE__FERNET_KEY: ${AIRFLOW_FERNET_KEY:?run 'make env' first}
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
+      # Refresh DAG files quickly. The default is 30s of file-processing interval plus
+      # a serialisation delay, which on a demo makes an edited DAG appear to have been
+      # ignored.
+      AIRFLOW__SCHEDULER__MIN_FILE_PROCESS_INTERVAL: "15"
+      AIRFLOW__SCHEDULER__DAG_DIR_LIST_INTERVAL: "15"
+      # No timezone surprises in the UI. Scheduling itself is declared per DAG.
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: utc
+      AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "True"
+      AIRFLOW__API__AUTH_BACKENDS: "airflow.api.auth.backend.session,airflow.api.auth.backend.basic_auth"
+      AIRFLOW_ADMIN_USER: ${AIRFLOW_ADMIN_USER:-admin}
+      AIRFLOW_ADMIN_PASSWORD: ${AIRFLOW_ADMIN_PASSWORD:?run 'make env' first}
+      # The pipeline's own configuration, so the DAG's tasks talk to the same
+      # databases as everything else.
+      WB_API_BASE: ${WB_API_BASE:-https://api.worldbank.org/v2}
+      WB_COUNTRIES: ${WB_COUNTRIES:-TCD;ETH;KEN;RWA;SSD}
+      WB_PER_PAGE: ${WB_PER_PAGE:-100}
+      SOURCE_API_MODE: ${SOURCE_API_MODE:-live}
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: ${POSTGRES_DB:-wbsource}
+      POSTGRES_USER: ${POSTGRES_USER:-wbapp}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?run 'make env' first}
+      CLICKHOUSE_HOST: clickhouse
+      CLICKHOUSE_HTTP_PORT: "8123"
+      CLICKHOUSE_NATIVE_PORT: "9000"
+      CLICKHOUSE_DB: ${CLICKHOUSE_DB:-analytics}
+      CLICKHOUSE_USER: ${CLICKHOUSE_USER:-analytics}
+      CLICKHOUSE_PASSWORD: ${CLICKHOUSE_PASSWORD:?run 'make env' first}
+      CDC_LAG_ERROR_SECONDS: ${CDC_LAG_ERROR_SECONDS:-300}
+      CDC_SLOT_LAG_ERROR_BYTES: ${CDC_SLOT_LAG_ERROR_BYTES:-1073741824}
+    volumes: &airflow-volumes
+      - ./dags:/opt/airflow/dags:ro
+      - ./ingest:/opt/airflow/ingest:ro
+      - ./dbt:/opt/airflow/dbt:ro
+      # The recorded API fixtures, so a DAG run works with SOURCE_API_MODE=fixture and
+      # needs no network. That is what makes the orchestration demonstrable in seconds
+      # rather than in the nine minutes the live API takes.
+      - ./tests:/opt/airflow/tests:ro
+      - airflowlogs:/opt/airflow/logs
+    entrypoint: ["/bin/bash", "-c"]
+    command:
+      - |
+        set -e
+        airflow db migrate
+        airflow users create \
+          --username "$${AIRFLOW_ADMIN_USER}" \
+          --password "$${AIRFLOW_ADMIN_PASSWORD}" \
+          --firstname Pipeline --lastname Reviewer \
+          --role Admin --email reviewer@example.invalid 2>/dev/null \
+          || echo "admin user already exists, leaving it alone"
+        echo "airflow initialised"
+    restart: "no"
+
+  airflow:
+    build:
+      context: .
+      dockerfile: docker/airflow.Dockerfile
+    profiles: ["orchestration"]
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+      postgres:
+        condition: service_healthy
+      clickhouse:
+        condition: service_healthy
+    environment: *airflow-env
+    volumes: *airflow-volumes
+    command: ["airflow", "standalone"]
+    ports:
+      - "127.0.0.1:${AIRFLOW_HOST_PORT:-58080}:8080"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8080/health > /dev/null"]
+      interval: 15s
+      timeout: 10s
+      retries: 20
+      # standalone starts three components in sequence, so cold start is slow.
+      start_period: 60s
+    restart: unless-stopped
+
+  # -------------------------------------------------------------------------
   # Observability. Behind a profile so the core data path can run alone on a small
   # machine: `make up` starts four containers, `make up-mon` adds these three.
   # -------------------------------------------------------------------------
@@ -374,3 +512,5 @@ volumes:
   chdata:
   promdata:
   grafanadata:
+  airflowdb:
+  airflowlogs:
