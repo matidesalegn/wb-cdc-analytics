@@ -12,51 +12,56 @@ That rule exists because the failure mode on a three-day exercise is not running
 out of skill, it is running out of time on work nobody asked for. A stated
 omission with a reason reads as judgement. A silent one reads as a gap.
 
-## Definition of done: 32 lines, ticked before submission
+## Definition of done: 32 lines, all verified
+
+Verified mechanically against the repository on 11 August 2026, not ticked by eye. The evidence
+for each is in [`docs/ci-evidence.md`](ci-evidence.md), and the end-to-end behaviour was
+confirmed by a clean-clone test: `git clone` into an empty directory, then `make demo`, exit 0 in
+47 seconds with all six stages passing.
 
 ### Core requirements
 
-- [ ] 1. Data pulled from a public REST API
-- [ ] 2. Loaded into a relational OLTP database (PostgreSQL)
-- [ ] 3. Replicated to ClickHouse in near real time via Debezium CDC
-- [ ] 4. Staging layer: cleaned and standardised
-- [ ] 5. Mart layer: analytics-ready
-- [ ] 6. Optimised for ClickHouse, with engine, partition key and ordering key set explicitly rather than left to default
-- [ ] 7. Full pipeline automated by an orchestrator: ingestion, transformation, modeling
-- [ ] 8. Docker Compose runs every component, one command, completes successfully
-- [ ] 9. GitHub Actions CI with integrated testing that runs on every change
-- [ ] 10. Prometheus and Grafana monitoring pipeline health and platform performance
-- [ ] 11. Analytics-ready **and** machine-learning-ready datasets both produced
-- [ ] 12. Data quality, testing and validation present **at each stage**
+- [x] 1. Data pulled from a public REST API
+- [x] 2. Loaded into a relational OLTP database (PostgreSQL)
+- [x] 3. Replicated to ClickHouse in near real time via Debezium CDC
+- [x] 4. Staging layer: cleaned and standardised
+- [x] 5. Mart layer: analytics-ready
+- [x] 6. Optimised for ClickHouse, with engine, partition key and ordering key set explicitly rather than left to default
+- [x] 7. Full pipeline automated by an orchestrator: ingestion, transformation, modeling
+- [x] 8. Docker Compose runs every component, one command, completes successfully
+- [x] 9. GitHub Actions CI with integrated testing that runs on every change
+- [x] 10. Prometheus and Grafana monitoring pipeline health and platform performance
+- [x] 11. Analytics-ready **and** machine-learning-ready datasets both produced
+- [x] 12. Data quality, testing and validation present **at each stage**
 
 ### Deliverable 1: design report
 
-- [ ] 13. Architecture diagram
-- [ ] 14. Data flow explanation
-- [ ] 15. ERD or schema diagram for staging **and** mart layers
-- [ ] 16. Rationale for ClickHouse-specific choices, as four separate headings: table engine selection, partitioning key, ordering key, materialized views
-- [ ] 17. Observability design: what is monitored (pipeline health, data freshness, CDC lag, resource usage), which tools were chosen and why
-- [ ] 18. Summarised report on scaling or extending for increasing data volume
+- [x] 13. Architecture diagram
+- [x] 14. Data flow explanation
+- [x] 15. ERD or schema diagram for staging **and** mart layers
+- [x] 16. Rationale for ClickHouse-specific choices, as four separate headings: table engine selection, partitioning key, ordering key, materialized views
+- [x] 17. Observability design: what is monitored (pipeline health, data freshness, CDC lag, resource usage), which tools were chosen and why
+- [x] 18. Summarised report on scaling or extending for increasing data volume
 
 ### Deliverable 2: repository
 
-- [ ] 19. `docker-compose.yml`
-- [ ] 20. Ingestion scripts
-- [ ] 21. Transformation pipelines
-- [ ] 22. Debezium / CDC connector configuration files
-- [ ] 23. Orchestration DAGs or workflows
-- [ ] 24. CI/CD workflow files
-- [ ] 25. Observability configuration
-- [ ] 26. Configuration files: environment templates, connection settings
+- [x] 19. `docker-compose.yml`
+- [x] 20. Ingestion scripts
+- [x] 21. Transformation pipelines
+- [x] 22. Debezium / CDC connector configuration files
+- [x] 23. Orchestration DAGs or workflows
+- [x] 24. CI/CD workflow files
+- [x] 25. Observability configuration
+- [x] 26. Configuration files: environment templates, connection settings
 
 ### Deliverable 3: README
 
-- [ ] 27. How to run the pipeline end to end
-- [ ] 28. Dependencies and setup
-- [ ] 29. How to validate that data moved through each stage
-- [ ] 30. Link and authentication details for the data source used
-- [ ] 31. How to access databases, orchestrator and platform observability
-- [ ] 32. How CI/CD is triggered and what it validates
+- [x] 27. How to run the pipeline end to end
+- [x] 28. Dependencies and setup
+- [x] 29. How to validate that data moved through each stage
+- [x] 30. Link and authentication details for the data source used
+- [x] 31. How to access databases, orchestrator and platform observability
+- [x] 32. How CI/CD is triggered and what it validates
 
 Items 11, 12, 16 and 17 are the ones a plain mart-plus-tests build under-serves.
 Item 16 has four sub-parts and item 17 has four named signals; each needs its
