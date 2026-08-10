@@ -1,0 +1,36 @@
+# Secrets. This entry exists in the first commit so no generated .env can ever
+# reach history. `make env` writes .env from .env.example.
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+.user.yml
+
+# Airflow (only ever written inside the container, but guard the host too)
+airflow.db
+airflow-webserver.pid
+standalone_admin_password.txt
+logs/
+
+# Rendered diagram exports. The .mmd source is committed; exports are built by
+# `make render` and committed deliberately, so only stray output is ignored.
+diagrams/exports/tmp/
+
+# Local scratch
+*.local
+.DS_Store
+artifacts/
