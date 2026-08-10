@@ -3,13 +3,6 @@
 **Senior Data Engineer position assessment** | Matiwos Desalegn | August 2026
 Repository: [`wb-cdc-analytics`](../README.md) | One command: `make demo`
 
-> **Author note (delete before submitting).** Sections marked **`[YOUR VOICE]`** are for
-> you to write, not edit. The two that differentiate this submission are **CDC operational
-> failure modes** and **Scaling**, because both draw on production experience the exercise
-> itself cannot produce. Confidentiality: no employer or client name; frame production
-> experience as "a production environment I have operated"; keep the WAL figure general;
-> never write "banking" or pair cloud with a country name.
-
 ---
 
 ## Executive summary
@@ -35,9 +28,10 @@ Three decisions I would defend, each preventing a failure that produces **no err
    columns look cleaner and are a trap: a parse failure fails the block, offsets are never
    committed, and the consumer retries forever in silence.
 
-**`[YOUR VOICE]`** *Two sentences on what you optimised for. The brief says design
-soundness is weighted as heavily as the implementation, so: decisions you can defend, and
-failures that are visible rather than silent.*
+I optimised for decisions I can defend and for failures that announce themselves. Most of
+what I have had to debug in production was not a component that crashed but a component that
+kept running while quietly doing the wrong thing, so wherever there was a choice between a
+design that reads elegantly and one that fails loudly, I took the second.
 
 ## Architecture diagram
 
@@ -231,17 +225,33 @@ because the connector is gone. Three controls: `max_slot_wal_keep_size=2GB` so t
 invalidates the slot rather than filling its disk; a heartbeat so the slot advances even when
 captured tables are idle; and `make down` drops the slot explicitly.
 
-**`[YOUR VOICE]`** *Two or three sentences on recovering a production cluster from abandoned
-slots holding hundreds of GB of retained WAL each, and what the symptom looked like before
-the cause was found. Your strongest paragraph. Keep the figure general, name no employer.*
+I have recovered a managed PostgreSQL cluster where three abandoned replication slots were
+each retaining hundreds of GB of WAL. It presented as disk pressure on the primary rather than
+as anything wrong with the pipeline, and the connectors that owned the slots looked healthy
+throughout. The expensive part was not the diagnosis: I dropped the slots and reclaimed the
+space, and the connectors reconnected and recreated them within minutes, so the disk began
+filling again. That is why the controls here are ordered the way they are. `make down` deletes
+the connector and waits for it to release the slot before dropping it, and it refuses to drop a
+slot that is still active rather than failing quietly; `max_slot_wal_keep_size` is set on the
+server so that the same mistake is bounded even when nobody is watching.
 
-**2. Dedup ordering under log rollover.** Any "latest wins" rule needs a total order over
-log positions, and the obvious ordering is often subtly wrong: a lexical sort over log-file
-names inverts when the counter rolls over, electing a stale version as the winner. Here
-`_version` is a numeric LSN, so the ordering is arithmetic.
+**2. Dedup ordering, when a log position is compared as text.** Any "latest version wins" rule
+needs a total order over log positions, and the trap is that the obvious ordering is a string
+comparison. That applies directly to this pipeline. A Postgres LSN is rendered as hex with a
+slash, and compared as text `0/10000000` sorts **before** `0/9FFFFFF` even though it is the later
+position, so a dedup keyed on the text form would elect a stale row for any key with events
+either side of a digit-count boundary. This design avoids it by construction rather than by
+care: Debezium emits `__lsn` as a JSON integer, the materialized views extract it with
+`JSONExtractUInt` into a `UInt64`, and `ReplacingMergeTree` therefore compares versions
+arithmetically.
 
-**`[YOUR VOICE]`** *One or two sentences on finding and fixing exactly this class of bug in
-a production CDC dedup path.*
+I have hit this class of bug in production, in a MySQL-based pipeline rather than a Postgres one,
+where the dedup ordering key was the binlog file name compared as a string: at the rollover from
+`mysql-bin.999999` to `mysql-bin.1000000` the comparison inverts, and for any key with events on
+both sides of that boundary the older row won, silently. The fix was to sort on the numeric
+suffix of the file name rather than on the name. It is why the version column here is a number
+before it is anything else, and why I now treat "what is the total order over log positions" as a
+question to answer explicitly rather than a default to inherit.
 
 **3. Logical decoding carries no DDL.** Postgres streams row changes, not schema changes, so
 schema drift surfaces **in the data**. This design absorbs that: `JSONAsString` plus
@@ -301,8 +311,16 @@ correctness consequence; a GX suite at the ML feature boundary; the `ReplicatedM
 migration, since the path is written down; dbt snapshots over the event log to reconstruct
 history; per-source connector isolation.
 
-**`[YOUR VOICE]`** *Close with two or three sentences: what you would want to talk through
-in a follow-up, and one thing here you found genuinely interesting. Specific beats gracious.*
+What I would most want to talk through is where the boundary should sit between the warehouse
+and the feature layer. `agg_country_year_features` carries completeness and series vintage on
+each row so a model author can see what they are training on, and I am genuinely unsure whether
+that belongs there or in a feature store with point-in-time joins.
+
+The thing I found most interesting here was smaller and more specific. Measuring CDC lag per
+table looked obviously correct and was wrong: an idle dimension reports the same number as a
+stopped connector, so the signal cannot distinguish "nothing changed" from "nothing is
+arriving". Splitting connector liveness from data freshness took about ten minutes and changed
+which alert I would trust at three in the morning.
 
 ---
 
