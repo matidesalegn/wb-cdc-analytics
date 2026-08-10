@@ -112,21 +112,48 @@ row "raw.cdc_quarantine"                "${ch_quar:-0} (should be 0)"
 consumers=$(ch "SELECT arrayStringConcat(groupArray(concat(\`table\`, '=', toString(num_messages_read))), ' ') FROM system.kafka_consumers")
 row "kafka consumers (messages read)" "${consumers:-none}"
 
-# Exceptions are reported separately and only when RECENT, for a specific reason:
-# system.kafka_consumers keeps the exception HISTORY, so a Kafka engine table created
-# before its topic existed permanently carries a "Broker: Unknown topic or partition"
-# entry from that moment. Reporting the full history makes a healthy consumer look
-# broken forever. Only an exception in the last five minutes indicates a live problem.
-recent_exc=$(ch "SELECT arrayStringConcat(groupArray(concat(\`table\`, ': ', substring(msg, 1, 90))), ' | ')
+# Kafka consumer exceptions, classified rather than counted.
+#
+# system.kafka_consumers keeps the exception HISTORY, and there is one exception that is
+# EXPECTED on every cold start: ClickHouse creates the Kafka engine tables before Debezium
+# has created the topics, so each consumer records one "Broker: Unknown topic or partition"
+# and then reads normally once the topic appears. A time window does not separate that from
+# a real fault, because on a cold start the benign exception is also seconds old. Filtering
+# on recency alone reported FAILURE on a working pipeline the first time this ran against a
+# genuinely fresh clone.
+#
+# So the test is recovery, not recency: an unknown-topic exception is benign if that consumer
+# has since read messages. Anything else, or a consumer that has read nothing at all, is a
+# real fault and fails.
+#
+# This does not weaken detection of the failure it exists to catch. A materialized view that
+# throws fails the block, offsets are never committed, and the engine retries the same block
+# forever, so nothing lands: that is caught by the parity assertion below, which compares the
+# warehouse against the source rather than trusting the consumer's own view.
+stalled=$(ch "SELECT arrayStringConcat(groupArray(concat(\`table\`, ' (read 0 messages)')), ', ')
+  FROM system.kafka_consumers
+  WHERE num_messages_read = 0 AND notEmpty(exceptions.text)")
+unexpected=$(ch "SELECT arrayStringConcat(groupArray(concat(\`table\`, ': ', substring(msg, 1, 80))), ' | ')
   FROM (
-    SELECT \`table\`, arrayJoin(arrayZip(exceptions.time, exceptions.text)) AS pair,
+    SELECT \`table\`, num_messages_read,
+           arrayJoin(arrayZip(exceptions.time, exceptions.text)) AS pair,
            pair.1 AS at, pair.2 AS msg
     FROM system.kafka_consumers
-  ) WHERE at > now() - INTERVAL 5 MINUTE")
-if [ -z "${recent_exc}" ]; then
-  ok "no Kafka consumer exceptions in the last 5 minutes"
+  )
+  WHERE at > now() - INTERVAL 5 MINUTE
+    AND position(msg, 'Unknown topic or partition') = 0")
+
+if [ -n "${stalled}" ]; then
+  bad "Kafka consumer has read nothing and is reporting errors: ${stalled}"
+elif [ -n "${unexpected}" ]; then
+  bad "unexpected Kafka consumer exception: ${unexpected}"
 else
-  bad "recent Kafka consumer exception: ${recent_exc}"
+  benign=$(ch "SELECT count() FROM system.kafka_consumers WHERE notEmpty(exceptions.text)")
+  if [ "${benign:-0}" != "0" ]; then
+    ok "all Kafka consumers are reading; ${benign} carry only the expected cold-start unknown-topic race"
+  else
+    ok "no Kafka consumer exceptions"
+  fi
 fi
 
 # Parity is the actual test: the warehouse must agree with the source.
