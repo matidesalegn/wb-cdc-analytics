@@ -103,6 +103,38 @@ make verify           # per-stage row counts and measured CDC lag, exit code is 
 make demo-mutations   # UPDATE and DELETE propagation
 ```
 
+## Clean-clone test, 11 August 2026
+
+Run as a reviewer would: `git clone` of the public repository into an empty directory, with
+every container and volume of the previous stack destroyed first, so nothing was inherited.
+Images were already cached locally, which is the warm-image case the README quotes at 3 to 6
+minutes.
+
+| Step | Command | Result |
+|---|---|---|
+| Clone | `git clone https://github.com/matidesalegn/wb-cdc-analytics.git` | 115 files, no `.env`, no `dbt/target`, no volumes |
+| One command | `SOURCE_API_MODE=fixture make demo` | **exit 0 in 47 seconds**, all six stages PASS, 58 dbt tests green |
+| Per-stage verification | `make verify` | 2,970 rows in PostgreSQL = 2,970 in ClickHouse = 2,970 in the fact table, 330 feature rows, CDC lag 10s |
+| Mutations | `make demo-mutations` | INSERT, UPDATE and DELETE all propagate to the marts; the tombstone is retained on disk and hidden from `FINAL` reads |
+| Idempotency | second ingestion | `unchanged=2970`, zero rows rewritten |
+| Observability | `docker compose --profile observability up -d --wait` | 4 scrape targets up, 10 alert rules loaded, none firing, Grafana dashboard provisioned and answering a live query with 2970 |
+| Orchestration | trigger `wb_cdc_pipeline` | 11 tasks success, watcher correctly skipped |
+| Fast lane | `make ci-local` | 13 passed, 0 failed, 66s |
+| Teardown | `make down` | Connector removed, `NOTICE: dropped replication slot wb_cdc_slot`, and the slot verified gone |
+| Full clean | `make clean` | 0 containers, 0 volumes remaining |
+
+**This test found a real bug, which is why it was worth running.** On the first cold start the
+pipeline was completely healthy and `verify_stages.sh` reported FAILURE. ClickHouse creates the
+Kafka engine tables before Debezium has created the topics, so each consumer records one
+"Broker: Unknown topic or partition" and then reads normally once the topic appears; because
+`system.kafka_consumers` keeps exception history, that benign entry persisted. The check had been
+filtering on recency, which works on a warm stack and is useless on a cold one, since on a cold
+start the benign exception is also seconds old. It now classifies by **recovery** instead: an
+unknown-topic exception is benign if that consumer has since read messages, while a consumer that
+has read nothing, or any other exception, still fails. The failure the check exists to catch, a
+throwing materialized view stalling the consumer, is caught by the parity assertion, which
+compares the warehouse against the source rather than trusting the consumer's own view.
+
 ## A note on the two checks that exist because they nearly failed silently
 
 Two entries above are unusual, and both earn their place:
