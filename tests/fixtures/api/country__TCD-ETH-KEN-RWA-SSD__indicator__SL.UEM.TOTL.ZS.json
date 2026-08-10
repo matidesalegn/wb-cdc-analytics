@@ -1,0 +1,5330 @@
+[
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 1,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.323
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.357
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.375
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.386
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.935
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.998
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.928
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.811
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.665
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.556
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.442
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.361
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.251
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.252
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.27
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.295
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.326
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.326
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.337
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.337
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.497
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.776
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.008
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.054
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.16
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.499
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.714
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.481
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.227
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.121
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.005
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.1
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.252
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.416
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.284
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.449
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.487
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.409
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.565
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.693
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.613
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.014
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.284
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.542
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.757
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.762
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.767
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.762
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.678
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.699
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.793
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.816
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.751
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.642
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.673
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.739
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.844
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.869
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.916
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.876
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.884
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.884
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.843
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.818
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.773
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.848
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.955
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.979
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.894
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 2,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.78
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.363
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.331
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.352
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 15.084
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 15.775
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.829
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.236
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10.759
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.875
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.788
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.831
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.837
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.768
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.671
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.756
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.637
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.625
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.517
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.58
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.586
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.842
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.699
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.658
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.432
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.732
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.699
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.569
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.255
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.087
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.507
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.938
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.236
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.155
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.114
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.335
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 3,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.374
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.475
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.95
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 14.246
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.656
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.853
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.983
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.854
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.464
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.561
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.665
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.803
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.585
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.473
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.438
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.298
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.266
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.268
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.266
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.256
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.234
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.235
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.278
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.309
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.138
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.095
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.068
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.314
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.334
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.326
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.233
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.374
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.334
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.057
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.053
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.059
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.081
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.53
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.695
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.077
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.135
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.132
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.091
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.032
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.984
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.955
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.886
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.92
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.911
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.943
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.922
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.839
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.716
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.663
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.672
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.725
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.769
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.792
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.796
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.753
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.725
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.732
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.7
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.755
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.709
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.7
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.658
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.668
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 4,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "SL.UEM.TOTL.ZS",
+     "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ]
+]

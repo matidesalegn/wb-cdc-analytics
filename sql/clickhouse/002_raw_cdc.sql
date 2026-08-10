@@ -148,6 +148,23 @@ SETTINGS
     kafka_handle_error_mode = 'stream',
     kafka_flush_interval_ms = 2000;
 
+-- The heartbeat stream. Not business data: this is the liveness signal, and it is
+-- the reason CDC lag can be measured separately from data freshness. See the note
+-- on ops.cdc_heartbeat_lag below for why that distinction is not cosmetic.
+CREATE TABLE IF NOT EXISTS raw.kafka_heartbeat
+(
+    payload String
+)
+ENGINE = Kafka
+SETTINGS
+    kafka_broker_list       = 'redpanda:9092',
+    kafka_topic_list        = 'wbcdc.wb.cdc_heartbeat',
+    kafka_group_name        = 'ch_wb_heartbeat_v1',
+    kafka_format            = 'JSONAsString',
+    kafka_num_consumers     = 1,
+    kafka_handle_error_mode = 'stream',
+    kafka_flush_interval_ms = 2000;
+
 
 -- ===========================================================================
 -- 3. Typed current-state landing tables
@@ -289,6 +306,21 @@ PARTITION BY tuple()
 -- order that also serves the marts' access pattern: filter by country, then by
 -- indicator, then range-scan years.
 ORDER BY (country_id, indicator_id, obs_year);
+
+-- The heartbeat's landing table. One row, replaced on every beat.
+CREATE TABLE IF NOT EXISTS raw.cdc_heartbeat
+(
+    id            Int16,
+    beat_at       Nullable(DateTime64(6, 'UTC')),
+    beat_count    Nullable(Int64),
+    _version      UInt64,
+    _is_deleted   UInt8,
+    _source_ts    DateTime64(3, 'UTC'),
+    _synced_at    DateTime64(3, 'UTC') DEFAULT now64(3)
+)
+ENGINE = ReplacingMergeTree(_version, _is_deleted)
+PARTITION BY tuple()
+ORDER BY (id);
 
 
 -- ===========================================================================
@@ -440,6 +472,18 @@ WHERE JSONExtractString(payload, 'country_id')   != ''
   AND JSONExtractString(payload, 'indicator_id') != ''
   AND JSONExtractInt(payload, 'obs_year')        != 0;
 
+CREATE MATERIALIZED VIEW IF NOT EXISTS raw.mv_heartbeat TO raw.cdc_heartbeat AS
+SELECT
+    JSONExtractInt(payload, 'id')                                     AS id,
+    parseDateTime64BestEffortOrNull(JSONExtractString(payload, 'beat_at'), 6, 'UTC')
+                                                                      AS beat_at,
+    JSONExtract(payload, 'beat_count', 'Nullable(Int64)')             AS beat_count,
+    JSONExtractUInt(payload, '__lsn')                                 AS _version,
+    JSONExtractString(payload, '__deleted') = 'true'                   AS _is_deleted,
+    fromUnixTimestamp64Milli(JSONExtractInt(payload, '__source_ts_ms'), 'UTC') AS _source_ts,
+    now64(3)                                                          AS _synced_at
+FROM raw.kafka_heartbeat;
+
 
 -- ===========================================================================
 -- 5. Quarantine and operational views
@@ -483,13 +527,39 @@ WHERE JSONExtractString(payload, '__op') NOT IN ('c', 'u', 'd', 'r')
    OR (src_table = 'indicator' AND JSONExtractString(payload, 'indicator_id') = '');
 
 -- ---------------------------------------------------------------------------
--- The single source of truth for pipeline freshness, read by the Airflow CDC gate,
--- the metrics exporter, and the Grafana panels. One definition means the DAG gate
--- and the alert cannot disagree about what "lag" means.
+-- CDC LAG: is the connector keeping up?
 --
--- Lag is measured from the source commit timestamp, not from consumption time.
--- Measuring from _consumed_at would report zero lag for a stalled connector,
--- because nothing new arriving means nothing recent to be late.
+-- This is the alertable signal, and it is measured against the heartbeat rather
+-- than against any business table. That distinction is the whole point of the
+-- view, and it was found by measurement rather than by design: with lag computed
+-- per business table, an idle dimension reported lag_seconds=1805 after half an
+-- hour of no changes. Nothing was wrong. Alerting on that number would page
+-- someone every night for a table that simply had no news.
+--
+-- The heartbeat row is updated on a fixed 10s timer, so a heartbeat that stops
+-- arriving means the connector, the broker or the consumer has stopped, which is
+-- the condition worth waking up for. An idle business table means nothing changed.
+--
+-- Lag is measured from the SOURCE commit timestamp, not from consumption time.
+-- Measuring from _consumed_at would report zero lag for a completely stalled
+-- pipeline, because nothing arriving means nothing recent to be late.
+-- ---------------------------------------------------------------------------
+CREATE OR REPLACE VIEW ops.cdc_heartbeat_lag AS
+SELECT
+    max(beat_at)                                       AS last_beat_at,
+    max(beat_count)                                    AS beats_observed,
+    dateDiff('second', max(_source_ts), now())          AS lag_seconds
+FROM raw.cdc_heartbeat FINAL
+WHERE _is_deleted = 0;
+
+-- ---------------------------------------------------------------------------
+-- DATA FRESHNESS: when did each table last actually change, and what happened?
+--
+-- Informational, and deliberately NOT alerted on by itself. A table with no
+-- recent events is usually a table with no recent changes. It becomes meaningful
+-- only in combination with the heartbeat: heartbeat healthy plus a table that has
+-- not moved for longer than its expected cadence is a data problem worth chasing;
+-- heartbeat unhealthy makes every table's number meaningless at once.
 -- ---------------------------------------------------------------------------
 CREATE OR REPLACE VIEW ops.cdc_freshness AS
 SELECT
@@ -497,12 +567,13 @@ SELECT
     count()                                            AS events_30d,
     max(source_ts)                                     AS last_source_commit,
     max(_consumed_at)                                  AS last_consumed_at,
-    dateDiff('second', max(source_ts), now())           AS lag_seconds,
+    dateDiff('second', max(source_ts), now())           AS seconds_since_last_change,
     countIf(op = 'c')                                  AS inserts,
     countIf(op = 'u')                                  AS updates,
     countIf(op = 'd')                                  AS deletes,
     countIf(op = 'r')                                  AS snapshot_reads
 FROM raw.cdc_event_log
+WHERE src_table != 'cdc_heartbeat'
 GROUP BY src_table;
 
 -- Row counts per layer, so "did data move through every stage" is one query

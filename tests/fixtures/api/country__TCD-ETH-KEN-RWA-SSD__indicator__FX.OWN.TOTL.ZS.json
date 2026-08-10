@@ -1,0 +1,5330 @@
+[
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 1,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2025",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2024",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 48.8302767819942
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2023",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2022",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 46.4800688214244
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2021",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2020",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2019",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2018",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2017",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 34.827569921105
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2016",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2015",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2014",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.7915817461286
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2013",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2012",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2011",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2010",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2009",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2008",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2007",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2006",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2005",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2004",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2003",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2002",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2001",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2000",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1999",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1998",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1997",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1996",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1995",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1994",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1993",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1992",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1991",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1990",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1989",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1988",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1987",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1986",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1985",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1984",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1983",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1982",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1981",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1980",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1979",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1978",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1977",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1976",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1975",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1974",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1973",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1972",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1971",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1970",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1969",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1968",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1967",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1966",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1965",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1964",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1963",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1962",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1961",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1960",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2025",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2024",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 90.1199173733613
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2023",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2022",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2021",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 79.1951576168317
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2020",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2019",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2018",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2017",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 81.5675646333189
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2016",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2015",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2014",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 74.6578329382712
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2013",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2012",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2011",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 42.3434543670765
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2010",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2009",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2008",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2007",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2006",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2005",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2004",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2003",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2002",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2001",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2000",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1999",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1998",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1997",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1996",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1995",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1994",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1993",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1992",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 2,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1991",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1990",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1989",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1988",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1987",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1986",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1985",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1984",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1983",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1982",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1981",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1980",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1979",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1978",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1977",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1976",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1975",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1974",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1973",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1972",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1971",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1970",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1969",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1968",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1967",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1966",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1965",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1964",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1963",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1962",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1961",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1960",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2025",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2024",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2023",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2022",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2021",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2020",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2019",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2018",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2017",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 50.019793696102
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2016",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2015",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2014",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 42.1169125765165
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2013",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2012",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2011",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 32.7638222447295
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2010",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2009",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2008",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2007",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2006",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2005",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2004",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2003",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2002",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2001",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2000",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1999",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1998",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1997",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1996",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1995",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1994",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1993",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1992",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1991",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1990",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1989",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1988",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1987",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1986",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1985",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1984",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1983",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1982",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1981",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1980",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1979",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1978",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1977",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1976",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1975",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1974",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1973",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1972",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1971",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1970",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1969",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1968",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1967",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1966",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1965",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1964",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1963",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1962",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1961",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1960",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2025",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2024",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 3,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2023",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2022",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2021",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.8314074673825
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2020",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2019",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2018",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2017",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.57000393149026
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2016",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2015",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2014",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2013",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2012",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2011",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2010",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2009",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2008",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2007",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2006",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2005",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2004",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2003",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2002",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2001",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2000",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1999",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1998",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1997",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1996",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1995",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1994",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1993",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1992",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1991",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1990",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1989",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1988",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1987",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1986",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1985",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1984",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1983",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1982",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1981",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1980",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1979",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1978",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1977",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1976",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1975",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1974",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1973",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1972",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1971",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1970",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1969",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1968",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1967",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1966",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1965",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1964",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1963",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1962",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1961",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1960",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2025",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2024",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 20.8983599359361
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2023",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2022",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 23.6513333879631
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2021",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2020",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2019",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2018",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2017",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.7591926547872
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2016",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2015",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2014",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.4333450664986
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2013",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2012",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2011",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.95974560162476
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2010",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2009",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2008",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2007",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2006",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2005",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2004",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2003",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2002",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2001",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2000",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1999",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1998",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1997",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1996",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1995",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1994",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1993",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1992",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1991",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1990",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 4,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1989",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1988",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1987",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1986",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1985",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1984",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1983",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1982",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1981",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1980",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1979",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1978",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1977",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1976",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1975",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1974",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1973",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1972",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1971",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1970",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1969",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1968",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1967",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1966",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1965",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1964",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1963",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1962",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1961",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1960",
+    "decimal": 2,
+    "indicator": {
+     "id": "FX.OWN.TOTL.ZS",
+     "value": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ]
+]

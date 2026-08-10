@@ -37,7 +37,15 @@
   "publication.autocreate.mode": "disabled",
 
   "schema.include.list": "wb",
-  "table.include.list": "wb.country,wb.indicator,wb.observation",
+  "//table_include_list": [
+    "wb.cdc_heartbeat is captured deliberately, alongside the three business",
+    "tables. It is what makes connector liveness measurable downstream:",
+    "the heartbeat row is updated on a timer, so lag measured against it reflects",
+    "whether the CONNECTOR is keeping up. Lag measured against a business table",
+    "instead conflates a stalled connector with a table that simply has not changed,",
+    "and an idle dimension would then raise a CDC alert every night."
+  ],
+  "table.include.list": "wb.country,wb.indicator,wb.observation,wb.cdc_heartbeat",
 
   "snapshot.mode": "initial",
 

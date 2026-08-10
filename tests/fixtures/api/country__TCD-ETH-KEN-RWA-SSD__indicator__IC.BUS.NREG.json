@@ -1,0 +1,5330 @@
+[
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 1,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 46274
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 45688
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 34327
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 19649
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17499
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 14211
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10935
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11265
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9125
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13212
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11588
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10354
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8807
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8944
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 58919
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 57016
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 52154
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 48386
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 49037
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 42085
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 44381
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 37733
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 2,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 22734
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 18443
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 18401
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17442
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 16105
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12552
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10547
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10005
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10099
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9887
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9998
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9291
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8511
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6039
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3641
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1310
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 430
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 314
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 247
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 3,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1765
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 759
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1961
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3627
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4430
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4459
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 937
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2505
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3221
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1176
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 333
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1391
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1632
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1514
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1169
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 629
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 834
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 757
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 794
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 925
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1417
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1086
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 935
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1552
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1337
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1224
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 477
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 314
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 319
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 200
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 4,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "IC.BUS.NREG",
+     "value": "New businesses registered (number)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ]
+]

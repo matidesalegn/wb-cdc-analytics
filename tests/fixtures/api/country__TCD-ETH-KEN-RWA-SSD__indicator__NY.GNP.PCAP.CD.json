@@ -1,0 +1,5330 @@
+[
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 1,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1110
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1100
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1030
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 960
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 880
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 820
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 790
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 730
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 670
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 620
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 570
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 530
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 450
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 400
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 380
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 370
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 330
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 270
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 210
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 180
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 160
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 130
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 110
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 120
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 120
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 120
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 130
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 130
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 150
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 150
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 150
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 170
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 220
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 230
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 250
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 260
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 260
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 280
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 290
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 240
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 200
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 210
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 220
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 220
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 230
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 230
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 200
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 180
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 170
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 160
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 170
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 160
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 140
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 120
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 120
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 110
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 100
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 100
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 100
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 90
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 90
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 80
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 80
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2200
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2070
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2110
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2170
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2070
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1910
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1880
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1720
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1540
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1490
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1320
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1250
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1130
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1060
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1010
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 930
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 830
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 830
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 710
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 590
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 520
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 460
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 420
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 390
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 410
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 430
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 450
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 450
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 400
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 350
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 280
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 270
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 280
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 340
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 2,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 360
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 390
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 410
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 420
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 390
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 350
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 320
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 320
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 350
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 410
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 460
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 460
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 400
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 330
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 280
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 250
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 250
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 230
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 200
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 190
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 160
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 130
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 140
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 130
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 120
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 120
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 110
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 110
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 110
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 100
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1150
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1070
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1030
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 970
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 850
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 780
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 820
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 760
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 720
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 720
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 720
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 710
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 700
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 680
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 630
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 580
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 530
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 470
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 390
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 350
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 310
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 270
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 250
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 260
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 260
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 270
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 250
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 230
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 220
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 200
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 220
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 130
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 250
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 300
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 300
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 340
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 350
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 360
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 320
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 290
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 250
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 240
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 250
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 260
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 270
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 260
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 220
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 170
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 150
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 120
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 90
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 80
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 70
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 60
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 60
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 50
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 50
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 40
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 40
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 40
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 40
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 30
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 40
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 40
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 3,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1050
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1170
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1080
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 800
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 770
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 970
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 930
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 910
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 920
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 890
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 890
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 930
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 890
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 830
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 940
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1130
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1260
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1310
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1310
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1190
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1150
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1020
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 910
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 820
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 630
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 510
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 330
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 210
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 190
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 180
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 180
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 190
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 210
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 210
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 200
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 200
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 220
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 240
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 320
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 290
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 270
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 4,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 270
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 270
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 210
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 200
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 210
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 180
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 190
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 210
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 230
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 240
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 220
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 240
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 230
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 220
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 220
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 180
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 160
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 140
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 130
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 140
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 140
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 130
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 130
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 120
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 120
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 110
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 110
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 110
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "NY.GNP.PCAP.CD",
+     "value": "GNI per capita, Atlas method (current US$)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ]
+]

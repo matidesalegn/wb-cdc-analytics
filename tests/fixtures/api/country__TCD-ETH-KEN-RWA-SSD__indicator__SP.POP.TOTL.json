@@ -1,0 +1,5330 @@
+[
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 1,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 135472051
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 132059767
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 128691692
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 125384287
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 122138588
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 118917671
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 115737383
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 112664152
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 109666481
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 106718162
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 103867135
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 101115610
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 98438751
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 95798767
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 93149970
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 90538514
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 88007636
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 85543668
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 83103217
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 80703490
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 78367470
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 76077206
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 73832663
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 71635517
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 69487762
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 67411494
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 65374561
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 63363524
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 61404539
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 59467635
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 57537335
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 55611508
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 53708891
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 51853747
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 49717198
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 47609755
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 45879690
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 44150825
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 42460039
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 41037656
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 39842136
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 38735722
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 37740817
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 36701290
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 35304012
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 34428514
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 34238652
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 33734592
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 33167272
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 32534418
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 31723252
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 30957273
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 30166785
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 29374608
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 28600106
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 27829128
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 27072571
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 26337930
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 25620276
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 24952689
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 24310612
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 23666548
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 23051637
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 22465126
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21906102
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21376693
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 57532493
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 56432944
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 55339003
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 54252461
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 53219166
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 52217334
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 51202827
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 50207107
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 49197766
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 48139687
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 47088526
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 46051440
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 44986791
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 43888303
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 42758461
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 41598567
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 40408891
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 39206351
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 38036349
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 36904008
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 35796484
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 34713455
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 33652223
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 32629808
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 31619170
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 30642890
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 29733408
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 28888057
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 28101768
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 27344211
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 26601751
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 25857130
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 25117188
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 24382460
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 2,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 23646514
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 22892651
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 22118434
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21356219
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 20616096
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 19901646
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 19201768
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 18514906
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17846374
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17206175
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 16601507
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 16018459
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 15460666
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 14934126
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 14428819
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13957623
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13511671
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13070078
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12634835
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12206060
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11788904
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11368791
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10939695
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10518823
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10111057
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9717816
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9338078
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8973535
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8627971
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8299308
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7987770
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7695307
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 14569341
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 14256567
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13954471
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13651030
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13355260
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13065837
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12776103
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12487996
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12202060
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11919183
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11640022
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11364757
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11093340
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10829901
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10573733
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10317553
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10060432
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9804269
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9549933
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9299246
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9054528
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8816844
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8586875
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8400180
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8287094
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8213931
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8147912
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8081681
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7755238
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6708764
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5674118
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6792352
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7981132
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7683266
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7526966
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7375307
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7184706
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6968071
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6749493
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6531881
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6317228
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6107627
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5905311
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5711549
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5527230
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5353259
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5189541
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5035171
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4888240
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4745954
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4607728
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4474228
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4345047
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4220335
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4100044
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3980669
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3861271
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3744010
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3629577
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3521626
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3423210
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3334834
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3258890
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3186025
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3106779
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3022294
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12188788
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11943408
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 3,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11483374
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11021177
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10865780
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10698467
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10423384
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10122977
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10259154
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10830102
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11107561
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11235073
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11166275
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10756240
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10288109
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9745953
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9243556
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8817647
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8388788
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7976526
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7590143
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7233041
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6903127
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6596806
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6308391
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6032267
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5771628
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5620068
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5509136
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5356925
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5225836
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5071184
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4956002
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4909749
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4836677
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4737633
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4713229
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4848029
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4962395
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4921240
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4834296
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4750627
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4661574
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4557686
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4447272
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4339030
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4232605
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4127657
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4024032
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3921910
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3821494
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3723259
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3627383
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3542497
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3468646
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3409614
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3365533
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3321528
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3277648
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3236423
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3189835
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3129918
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3072669
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3024308
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2976724
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2931559
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2025",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21003705
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2024",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 20299123
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2023",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 19319064
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2022",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 18455316
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2021",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17828273
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2020",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17224679
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2019",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 16685223
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2018",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 16156531
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2017",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 15622759
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2016",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 15114655
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2015",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 14647621
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2014",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 14188678
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2013",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13691079
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2012",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13210998
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2011",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12754997
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2010",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12312575
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2009",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11893754
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2008",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11476296
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2007",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11081660
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2006",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10706424
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2005",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10328092
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2004",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9920036
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2003",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9487833
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2002",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9116192
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2001",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8804124
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2000",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8512093
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1999",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8222705
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1998",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7938840
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1997",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7670366
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1996",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7410108
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1995",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7089064
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1994",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6783450
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1993",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6629146
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1992",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6474656
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1991",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6205676
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1990",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5982833
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 4,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1989",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5819586
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1988",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5625602
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1987",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5438309
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1986",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5251069
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1985",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5096269
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1984",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5045145
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1983",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4979130
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1982",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4738483
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1981",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4520959
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1980",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4515453
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1979",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4505384
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1978",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4411366
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1977",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4331667
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1976",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4251297
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1975",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4167234
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1974",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4078356
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1973",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3985909
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1972",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3893252
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1971",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3807316
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1970",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3727828
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1969",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3651113
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1968",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3578231
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1967",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3508512
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1966",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3440903
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1965",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3374220
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1964",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3307479
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1963",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3240905
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1962",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3175598
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1961",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3111947
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1960",
+    "decimal": 0,
+    "indicator": {
+     "id": "SP.POP.TOTL",
+     "value": "Population, total"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3049838
+   }
+  ]
+ ]
+]

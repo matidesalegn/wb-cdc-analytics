@@ -1,0 +1,29 @@
+[
+ [
+  {
+   "page": 1,
+   "pages": 1,
+   "per_page": "100",
+   "total": 1
+  },
+  [
+   {
+    "id": "FX.OWN.TOTL.ZS",
+    "name": "Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+)",
+    "source": {
+     "id": "2",
+     "value": "World Development Indicators"
+    },
+    "sourceNote": "Account denotes the percentage of respondents who report having an account (by themselves or together with someone else) at a bank or another type of financial institution or report personally using a mobile money service in the past 12 months (% age 15+).",
+    "sourceOrganization": "Global Findex Database, World Bank (WB), uri: https://www.worldbank.org/en/publication/globalfindex",
+    "topics": [
+     {
+      "id": "7",
+      "value": "Financial Sector "
+     }
+    ],
+    "unit": ""
+   }
+  ]
+ ]
+]

@@ -1,0 +1,5330 @@
+[
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 1,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.7715182202934
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.61277447616879
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.59424599054353
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.32175988485454
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.64153069324176
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.05953089248577
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.36408573111346
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.81614778557282
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.56418965754014
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.43348265981905
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10.3924630141307
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10.2574929627477
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10.5822700502552
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.64781163513926
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.1782962297008
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.5505383347633
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.8025531990487
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10.7885216870332
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.4561670019891
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10.8347270679373
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.8187659491625
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.5726031401471
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -2.16135972256865
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.51472570667433
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.30130632267965
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.07321748125295
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.16214582255112
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -3.4581391346848
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.1339068517801
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.4261737814951
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.12751141587474
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.18996458331273
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.1428339363255
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -8.6724801143672
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -7.13747971659305
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.72645178272684
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -0.361044179752284
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.503674879297719
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.8593303949744
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.66161236122211
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -11.1443529779264
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -2.84802145221462
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.23500571913669
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.916013856738402
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.38154812543456
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.42416616401589
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -1.10076369425465
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.74000633157128
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.72568162583839
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.148810316081267
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.24613171483642
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.27365832432511
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.10986950748782
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.22715958999208
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.52647616372386
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.48272874063242
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.38865740774845
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.14218784379452
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.06158788001341
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.25659803697334
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.77193201591967
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.090485611454
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.51863392606097
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.32609133566669
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.63261093844984
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.66019594571891
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.71999241214208
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.85998104287999
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.59048947333467
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -0.272766327438816
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.11415885767801
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.64794640709219
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.83795817364721
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.21351706814744
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.96772112759767
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.02011100232484
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.7978483925754
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.56867961444982
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.1211061197056
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.05847360290906
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.30693981631089
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.232282744812977
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.85072976998784
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.47249430015484
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.90666607980057
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.10429977629738
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.93247554570904
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.546859530175595
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.77990649795343
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.599695390807426
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.30538859522412
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.29021372249065
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.474901921293579
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.14683926876013
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.40621652482287
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.632784517837
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.353197256227247
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -0.799493958641349
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 2,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.43834679171559
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.19205097155167
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.69034876792047
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.20318382314591
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.93710744420895
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.17755539065963
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.30056181879613
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.75521697703473
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.3090502411486
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.50647825757706
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.77354419402822
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.5919762059677
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.61522604591983
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.91249354626197
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.45379784408087
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.15396450322561
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.882203175319148
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.06561734893735
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.89658021016672
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.082429349983
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 22.1738919255764
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -4.65544691647621
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.9592244594956
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.9826899693479
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.36123203258556
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 14.7285664015687
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.00909417103099
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.96446728844091
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.77834021621184
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.45735874072126
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -7.77463490371655
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.37579834182446
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.22717103344534
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.55964292914153
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.82497394651698
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.41140448646523
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -2.77710485515125
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.28613387454543
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.07084254621641
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.70393439751061
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.65874584202778
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.87036752872743
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.66845354233575
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.71984856950924
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.64150815708138
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.95838869909085
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.33465645016436
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.24825750704265
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.161247324054
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.63329819042882
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.22707576994632
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.37789916585375
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.44766737037035
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.2023875095978
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.1920736288433
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.48456034086699
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.37089593573039
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.35188831823314
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.85866949472509
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.8497524852284
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.7456957642204
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 35.224078310176
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -50.2480671035291
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -8.10869188180605
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.87272524167311
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -2.51437965434005
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -2.39929109760368
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -0.036534273188181
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.4988249932594
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -0.0240361088552561
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.47213748768876
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.40274833269652
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -4.24077327763511
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.98034993449889
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.8108464472071
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.43619947877283
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.95161232959165
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.8699080379506
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.15084081575198
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.99410948126528
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 19.5045771724678
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -2.1138254244522
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.4098235737507
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.43808814067405
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.263068266748732
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.20664070130931
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.00142524647727
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.0073701491938
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.01378092757933
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.91601750997985
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.00891082281601
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.0095292549901
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -12.4649926826467
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -9.82044441324081
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.3337983684303
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -4.29752604722353
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 3,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -10.7933646271143
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.37364847715736
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.1297311406943
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -46.0821223743007
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -4.64031673600859
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.49341639529945
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.04164187983342
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.58988021765651
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.95210484607125
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.99861309461539
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.12969897668356
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.293442648033434
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -0.393646582380399
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.38282202874814
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.74111580758154
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -1.61746922820204
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -4.12250332637034
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.30415979779805
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.06283074361411
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.83821524730293
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.06180392253447
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.49542967058827
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.6738272725339
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -1.40828262637592
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.08119033854541
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.20017418353298
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -0.54282957080251
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.3325337352162
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 33.6293718498522
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 14.7216670123589
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.4912098197177
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.6581346550771
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -0.879681024156014
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -0.68285022143975
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.95157991370925
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.65339232904813
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.21447303497622
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.23654931570509
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10.1368876324308
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -15.7098370447417
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.00144334899822
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.53513716635477
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -4.17847237277633
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 4,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.88473510251002
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 15.4823590700135
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -2.38880849732436
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -4.08166751727347
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.7927735303921
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.04889891081616
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 15.6787177787333
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.34660899936992
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.0429181025978
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -6.04767074733067
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -21.4410876889116
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -0.469634188032288
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.23462484913821
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.98076526952664
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.01026730550424
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.96185258253874
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -8.38088300800818
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.14961609483252
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -2.24762637244979
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.85965647855571
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.88131022379166
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -0.457218866538199
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.767201382289826
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -1.80709239199822
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.606227786326357
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -2.51093960346873
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": -1.59945401520737
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.36011610893922
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.39774367077582
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "NY.GDP.MKTP.KD.ZG",
+     "value": "GDP growth (annual %)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ]
+]

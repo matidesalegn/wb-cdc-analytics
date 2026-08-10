@@ -1,0 +1,5330 @@
+[
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 1,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.607176133288401
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.617821399581832
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.478879458617195
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.283022723012766
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.260537742217356
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.218866832261683
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.174237183317546
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.185909204519021
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.156186436934133
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.234631315832558
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.213542304540147
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.198032917645905
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.174888431923551
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.184512388261596
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.73437190180345
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.72755136894417
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.62756818519563
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.5543215397401
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.62117945309683
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.43232285567978
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.55343708411798
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.3587594032953
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 2,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.71597425092979
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.26129667457093
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.31919370050476
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.26131650055762
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.14860129457731
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.72421442952638
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.49137675412108
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.45525177164722
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.51025030615506
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.51976151103675
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.57944291383363
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.50887713783985
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.42115376780241
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.03702215456421
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.643386250865859
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.238215601485302
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.0804071518982726
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.0603423873177982
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.0487935739455748
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 3,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.303282739242828
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.125649437077278
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.317481492658423
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.584492528503075
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.741727726653073
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.784002619085673
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.175824258305914
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.501093904997797
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.680515002598676
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.263597518865939
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.0792813538112547
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.132198988083749
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.165030969092794
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.162316394320341
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.130434248976554
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.0730546640524944
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.100310855402624
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.0942640042128663
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.102562049070903
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.123794857066458
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.195773232424689
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.154879385183034
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.138565877256123
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.238973424369069
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.213630658635943
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.202846446068947
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.0818031120853551
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.0558806460585725
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.0588640710502254
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.0381813169652573
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 4,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "IC.BUS.NDNS.ZS",
+     "value": "New business density (new registrations per 1,000 people ages 15-64)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ]
+]

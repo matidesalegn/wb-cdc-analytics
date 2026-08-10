@@ -1,0 +1,5330 @@
+[
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 1,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.7101483486321
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 18.5250760306452
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 20.4493250657558
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 18.8657892604975
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 16.5291865259117
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.5006234628474
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.978117689976
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.778546785567
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.6238640309735
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 18.9197318949242
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 15.7643606067517
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.996200855524
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.6492618227706
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.54482335944397
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.84114685389972
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.49087755189805
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.07157691398828
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.43847572438619
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.58214336299026
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.59906236167661
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.66567884606396
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.30988581082942
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.79543104654079
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.85707157270998
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.10199378554162
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.1265212637523
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.36336174363458
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.37412804011485
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.98952168391567
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.01750438966129
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.87512450847033
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.8563547723273
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.56053016368064
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.9009503009339
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.75715141231063
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.53148983677155
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.48540128753925
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.20924529875301
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.08157596420621
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.30684521012687
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.96282543506534
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.56801347571762
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.56503322352152
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.15370576062068
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.17519647698488
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.80748716096314
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.453731369700999
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.466948987073388
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.544827291383113
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 31.7980848696513
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 31.2584163915549
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 31.1231240199267
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 32.1498074208935
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 30.8320287701597
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 31.1986897673001
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 33.1505993031106
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 35.5710732134397
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 36.6993293508397
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 34.5220651778387
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 28.3321722043471
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 26.4022341140294
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 27.3659528452877
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 23.9866365463318
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.8748215770177
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 25.380611749054
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 23.0449642815856
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 22.8883109960388
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 26.2768754700489
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 27.2875160327278
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 25.1556752227903
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 25.8546018348267
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 25.2226866951229
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 25.7583827680558
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 26.5694419300027
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 23.9634167841824
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 24.3551778303105
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.6816261093782
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 25.8141177808766
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 19.8341558860689
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 18.496196443499
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 22.1524502405053
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 2,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 19.9580725902224
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 18.6565323520756
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 19.2244787537389
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 18.9261428323448
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 18.4164177260937
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 19.3119882309072
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 19.3340845696329
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 18.9864033544518
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 19.3230115513832
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 20.4370243623288
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.0030798503612
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.8117780815515
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 20.9732640975024
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.7120303649749
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.5086026130437
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 16.8270844799119
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.3331662070694
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.9764306589988
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.8933166344074
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 16.4860483656657
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.4325345593098
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 15.1189187301366
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.7291926658347
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.8900107589175
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 14.5842798727851
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.6112031003603
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.7626301241948
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.6949854247929
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.1751947345153
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.8049318231321
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.3057942194017
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 22.0867382294523
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.3238078981665
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.6378024625462
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 22.1299532676551
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 24.951035475528
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 24.3039679316864
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.1137845177269
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.3727050105642
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 20.7932652815292
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 20.7096758259056
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.2400979698114
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.8667298740274
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 16.4386483211969
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 15.9559795125482
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.4264051800974
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.6289209517341
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.3018498266274
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.5187847164106
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.1907655923558
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.9327005011458
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10.3108984751212
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.8312525515906
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.92957351693816
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.42435180688602
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.07881915008174
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.7322554914854
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.36366873108602
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.75921422164865
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.09027398245172
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.80643599035943
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.41488265126011
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.88227976584186
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.32914518379824
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.6751606061602
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.11970028407879
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.92065555462635
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.22156594250789
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.00600679459858
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.92132101748002
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.88909211810806
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.71879825537852
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.45367053743154
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.87126981376635
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.12921699611074
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.09254734248908
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.74729143708557
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.4180097559248
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.8966063341935
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.52436160955348
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.4187814206068
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.14250515765768
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.19002757017633
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.66024605160198
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.03656394839876
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.90733248592421
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.40654836541086
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.65818727420782
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.35830415532806
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.46778624703441
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.98146126846377
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.10215068575865
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.938461581762983
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.24249880212429
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.76315463209053
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 3,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.04769880153433
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.01716131679904
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.75015423943811
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.92500455443695
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.70350480610621
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.52680961002147
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.7050712207929
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.42474874705564
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.3046060068698
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.81010943088354
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.13382804534706
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.12348529534462
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 0.497601393833536
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.32290954891334
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.22915564060594
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.54147312123575
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.24873656929464
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.10617708639334
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.66896292279385
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.28199600168377
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.99411802017464
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.41495267416436
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.02102215723731
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.53708298939375
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.21497699838003
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.96502979878641
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 2.37779871540522
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.90885958094899
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.69490431367969
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 1.95252225003226
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.13376265896053
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.19489744248441
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.21236731197982
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.338486053348
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.47936369672946
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.58610460568817
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.30627847904118
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.23429328606989
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.64248250900514
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.85047765587526
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.62566869671399
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.03453734492648
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.08781622017682
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.94840642548766
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.4810990406711
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 4,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.43063220119775
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.03572835455867
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 21.2136452880591
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 20.2825766063297
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.9942268796022
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 11.436510825057
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10.2315410991367
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10.9384683882669
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 13.1188052376698
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.1723285511011
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 17.8683887356034
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.4139388936589
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10.2676657438915
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.35141827979458
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 12.0958220694892
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.44879244031512
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.82371266236075
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.38589532781234
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.80935462075174
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.454452781685
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 10.1739981319075
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 9.60588437329002
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 8.81095507849502
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 7.1194539097835
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.36179949324117
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 6.3572126287034
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.39033286922567
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 4.5991071610616
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 5.20077779707383
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "FS.AST.PRVT.GD.ZS",
+     "value": "Domestic credit to private sector (% of GDP)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 3.49855219180543
+   }
+  ]
+ ]
+]

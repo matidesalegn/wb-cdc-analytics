@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------------------
+# The indicators this pipeline ingests.
+#
+# This file is the scale axis. Adding an indicator is a configuration change, not
+# a code change and not a schema change: the fact table is keyed on
+# (country, indicator, year), so a new series is more rows, never more columns.
+# That is the honest answer to "how would this handle ten times the data", and it
+# is why the entity count is three rather than thirty.
+#
+# Every id below was verified against the live API for all five countries. The
+# non_null counts are from that check and are recorded because they are the reason
+# the mart accounts for nulls explicitly rather than treating them as zero: a
+# World Bank series legitimately has no value for a year it was not measured, and
+# the density of that varies by two orders of magnitude across these nine.
+#
+# Deliberately excluded: IC.REG.DURS. It returns HTTP 200 with an error envelope
+# rather than data, which is exactly the failure the ingestion gate is built to
+# catch, so it is kept as a test fixture instead of a live source.
+# ---------------------------------------------------------------------------
+
+countries:
+  # Inkomoko's operating countries, as ISO 3166-1 alpha-3.
+  - TCD  # Chad
+  - ETH  # Ethiopia
+  - KEN  # Kenya
+  - RWA  # Rwanda
+  - SSD  # South Sudan
+
+indicators:
+  # --- enterprise formation, the closest series to the domain ---------------
+  - id: IC.BUS.NREG
+    label: New businesses registered
+    non_null_of_330: 71
+  - id: IC.BUS.NDNS.ZS
+    label: New business density per 1000 working-age people
+    non_null_of_330: 71
+
+  # --- access to finance ----------------------------------------------------
+  - id: FX.OWN.TOTL.ZS
+    label: Account ownership at a financial institution
+    # Survey-based, so it exists only in survey years. The sparsest series here,
+    # and a good demonstration that sparse is not the same as broken.
+    non_null_of_330: 19
+  - id: FS.AST.PRVT.GD.ZS
+    label: Domestic credit to private sector as percent of GDP
+    non_null_of_330: 251
+
+  # --- macro context --------------------------------------------------------
+  - id: NY.GDP.MKTP.KD.ZG
+    label: GDP growth annual percent
+    non_null_of_330: 266
+  - id: NY.GNP.PCAP.CD
+    label: GNI per capita Atlas method current USD
+    non_null_of_330: 260
+  - id: SP.POP.TOTL
+    label: Population total
+    # The only fully dense series, which makes it the natural denominator and a
+    # useful control when testing null handling.
+    non_null_of_330: 330
+
+  # --- labour and poverty ---------------------------------------------------
+  - id: SL.UEM.TOTL.ZS
+    label: Unemployment as percent of total labour force
+    non_null_of_330: 173
+  - id: SI.POV.DDAY
+    label: Poverty headcount ratio at 3.00 a day
+    non_null_of_330: 26

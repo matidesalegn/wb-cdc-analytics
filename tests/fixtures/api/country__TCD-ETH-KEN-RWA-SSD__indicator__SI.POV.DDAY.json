@@ -1,0 +1,5330 @@
+[
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 1,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 38.6
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 33
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 37.4
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 41.3
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 65.9
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 73.5
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "ET",
+     "value": "Ethiopia"
+    },
+    "countryiso3code": "ETH",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 45.5
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 46.4
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 44.4
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 37.7
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 44.6
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 32.6
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 32
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 32
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 2,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "KE",
+     "value": "Kenya"
+    },
+    "countryiso3code": "KEN",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 38.6
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 63.8
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 65.2
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 70.2
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 74.2
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 82.3
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "RW",
+     "value": "Rwanda"
+    },
+    "countryiso3code": "RWA",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 3,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 76.5
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 44.9
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "SS",
+     "value": "South Sudan"
+    },
+    "countryiso3code": "SSD",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2025",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2024",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2023",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2022",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 39.5
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2021",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2020",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2019",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2018",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 41.9
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2017",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2016",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2015",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2014",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2013",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2012",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2011",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 45.2
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2010",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2009",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2008",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2007",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2006",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2005",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2004",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2003",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": 66.7
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2002",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2001",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "2000",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1999",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1998",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1997",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1996",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1995",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1994",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1993",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1992",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1991",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1990",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ],
+ [
+  {
+   "lastupdated": "2026-07-13",
+   "page": 4,
+   "pages": 4,
+   "per_page": 100,
+   "sourceid": "2",
+   "total": 330
+  },
+  [
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1989",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1988",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1987",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1986",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1985",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1984",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1983",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1982",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1981",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1980",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1979",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1978",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1977",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1976",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1975",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1974",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1973",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1972",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1971",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1970",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1969",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1968",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1967",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1966",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1965",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1964",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1963",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1962",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1961",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   },
+   {
+    "country": {
+     "id": "TD",
+     "value": "Chad"
+    },
+    "countryiso3code": "TCD",
+    "date": "1960",
+    "decimal": 1,
+    "indicator": {
+     "id": "SI.POV.DDAY",
+     "value": "Poverty headcount ratio at $3.00 a day (2021 PPP) (% of population)"
+    },
+    "obs_status": "",
+    "unit": "",
+    "value": null
+   }
+  ]
+ ]
+]

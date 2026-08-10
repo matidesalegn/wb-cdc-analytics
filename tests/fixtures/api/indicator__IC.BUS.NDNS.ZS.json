@@ -1,0 +1,29 @@
+[
+ [
+  {
+   "page": 1,
+   "pages": 1,
+   "per_page": "100",
+   "total": 1
+  },
+  [
+   {
+    "id": "IC.BUS.NDNS.ZS",
+    "name": "New business density (new registrations per 1,000 people ages 15-64)",
+    "source": {
+     "id": "2",
+     "value": "World Development Indicators"
+    },
+    "sourceNote": "The number of newly registered firms with limited liability per 1,000 working-age people (ages 15-64) per calendar year.",
+    "sourceOrganization": "Entrepreneurship Database, World Bank (WB), uri: https://www.worldbank.org/en/programs/entrepreneurship",
+    "topics": [
+     {
+      "id": "12",
+      "value": "Private Sector"
+     }
+    ],
+    "unit": ""
+   }
+  ]
+ ]
+]
