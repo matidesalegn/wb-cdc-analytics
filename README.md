@@ -19,6 +19,7 @@ It is idempotent: run it twice and the second run exercises the change-detection
 incremental paths rather than repeating the first.
 
 **Design report:** [`docs/design-report.md`](docs/design-report.md)
+**CI evidence and how to verify it yourself:** [`docs/ci-evidence.md`](docs/ci-evidence.md)
 **Measured source-API behaviour:** [`docs/source-api-notes.md`](docs/source-api-notes.md)
 **Measured CDC wire format:** [`docs/cdc-wire-format.md`](docs/cdc-wire-format.md)
 **Scope contract and deliberate omissions:** [`docs/SCOPE.md`](docs/SCOPE.md)
@@ -235,6 +236,24 @@ There is deliberately no deploy step: there is no environment to deploy to, and 
 that pretends otherwise is theatre. What CI validates instead is that your `make demo`
 will work.
 
+**Verify all of it yourself, in about a minute, without GitHub:**
+
+```bash
+make ci-local
+```
+
+That runs each fast-lane check with the same command the corresponding CI job uses, printing
+the CI job name beside each result. Currently 13 of 13 pass in 49 seconds.
+
+Worth knowing before you look at the badge: **no run has executed on GitHub**, because this
+account is under a billing lock, which GitHub reports as *"The job was not started because your
+account is locked due to a billing issue."* It is not the workflow (a five-line minimal
+workflow fails identically), not this repository (a second repository fails the same way), and
+not runner availability (a self-hosted runner was registered and still hit it). Making this
+repository public restored job creation, which was the part under this repository's control:
+7 jobs are now created and dispatched. [`docs/ci-evidence.md`](docs/ci-evidence.md) records the
+full diagnosis and what every job validates.
+
 ## Repository layout
 
 Annotated with the deliverable each path satisfies.
@@ -278,7 +297,7 @@ Annotated with the deliverable each path satisfies.
 ├── scripts/                      # bootstrap, verification, demos, the convention gate
 ├── tests/                        # 59 unit tests + 1 MB of recorded API fixtures
 ├── diagrams/                     # architecture and ERD, Mermaid source plus exports
-└── docs/                         # design report, measured API and CDC notes, scope
+└── docs/                         # design report, CI evidence, measured API and CDC notes, scope
 ```
 
 ## Design decisions and trade-offs
