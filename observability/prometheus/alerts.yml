@@ -1,0 +1,223 @@
+# ---------------------------------------------------------------------------
+# Alert rules.
+#
+# Each rule encodes one stated requirement, and each annotation says what a human
+# should DO when it fires. An alert without a response is a notification, and
+# notifications get muted.
+#
+# Deliberately NOT wired to a notifier. Alertmanager routing would add a container and
+# a set of credentials to prove something a reviewer cannot see in ten minutes. The
+# rules are real, they are unit-tested by promtool in CI (see alerts_test.yml), and the
+# runbook column below is the part that would matter on a real rota.
+#
+# Two conventions applied throughout:
+#   * every rule has a `for:` duration, so a single scrape blip cannot page anyone
+#   * ratio expressions divide by clamp_min(denominator, 1) so that a period with no
+#     traffic yields 0 rather than NaN. Without it, a quiet pipeline produces a
+#     divide-by-zero that either fires spuriously or, worse, never fires again
+# ---------------------------------------------------------------------------
+groups:
+  - name: cdc-liveness
+    rules:
+      # -------------------------------------------------------------------
+      # THE critical CDC alert. Measured against the Debezium heartbeat, not against
+      # any business table.
+      #
+      # This distinction was found by measurement, not designed in: with lag computed
+      # per business table, an idle dimension reported 1805 seconds of "lag" after half
+      # an hour in which nothing had changed. Nothing was wrong. Alerting on that
+      # number pages someone every night for a table that had no news. The heartbeat
+      # row is updated on a fixed 10 second timer, so lag against IT means the
+      # connector, the broker or the ClickHouse consumer has actually stopped.
+      # -------------------------------------------------------------------
+      - alert: CdcPipelineStalled
+        expr: wb_pipeline_cdc_heartbeat_lag_seconds > 300
+        for: 2m
+        labels:
+          severity: critical
+          component: cdc
+        annotations:
+          summary: "CDC heartbeat is {{ $value | humanizeDuration }} behind; the change stream has stopped"
+          runbook: >-
+            The heartbeat ticks every 10s, so this is a stopped pipeline rather than a
+            slow one. Check in order: the connector and its tasks
+            (curl localhost:58083/connectors/pg-wb-source/status), then the ClickHouse
+            consumer (SELECT table, num_messages_read, exceptions.text FROM
+            system.kafka_consumers), then the broker (rpk cluster health). The most
+            common cause is a materialized view throwing, which fails the block,
+            prevents the offset commit, and leaves the consumer retrying silently.
+
+      # Absence is a distinct failure from staleness and needs its own rule: if the
+      # exporter itself is down, the lag metric does not go high, it disappears, and a
+      # threshold rule on a missing series never fires.
+      - alert: CdcMetricsMissing
+        expr: absent(wb_pipeline_cdc_heartbeat_lag_seconds)
+        for: 5m
+        labels:
+          severity: warning
+          component: monitoring
+        annotations:
+          summary: "CDC lag metric has been absent for 5 minutes; monitoring is blind"
+          runbook: >-
+            The pipeline exporter is not reporting. Check `docker compose logs
+            pipeline-exporter`. Until this clears, treat every other pipeline alert as
+            unreliable rather than as reassuring.
+
+  - name: cdc-source-health
+    rules:
+      # -------------------------------------------------------------------
+      # The failure mode this pipeline is most careful about, and the one with the
+      # worst blast radius: it takes down the SOURCE database, not the warehouse.
+      #
+      # An inactive logical replication slot retains WAL indefinitely so that a
+      # consumer which might return can resume. If none returns, the WAL accumulates
+      # until the source's disk fills. Nothing about the connector looks wrong while it
+      # happens, because the connector is simply gone.
+      # -------------------------------------------------------------------
+      - alert: ReplicationSlotRetainingWal
+        expr: wb_pipeline_replication_slot_retained_wal_bytes > 1073741824
+        for: 5m
+        labels:
+          severity: critical
+          component: postgres
+        annotations:
+          summary: "Replication slot {{ $labels.slot_name }} is retaining {{ $value | humanize1024 }}B of WAL"
+          runbook: >-
+            This threatens the SOURCE database's disk, not the warehouse. If the slot is
+            active, the consumer is behind: fix the consumer and the slot drains. If it
+            is inactive, nothing is reading it and it will never drain: drop it with
+            `make drop-slot`. The server also caps this at
+            max_slot_wal_keep_size=2GB as a backstop, after which the slot is
+            invalidated to protect the primary. Losing a slot is recoverable; losing
+            the primary's disk is not.
+
+      - alert: ReplicationSlotInactive
+        expr: wb_pipeline_replication_slot_retained_wal_bytes{active="false"} > 0
+        for: 10m
+        labels:
+          severity: warning
+          component: postgres
+        annotations:
+          summary: "Replication slot {{ $labels.slot_name }} has been inactive for 10 minutes and is still retaining WAL"
+          runbook: >-
+            An inactive slot retains WAL forever. Either restart the connector so it
+            resumes, or drop the slot with `make drop-slot`. Do not leave it.
+
+  - name: data-quality
+    rules:
+      # -------------------------------------------------------------------
+      # Parity between the source and the warehouse. This is the alert that catches
+      # events being dropped, which is invisible in every other signal: the connector
+      # reports RUNNING, lag is low, and the warehouse is simply missing rows.
+      #
+      # clamp_min on the denominator is what keeps this usable before the first
+      # ingestion, when the source is empty and the ratio would otherwise be 0/0.
+      # -------------------------------------------------------------------
+      #
+      # `on()` on both operators is load-bearing, not decoration. The two series carry
+      # different label names (layer vs table), and PromQL binary operations match on
+      # the full label set by default, so without `on()` the division finds no matching
+      # pair and returns an empty vector. An alert whose expression silently evaluates
+      # to nothing never fires and looks identical to an alert that is passing. The
+      # promtool test in alerts_test.yml is what pins this down.
+      - alert: CdcParityBroken
+        expr: |
+          (
+            wb_pipeline_layer_rows{layer="raw.observation"}
+            / on()
+            clamp_min(wb_pipeline_source_rows{table="wb.observation"}, 1)
+          ) < 0.99
+          and on() wb_pipeline_source_rows{table="wb.observation"} > 0
+        for: 10m
+        labels:
+          severity: critical
+          component: cdc
+        annotations:
+          summary: "ClickHouse holds only {{ $value | humanizePercentage }} of the source's observation rows"
+          runbook: >-
+            Events are being dropped or are stuck. Compare the topic high watermark
+            (rpk topic describe -p wbcdc.wb.observation) against the landing table
+            count: if the topic has the rows and ClickHouse does not, the materialized
+            view is the problem; if the topic does not have them either, the connector
+            is. `make verify` prints both sides.
+
+      - alert: IngestionQuarantineNonEmpty
+        expr: wb_pipeline_cdc_quarantine_rows > 0
+        for: 5m
+        labels:
+          severity: warning
+          component: quality
+        annotations:
+          summary: "{{ $value }} change events are quarantined and are not reaching the typed tables"
+          runbook: >-
+            Inspect them with `SELECT reason, count() FROM raw.cdc_quarantine GROUP BY
+            reason`. An incomplete primary key usually means a source schema change; an
+            unknown operation code usually means a Debezium version change.
+
+      - alert: IngestionRejectingRows
+        expr: increase(wb_pipeline_ingest_rejected_rows[1h]) > 10
+        for: 15m
+        labels:
+          severity: warning
+          component: quality
+        annotations:
+          summary: "The pre-load gate rejected {{ $value }} rows from {{ $labels.stream }} in the last hour"
+          runbook: >-
+            Read the reasons in ops.ingest_reject. A handful is normal for a public
+            dataset; a sustained rise means the source's shape changed. The gate is
+            working as intended either way, so this is a data question rather than an
+            outage.
+
+      # Freshness, distinct from liveness. Fires when the pipeline is demonstrably
+      # alive (the heartbeat is fine) but a table that should be moving has not moved.
+      # The `and on()` clause is what makes it a data alert rather than a duplicate of
+      # CdcPipelineStalled.
+      - alert: ObservationDataStale
+        expr: |
+          wb_pipeline_seconds_since_last_change{src_table="observation"} > 86400
+          and on() wb_pipeline_cdc_heartbeat_lag_seconds < 300
+        for: 30m
+        labels:
+          severity: warning
+          component: freshness
+        annotations:
+          summary: "Observations have not changed in {{ $value | humanizeDuration }} while CDC is healthy"
+          runbook: >-
+            The transport is fine, so this is upstream. Either the scheduled ingestion
+            is not running (check ops.ingest_run and the Airflow DAG) or the source
+            genuinely published nothing, which is normal for annual statistics. Check
+            the ingestion first.
+
+  - name: platform
+    rules:
+      # No static `component` label here, deliberately. A label set on the rule
+      # OVERRIDES the same label from the scraped series, so `component: platform`
+      # would relabel a ClickHouse outage as "platform" and discard the one piece of
+      # routing information worth having. The component comes from the scrape config in
+      # prometheus.yml and is allowed through untouched.
+      - alert: ServiceDown
+        expr: up == 0
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Scrape target {{ $labels.job }} ({{ $labels.instance }}) has been down for 2 minutes"
+          runbook: "docker compose ps, then docker compose logs {{ $labels.job }}."
+
+      # Early warning for the failure an over-partitioned ClickHouse table reaches
+      # first. It is included specifically because this project chose NOT to partition
+      # its tables, and this is the metric that would show that decision going wrong at
+      # a larger volume rather than being asserted as permanently correct.
+      - alert: ClickHouseTooManyParts
+        expr: wb_pipeline_active_parts > 300
+        for: 15m
+        labels:
+          severity: warning
+          component: olap
+        annotations:
+          summary: "{{ $labels.database }}.{{ $labels.table }} has {{ $value }} active parts; merges are falling behind"
+          runbook: >-
+            ClickHouse refuses inserts at 300 parts per partition by default, so this is
+            an approaching write outage rather than a performance note. Usually caused by
+            many small inserts or by an over-granular partition key. Check the insert
+            batch size first, then the PARTITION BY choice.

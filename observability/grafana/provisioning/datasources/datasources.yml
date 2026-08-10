@@ -1,0 +1,30 @@
+# ---------------------------------------------------------------------------
+# Datasources as code. Provisioned from this file at container start, so Grafana
+# comes up already wired with zero clicks.
+#
+# ONE datasource, and that is a deliberate choice worth stating. The obvious
+# alternative is to add the ClickHouse datasource plugin so panels can query the
+# warehouse with SQL directly. It is rejected here because installing it requires
+# GF_INSTALL_PLUGINS, which makes Grafana's container start depend on reaching
+# grafana.com. A reviewer without network, or behind a proxy, would then get a Grafana
+# that fails to boot for reasons unrelated to this pipeline.
+#
+# Everything a panel needs therefore arrives through Prometheus: the warehouse-side
+# and source-side figures are exported by ingest/exporter.py, and ClickHouse and
+# Redpanda are scraped natively. The cost is that panels cannot run ad-hoc SQL; the
+# benefit is that `make up-mon` works on a plane.
+# ---------------------------------------------------------------------------
+apiVersion: 1
+
+datasources:
+  - name: Prometheus
+    type: prometheus
+    uid: prometheus
+    access: proxy
+    url: http://prometheus:9090
+    isDefault: true
+    jsonData:
+      # Match the scrape interval so Grafana's auto-step does not interpolate between
+      # points and make a stalled pipeline look like a gently sloping one.
+      timeInterval: 15s
+      httpMethod: POST

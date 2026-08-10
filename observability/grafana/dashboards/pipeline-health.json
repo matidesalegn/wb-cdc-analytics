@@ -1,0 +1,309 @@
+{
+  "uid": "wb-pipeline-health",
+  "title": "Pipeline health",
+  "description": "One dashboard covering the four signals the assessment names: pipeline health, data freshness, CDC lag and resource usage. Panel order follows the data path, so a reader scans left to right and top to bottom in the direction the data actually moves.",
+  "tags": ["wb-cdc-analytics", "cdc", "clickhouse"],
+  "timezone": "browser",
+  "editable": false,
+  "schemaVersion": 39,
+  "version": 1,
+  "refresh": "30s",
+  "time": { "from": "now-1h", "to": "now" },
+  "templating": { "list": [] },
+  "annotations": { "list": [] },
+  "panels": [
+    {
+      "type": "row",
+      "title": "CDC lag and connector liveness",
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 0 },
+      "collapsed": false,
+      "panels": []
+    },
+    {
+      "id": 1,
+      "type": "stat",
+      "title": "CDC lag (heartbeat)",
+      "description": "Seconds since the last Debezium heartbeat reached ClickHouse. This is connector LIVENESS, measured against a row that is updated on a fixed 10 second timer, not against a business table. Lag measured per business table conflates a stopped connector with a table that simply has not changed: an idle dimension reported 1805 seconds here during testing while nothing was wrong. Thresholds match the CdcPipelineStalled alert exactly, so the panel and the alert cannot disagree.",
+      "gridPos": { "h": 6, "w": 6, "x": 0, "y": 1 },
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "targets": [
+        { "refId": "A", "expr": "wb_pipeline_cdc_heartbeat_lag_seconds", "legendFormat": "lag" }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "decimals": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "green", "value": null },
+              { "color": "yellow", "value": 60 },
+              { "color": "red", "value": 300 }
+            ]
+          },
+          "noValue": "exporter down"
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false },
+        "colorMode": "background",
+        "graphMode": "area",
+        "textMode": "auto"
+      }
+    },
+    {
+      "id": 2,
+      "type": "timeseries",
+      "title": "Replication slot: retained WAL",
+      "description": "WAL bytes the CDC replication slot is holding on the SOURCE database. This is the failure with the worst blast radius in the whole design: an inactive slot retains WAL indefinitely so a consumer that might return can resume, and if none returns the source's disk fills while nothing about the connector looks wrong. The red threshold matches ReplicationSlotRetainingWal; the server independently caps this at max_slot_wal_keep_size=2GB.",
+      "gridPos": { "h": 6, "w": 9, "x": 6, "y": 1 },
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "wb_pipeline_replication_slot_retained_wal_bytes",
+          "legendFormat": "{{slot_name}} (active={{active}})"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "bytes",
+          "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 10, "showPoints": "never" },
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "green", "value": null },
+              { "color": "red", "value": 1073741824 }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "options": { "legend": { "displayMode": "list", "placement": "bottom" }, "tooltip": { "mode": "multi" } }
+    },
+    {
+      "id": 3,
+      "type": "timeseries",
+      "title": "Change events by operation",
+      "description": "Events retained in the 30 day immutable log, split by operation. The useful reading is the shape rather than the absolute number: a re-ingest that produced thousands of updates would mean the change-detecting upsert has stopped working and the CDC stream has started describing the scheduler rather than reality.",
+      "gridPos": { "h": 6, "w": 9, "x": 15, "y": 1 },
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "wb_pipeline_cdc_events_total_30d",
+          "legendFormat": "{{src_table}} {{op}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "custom": { "drawStyle": "line", "lineWidth": 1, "fillOpacity": 15, "stacking": { "mode": "none" }, "showPoints": "never" }
+        },
+        "overrides": []
+      },
+      "options": { "legend": { "displayMode": "table", "placement": "right", "calcs": ["lastNotNull"] }, "tooltip": { "mode": "multi" } }
+    },
+    {
+      "type": "row",
+      "title": "Pipeline health: did data move through every stage",
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 7 },
+      "collapsed": false,
+      "panels": []
+    },
+    {
+      "id": 4,
+      "type": "timeseries",
+      "title": "Rows per layer",
+      "description": "Row counts along the whole path: landing, staging, fact, and the ML feature table. This is the panel that answers the assessment's validate-each-stage question visually. Landing and staging should track each other exactly; the fact table matches staging; the feature table is one row per country and year, so it is deliberately far smaller.",
+      "gridPos": { "h": 8, "w": 15, "x": 0, "y": 8 },
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "targets": [
+        { "refId": "A", "expr": "wb_pipeline_layer_rows", "legendFormat": "{{layer}}" },
+        { "refId": "B", "expr": "wb_pipeline_source_rows", "legendFormat": "source {{table}}" }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 0, "showPoints": "auto" }
+        },
+        "overrides": []
+      },
+      "options": { "legend": { "displayMode": "table", "placement": "right", "calcs": ["lastNotNull"] }, "tooltip": { "mode": "multi", "sort": "desc" } }
+    },
+    {
+      "id": 5,
+      "type": "stat",
+      "title": "Source to warehouse parity",
+      "description": "Observation rows in ClickHouse as a fraction of rows in PostgreSQL. The single most important correctness number on this dashboard, because dropped events are invisible in every other signal: the connector reports RUNNING, lag stays low, and the warehouse is quietly short. clamp_min on the denominator keeps this readable on a fresh stack instead of showing a divide-by-zero.",
+      "gridPos": { "h": 8, "w": 4, "x": 15, "y": 8 },
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "wb_pipeline_layer_rows{layer=\"raw.observation\"} / on() clamp_min(wb_pipeline_source_rows{table=\"wb.observation\"}, 1)",
+          "legendFormat": "parity"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "min": 0,
+          "max": 1,
+          "decimals": 2,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "red", "value": null },
+              { "color": "yellow", "value": 0.99 },
+              { "color": "green", "value": 0.999 }
+            ]
+          },
+          "noValue": "no data yet"
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false },
+        "colorMode": "background",
+        "graphMode": "area"
+      }
+    },
+    {
+      "id": 6,
+      "type": "stat",
+      "title": "Quality gates",
+      "description": "Two counters that should both stay at zero: events quarantined because their primary key could not be attributed to a business entity, and rows the pre-load validation gate rejected. Non-zero is not necessarily an outage, it is a data question, and both are inspectable in raw.cdc_quarantine and ops.ingest_reject.",
+      "gridPos": { "h": 8, "w": 5, "x": 19, "y": 8 },
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "targets": [
+        { "refId": "A", "expr": "wb_pipeline_cdc_quarantine_rows", "legendFormat": "quarantined" },
+        { "refId": "B", "expr": "sum(wb_pipeline_ingest_rejected_rows) or vector(0)", "legendFormat": "rejected" }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "decimals": 0,
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              { "color": "green", "value": null },
+              { "color": "orange", "value": 1 }
+            ]
+          }
+        },
+        "overrides": []
+      },
+      "options": {
+        "reduceOptions": { "calcs": ["lastNotNull"], "fields": "", "values": false },
+        "colorMode": "value",
+        "graphMode": "none",
+        "textMode": "value_and_name",
+        "orientation": "vertical"
+      }
+    },
+    {
+      "type": "row",
+      "title": "Data freshness and resource usage",
+      "gridPos": { "h": 1, "w": 24, "x": 0, "y": 16 },
+      "collapsed": false,
+      "panels": []
+    },
+    {
+      "id": 7,
+      "type": "timeseries",
+      "title": "Data freshness: time since last change, per table",
+      "description": "Informational, and deliberately NOT alerted on by itself. A table with no recent events is usually a table nothing changed in: these are annual statistics, so a flat line here is the normal state. It becomes meaningful only in combination with the CDC lag panel above, which is exactly how the ObservationDataStale alert is written.",
+      "gridPos": { "h": 7, "w": 12, "x": 0, "y": 17 },
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "wb_pipeline_seconds_since_last_change",
+          "legendFormat": "{{src_table}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 5, "showPoints": "never" }
+        },
+        "overrides": []
+      },
+      "options": { "legend": { "displayMode": "table", "placement": "right", "calcs": ["lastNotNull"] }, "tooltip": { "mode": "multi" } }
+    },
+    {
+      "id": 8,
+      "type": "timeseries",
+      "title": "ClickHouse active parts, and memory",
+      "description": "Active parts per table is direct evidence for this project's deliberate decision NOT to partition its tables: a flat, low count means the choice is holding. It is also the early warning for too_many_parts, which is an approaching WRITE OUTAGE rather than a performance note, since ClickHouse refuses inserts past 300 parts per partition by default. Memory comes from ClickHouse's native endpoint, so no exporter container is involved.",
+      "gridPos": { "h": 7, "w": 12, "x": 12, "y": 17 },
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "wb_pipeline_active_parts",
+          "legendFormat": "parts {{database}}.{{table}}"
+        },
+        {
+          "refId": "B",
+          "expr": "ClickHouseMetrics_MemoryTracking / 1024 / 1024",
+          "legendFormat": "ClickHouse memory (MiB)"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "custom": { "drawStyle": "line", "lineWidth": 1, "fillOpacity": 0, "showPoints": "never" }
+        },
+        "overrides": [
+          {
+            "matcher": { "id": "byName", "options": "ClickHouse memory (MiB)" },
+            "properties": [
+              { "id": "custom.axisPlacement", "value": "right" },
+              { "id": "unit", "value": "mbytes" }
+            ]
+          }
+        ]
+      },
+      "options": { "legend": { "displayMode": "table", "placement": "right", "calcs": ["lastNotNull"] }, "tooltip": { "mode": "multi" } }
+    },
+    {
+      "id": 9,
+      "type": "timeseries",
+      "title": "Ingestion outcomes",
+      "description": "Runs by status, and time since the last success. Answers the question a row count cannot: a full table proves the pipeline worked once, not that it worked today. A rising failed count with a flat success count is the shape of a pipeline that has stopped while its data still looks complete.",
+      "gridPos": { "h": 7, "w": 24, "x": 0, "y": 24 },
+      "datasource": { "type": "prometheus", "uid": "prometheus" },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "wb_pipeline_ingest_runs_total",
+          "legendFormat": "{{stream}} {{status}}"
+        },
+        {
+          "refId": "B",
+          "expr": "time() - wb_pipeline_ingest_last_success_timestamp_seconds",
+          "legendFormat": "{{stream}}: seconds since last success"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "short",
+          "custom": { "drawStyle": "line", "lineWidth": 2, "fillOpacity": 0, "showPoints": "auto" }
+        },
+        "overrides": [
+          {
+            "matcher": { "id": "byRegexp", "options": ".*seconds since last success.*" },
+            "properties": [
+              { "id": "custom.axisPlacement", "value": "right" },
+              { "id": "unit", "value": "s" }
+            ]
+          }
+        ]
+      },
+      "options": { "legend": { "displayMode": "table", "placement": "right", "calcs": ["lastNotNull"] }, "tooltip": { "mode": "multi" } }
+    }
+  ]
+}

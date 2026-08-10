@@ -1,0 +1,244 @@
+# ---------------------------------------------------------------------------
+# Unit tests for the alert rules, run by `promtool test rules` in CI.
+#
+# Alert rules are code, and untested alert rules fail in the only way that matters:
+# silently. A rule whose expression evaluates to an empty vector because of a label
+# mismatch never fires, and on a dashboard it is indistinguishable from a rule that is
+# passing. You find out during the incident it was supposed to catch.
+#
+# These tests therefore assert both directions for the rules that matter: that each one
+# fires when it should, AND that it stays quiet when it should. The quiet cases are the
+# more valuable half, because a noisy alert gets muted and a muted alert is not an
+# alert.
+#
+# Run locally with:
+#   docker run --rm -v "$PWD/observability/prometheus:/p" --entrypoint promtool \
+#     prom/prometheus:v3.1.0 test rules /p/alerts_test.yml
+# ---------------------------------------------------------------------------
+rule_files:
+  - alerts.yml
+
+evaluation_interval: 1m
+
+tests:
+  # -------------------------------------------------------------------------
+  - name: CDC heartbeat lag fires only after the for-duration
+    interval: 1m
+    input_series:
+      - series: 'wb_pipeline_cdc_heartbeat_lag_seconds'
+        # Healthy for 3 minutes, then stalled for the rest.
+        values: "5 5 5 400 400 400 400"
+    alert_rule_test:
+      # Healthy: nothing pending, nothing firing.
+      - eval_time: 2m
+        alertname: CdcPipelineStalled
+        exp_alerts: []
+      # One minute over the threshold: pending, not yet firing, because `for: 2m`
+      # exists precisely so a single bad scrape cannot page anyone.
+      - eval_time: 4m
+        alertname: CdcPipelineStalled
+        exp_alerts: []
+      # Two full minutes over the threshold: firing.
+      - eval_time: 6m
+        alertname: CdcPipelineStalled
+        exp_alerts:
+          - exp_labels:
+              severity: critical
+              component: cdc
+            exp_annotations:
+              summary: "CDC heartbeat is 6m 40s behind; the change stream has stopped"
+              runbook: >-
+                The heartbeat ticks every 10s, so this is a stopped pipeline rather than a
+                slow one. Check in order: the connector and its tasks (curl
+                localhost:58083/connectors/pg-wb-source/status), then the ClickHouse
+                consumer (SELECT table, num_messages_read, exceptions.text FROM
+                system.kafka_consumers), then the broker (rpk cluster health). The most
+                common cause is a materialized view throwing, which fails the block,
+                prevents the offset commit, and leaves the consumer retrying silently.
+
+  # -------------------------------------------------------------------------
+  - name: A missing lag metric is its own alert, not silence
+    interval: 1m
+    input_series:
+      # Deliberately empty: the exporter is down, so the series does not exist. A
+      # threshold rule on a missing series never fires, which is why absent() needs its
+      # own rule.
+      - series: 'up{job="prometheus"}'
+        values: "1+0x10"
+    alert_rule_test:
+      - eval_time: 6m
+        alertname: CdcMetricsMissing
+        exp_alerts:
+          - exp_labels:
+              severity: warning
+              component: monitoring
+            exp_annotations:
+              summary: "CDC lag metric has been absent for 5 minutes; monitoring is blind"
+              runbook: >-
+                The pipeline exporter is not reporting. Check `docker compose logs
+                pipeline-exporter`. Until this clears, treat every other pipeline alert as
+                unreliable rather than as reassuring.
+
+  # -------------------------------------------------------------------------
+  - name: Replication slot WAL retention
+    interval: 1m
+    input_series:
+      - series: 'wb_pipeline_replication_slot_retained_wal_bytes{slot_name="wb_cdc_slot",active="true"}'
+        # Starts at 512 MiB (fine), climbs to 2 GiB (not fine).
+        values: "536870912 536870912 2147483648 2147483648 2147483648 2147483648 2147483648 2147483648"
+    alert_rule_test:
+      - eval_time: 2m
+        alertname: ReplicationSlotRetainingWal
+        exp_alerts: []
+      - eval_time: 8m
+        alertname: ReplicationSlotRetainingWal
+        exp_alerts:
+          - exp_labels:
+              severity: critical
+              component: postgres
+              slot_name: wb_cdc_slot
+              active: "true"
+            exp_annotations:
+              summary: "Replication slot wb_cdc_slot is retaining 2GiB of WAL"
+              runbook: >-
+                This threatens the SOURCE database's disk, not the warehouse. If the slot is
+                active, the consumer is behind: fix the consumer and the slot drains. If it
+                is inactive, nothing is reading it and it will never drain: drop it with
+                `make drop-slot`. The server also caps this at max_slot_wal_keep_size=2GB as
+                a backstop, after which the slot is invalidated to protect the primary.
+                Losing a slot is recoverable; losing the primary's disk is not.
+
+  # -------------------------------------------------------------------------
+  - name: Parity stays quiet before the first ingestion
+    interval: 1m
+    input_series:
+      # The empty-warehouse case. Without clamp_min this is 0/0, and without the
+      # `and on() ... > 0` guard an empty source would look like 100 percent data loss
+      # and fire immediately on a fresh stack. This test is the reason both exist.
+      - series: 'wb_pipeline_layer_rows{layer="raw.observation"}'
+        values: "0+0x15"
+      - series: 'wb_pipeline_source_rows{table="wb.observation"}'
+        values: "0+0x15"
+    alert_rule_test:
+      - eval_time: 12m
+        alertname: CdcParityBroken
+        exp_alerts: []
+
+  # -------------------------------------------------------------------------
+  - name: Parity fires when the warehouse falls behind the source
+    interval: 1m
+    input_series:
+      # 2,000 of 2,970 rows landed. This also exercises the `on()` vector matching:
+      # the two series carry different label names, so without explicit `on()` the
+      # division returns an empty vector and this alert could never fire at all.
+      - series: 'wb_pipeline_layer_rows{layer="raw.observation"}'
+        values: "2000+0x15"
+      - series: 'wb_pipeline_source_rows{table="wb.observation"}'
+        values: "2970+0x15"
+    alert_rule_test:
+      - eval_time: 12m
+        alertname: CdcParityBroken
+        exp_alerts:
+          - exp_labels:
+              severity: critical
+              component: cdc
+            exp_annotations:
+              summary: "ClickHouse holds only 67.34% of the source's observation rows"
+              runbook: >-
+                Events are being dropped or are stuck. Compare the topic high watermark (rpk
+                topic describe -p wbcdc.wb.observation) against the landing table count: if
+                the topic has the rows and ClickHouse does not, the materialized view is the
+                problem; if the topic does not have them either, the connector is. `make
+                verify` prints both sides.
+
+  # -------------------------------------------------------------------------
+  - name: Parity stays quiet when the warehouse has caught up
+    interval: 1m
+    input_series:
+      - series: 'wb_pipeline_layer_rows{layer="raw.observation"}'
+        values: "2970+0x15"
+      - series: 'wb_pipeline_source_rows{table="wb.observation"}'
+        values: "2970+0x15"
+    alert_rule_test:
+      - eval_time: 12m
+        alertname: CdcParityBroken
+        exp_alerts: []
+
+  # -------------------------------------------------------------------------
+  - name: Stale data does not double-page when CDC is already known to be down
+    interval: 1m
+    input_series:
+      - series: 'wb_pipeline_seconds_since_last_change{src_table="observation"}'
+        values: "200000+0x40"
+      # The heartbeat is ALSO bad, so CdcPipelineStalled is already firing. The
+      # freshness alert must stay quiet: two alerts for one root cause is how a rota
+      # learns to ignore both.
+      - series: 'wb_pipeline_cdc_heartbeat_lag_seconds'
+        values: "9000+0x40"
+    alert_rule_test:
+      - eval_time: 35m
+        alertname: ObservationDataStale
+        exp_alerts: []
+      # The stall alert is the one that should be firing here.
+      - eval_time: 35m
+        alertname: CdcPipelineStalled
+        exp_alerts:
+          - exp_labels:
+              severity: critical
+              component: cdc
+            exp_annotations:
+              summary: "CDC heartbeat is 2h 30m 0s behind; the change stream has stopped"
+              runbook: >-
+                The heartbeat ticks every 10s, so this is a stopped pipeline rather than a
+                slow one. Check in order: the connector and its tasks (curl
+                localhost:58083/connectors/pg-wb-source/status), then the ClickHouse
+                consumer (SELECT table, num_messages_read, exceptions.text FROM
+                system.kafka_consumers), then the broker (rpk cluster health). The most
+                common cause is a materialized view throwing, which fails the block,
+                prevents the offset commit, and leaves the consumer retrying silently.
+
+  # -------------------------------------------------------------------------
+  - name: Stale data fires when the transport is healthy but nothing arrives
+    interval: 1m
+    input_series:
+      - series: 'wb_pipeline_seconds_since_last_change{src_table="observation"}'
+        values: "200000+0x40"
+      - series: 'wb_pipeline_cdc_heartbeat_lag_seconds'
+        values: "5+0x40"
+    alert_rule_test:
+      - eval_time: 35m
+        alertname: ObservationDataStale
+        exp_alerts:
+          - exp_labels:
+              severity: warning
+              component: freshness
+              src_table: observation
+            exp_annotations:
+              summary: "Observations have not changed in 2d 7h 33m 20s while CDC is healthy"
+              runbook: >-
+                The transport is fine, so this is upstream. Either the scheduled ingestion is
+                not running (check ops.ingest_run and the Airflow DAG) or the source
+                genuinely published nothing, which is normal for annual statistics. Check
+                the ingestion first.
+
+  # -------------------------------------------------------------------------
+  - name: A down scrape target alerts
+    interval: 1m
+    input_series:
+      - series: 'up{job="clickhouse", instance="clickhouse:9363", component="olap"}'
+        values: "1 1 0 0 0 0"
+    alert_rule_test:
+      - eval_time: 1m
+        alertname: ServiceDown
+        exp_alerts: []
+      - eval_time: 5m
+        alertname: ServiceDown
+        exp_alerts:
+          - exp_labels:
+              severity: critical
+              component: olap
+              job: clickhouse
+              instance: clickhouse:9363
+            exp_annotations:
+              summary: "Scrape target clickhouse (clickhouse:9363) has been down for 2 minutes"
+              runbook: "docker compose ps, then docker compose logs clickhouse."

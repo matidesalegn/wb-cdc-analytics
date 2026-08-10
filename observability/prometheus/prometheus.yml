@@ -1,0 +1,58 @@
+# ---------------------------------------------------------------------------
+# Three scrape targets, and no exporter sidecars.
+#
+# ClickHouse and Redpanda both expose Prometheus metrics natively, so the usual
+# clickhouse-exporter and JMX-exporter containers are not needed. That is two fewer
+# containers, two fewer version pins, and two fewer things that can be the reason a
+# dashboard is empty.
+#
+# The one exporter that does exist, pipeline-exporter, covers only what nothing else
+# can: the data-plane signals that live in tables rather than in a process. See
+# ingest/exporter.py for why it queries at scrape time rather than caching.
+# ---------------------------------------------------------------------------
+global:
+  # 15s is a deliberate compromise. The CDC lag alert needs to distinguish a stalled
+  # connector from a slow one within a minute or so, and the heartbeat ticks every
+  # 10s, so scraping much slower than the heartbeat would alias it.
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  external_labels:
+    stack: wb-cdc-analytics
+
+rule_files:
+  - /etc/prometheus/alerts.yml
+
+scrape_configs:
+  # Pipeline data-plane metrics: CDC lag, layer row counts, replication slot WAL,
+  # ingestion outcomes, quarantine depth, active parts.
+  - job_name: pipeline
+    static_configs:
+      - targets: ["pipeline-exporter:9108"]
+        labels:
+          component: data-plane
+
+  # ClickHouse's native endpoint. Server memory, query counts, merges, per-error-code
+  # counters. The error counters are how a silently failing materialized view shows up
+  # as a rising number rather than as nothing at all.
+  - job_name: clickhouse
+    static_configs:
+      - targets: ["clickhouse:9363"]
+        labels:
+          component: olap
+
+  # Redpanda's native endpoint. /public_metrics is the curated set intended for
+  # dashboards and alerts; /metrics is the far larger internal set.
+  - job_name: redpanda
+    metrics_path: /public_metrics
+    static_configs:
+      - targets: ["redpanda:9644"]
+        labels:
+          component: broker
+
+  # Prometheus scraping itself, so "is monitoring up" has an answer that does not
+  # depend on the thing being monitored.
+  - job_name: prometheus
+    static_configs:
+      - targets: ["localhost:9090"]
+        labels:
+          component: monitoring

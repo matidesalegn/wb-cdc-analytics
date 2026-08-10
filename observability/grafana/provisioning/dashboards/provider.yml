@@ -1,0 +1,18 @@
+# Load every dashboard JSON in the mounted directory. Dashboards live in the
+# repository and are provisioned read-only, so the version a reviewer sees is the
+# version in git rather than whatever someone last clicked into a running instance.
+apiVersion: 1
+
+providers:
+  - name: wb-cdc-analytics
+    orgId: 1
+    folder: Pipeline
+    type: file
+    disableDeletion: true
+    # A dashboard edited in the UI is overwritten on the next reload. That is the
+    # intent: the file is the source of truth.
+    allowUiUpdates: false
+    updateIntervalSeconds: 30
+    options:
+      path: /var/lib/grafana/dashboards
+      foldersFromFilesStructure: false
