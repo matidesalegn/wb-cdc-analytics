@@ -230,8 +230,8 @@ each retaining hundreds of GB of WAL. Nothing surfaced it. I found them while au
 sessions on the cluster, and they were inactive slots orphaned by connectors that had already
 moved on, so there was no unhealthy consumer to notice: the connectors that were still running
 looked fine. The expensive part was not the diagnosis. I dropped the slots and reclaimed the
-space, and the running connectors recreated them within minutes, so the WAL began accumulating
-again. That is why the controls here are ordered the way they are. `make down` deletes the
+space, and the running connectors simply recreated them, so the WAL began accumulating again.
+That is why the controls here are ordered the way they are. `make down` deletes the
 connector and waits for it to release the slot before dropping it, and it refuses to drop a slot
 that is still active rather than failing quietly; `max_slot_wal_keep_size` is set on the server so
 that the same mistake is bounded even when nobody is looking.
