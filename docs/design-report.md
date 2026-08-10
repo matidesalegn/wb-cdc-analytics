@@ -219,22 +219,24 @@ something invisible in a ten-minute review. Every rule carries a runbook instead
 that works on a laptop, and the design above is shaped by them.*
 
 **1. The forgotten replication slot.** An inactive logical replication slot retains WAL
-indefinitely so a consumer that might return can resume. If none returns, WAL accumulates
-until the **source** database's disk fills, and nothing about the connector looks wrong
-because the connector is gone. Three controls: `max_slot_wal_keep_size=2GB` so the server
-invalidates the slot rather than filling its disk; a heartbeat so the slot advances even when
-captured tables are idle; and `make down` drops the slot explicitly.
+indefinitely so a consumer that might return can resume. If none returns, WAL accumulates until
+the **source** database's disk fills. What makes it hard to catch is that there is nothing
+unhealthy to look at, in either of the two ways it happens: the connector is gone entirely, so
+there is no consumer to inspect, or a connector is still running perfectly well against a newer
+slot while an orphaned one retains WAL behind it. Three controls:
+`max_slot_wal_keep_size=2GB` so the server invalidates the slot rather than filling its disk; a
+heartbeat so the slot advances even when the captured tables are idle; and `make down`, which
+removes the connector before dropping the slot, in that order.
 
-I have recovered a managed PostgreSQL cluster where three abandoned replication slots were
-each retaining hundreds of GB of WAL. Nothing surfaced it. I found them while auditing active
-sessions on the cluster, and they were inactive slots orphaned by connectors that had already
-moved on, so there was no unhealthy consumer to notice: the connectors that were still running
-looked fine. The expensive part was not the diagnosis. I dropped the slots and reclaimed the
-space, and the running connectors simply recreated them, so the WAL began accumulating again.
-That is why the controls here are ordered the way they are. `make down` deletes the
-connector and waits for it to release the slot before dropping it, and it refuses to drop a slot
-that is still active rather than failing quietly; `max_slot_wal_keep_size` is set on the server so
-that the same mistake is bounded even when nobody is looking.
+I have recovered a managed PostgreSQL cluster where three abandoned replication slots were each
+retaining hundreds of GB of WAL, and it was the second of those two cases. Nothing surfaced it: I
+found them while auditing active sessions on the cluster, and the connectors still running looked
+fine. The expensive part was not the diagnosis. I dropped the slots and reclaimed the space, and
+the running connectors simply recreated them, so the WAL began accumulating again.
+
+That is the whole reason `make down` removes the connector first and refuses to drop a slot that
+is still attached rather than failing quietly. Dropping the slot treats the symptom; the consumer
+is what keeps making a new one.
 
 **2. Dedup ordering, when a log position is compared as text.** Any "latest version wins" rule
 needs a total order over log positions, and the trap is that the obvious ordering is a string
