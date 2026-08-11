@@ -50,7 +50,7 @@ Ethiopia's *New businesses registered* value for 2023.
 
 | Hop | What happens | Guarantee |
 |---|---|---|
-| **API to memory** | `GET /v2/country/TCD;ETH;KEN;RWA;SSD/indicator/IC.BUS.NREG?page=3&per_page=100` | At-least-once, safe: nothing is written yet, and retries use backoff with jitter |
+| **API to memory** | `GET /v2/country/TCD;ETH;KEN;RWA;SSD/indicator/IC.BUS.NREG?page=3&per_page=100`. Nine indicators over four pages each, so 36 requests for the fact stream. The page count is taken from the **first** response only, because a page past the end returns a recalculated and wrong one | At-least-once, safe: nothing is written yet, and retries use backoff with jitter |
 | **Validation** | Typed contract. `countryiso3code` is used, **not** `country.id`, which is ISO2 here. Series vintage attached from page *metadata*. Content hash over business fields only | Fail-closed: a bad row is rejected with a reason into `ops.ingest_reject`, and a mostly-rejected batch fails the run |
 | **Load to PostgreSQL** | `ON CONFLICT (country_id, indicator_id, obs_year) DO UPDATE ... WHERE source_hash IS DISTINCT FROM EXCLUDED.source_hash` | Idempotent and quiet. Verified: a second run reports `unchanged=2970`. Data, audit row and watermark commit in **one transaction**, so a recorded position can never claim work that rolled back |
 | **WAL to Debezium** | Logical decoding via `pgoutput`, explicit publication over four tables | At-least-once, positioned by LSN. Explicit publication means adding an unrelated table cannot silently change what streams |
