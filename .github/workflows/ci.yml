@@ -378,6 +378,25 @@ jobs:
         run: |
           set -a; . ./.env; set +a
           docker compose --profile observability up -d --wait
+
+          # Wait for the first scrape cycle before asserting anything.
+          #
+          # `up --wait` returns when containers report healthy, which is strictly earlier
+          # than Prometheus having scraped anything: the interval is 15s, so an immediate
+          # check sees every target as down and the job fails on a race rather than on a
+          # defect. This was a latent bug: the assertion below has never actually run in
+          # GitHub Actions, so nothing caught it until this lane ran on a real machine.
+          #
+          # Bounded, and it does not assert. The assertions stay below so that a genuine
+          # failure still reports which specific job is down rather than "timed out".
+          for _ in $(seq 1 24); do
+            body=$(curl -sf "http://127.0.0.1:${PROMETHEUS_HOST_PORT}/api/v1/targets" || true)
+            ups=$(printf '%s' "$body" | grep -o '"health":"up"' | wc -l)
+            bad=$(printf '%s' "$body" | grep -oE '"health":"(down|unknown)"' | wc -l)
+            if [ "${ups:-0}" -gt 0 ] && [ "${bad:-0}" -eq 0 ]; then break; fi
+            sleep 5
+          done
+
           # Every scrape target must be up, or a dashboard panel is silently empty.
           curl -sf "http://127.0.0.1:${PROMETHEUS_HOST_PORT}/api/v1/targets" | python3 -c "
           import sys,json
