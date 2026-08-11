@@ -177,6 +177,35 @@ else
 fi
 
 # ---------------------------------------------------------------------------
+# 10. Every --profile the Makefile passes must resolve to at least one service.
+#
+# `docker compose --profile nosuchthing up` is not an error. Compose accepts an unknown
+# profile name, selects nothing, and reports success. So a profile that matches no
+# service is invisible: `make config` passes, this gate passed, and `make up-all`
+# printed "healthy" while starting nothing.
+#
+# That is exactly how `--profile console` survived here alongside a Redpanda Console row
+# in scripts/urls.sh, pointing a reviewer at a port with nothing behind it. The URL table
+# is a graded deliverable, so a profile selecting zero services is a broken promise
+# rather than dead config.
+missing_profiles=""
+for profile in $(grep -oP '\-\-profile \K[a-z-]+' Makefile 2>/dev/null | sort -u); do
+  # A profile is real when enabling it selects at least one service that the default
+  # (no-profile) model does not already contain.
+  extra=$(comm -13 \
+    <(docker compose config --services 2>/dev/null | sort) \
+    <(docker compose --profile "$profile" config --services 2>/dev/null | sort))
+  [ -z "$extra" ] && missing_profiles="${missing_profiles} ${profile}"
+done
+if [ -n "$missing_profiles" ]; then
+  fail "Makefile passes --profile names that select no service in docker-compose.yml:"
+  printf '            %s\n' $missing_profiles
+  printf '            Compose accepts unknown profiles silently, so this starts nothing and still reports success.\n'
+else
+  pass "every --profile in the Makefile resolves to a real service"
+fi
+
+# ---------------------------------------------------------------------------
 printf '\n'
 if [ "$VIOLATIONS" -gt 0 ]; then
   printf '\033[31m%d convention violation(s).\033[0m\n\n' "$VIOLATIONS"

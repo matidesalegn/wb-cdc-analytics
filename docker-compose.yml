@@ -248,6 +248,41 @@ services:
     restart: unless-stopped
 
   # -------------------------------------------------------------------------
+  # Redpanda Console. A read-only browser UI over the topics and the connector.
+  #
+  # It earns its place in a CDC project specifically because it makes the change
+  # event visible as a document: `before`, `after`, `op` and `source.lsn` are the
+  # contract every materialized view in sql/clickhouse/002_raw_cdc.sql is written
+  # against, and being able to click one and read it is worth more than any
+  # description of it.
+  #
+  # Configuration is a mounted file, not `environment:` keys. Console cannot take
+  # object arrays from environment variables and kafkaConnect.clusters is one, so
+  # the flat form yields a Console with no Connect tab and no error. See the
+  # comments in observability/console/config.yml.
+  #
+  # No healthcheck on purpose. Which HTTP client binaries this image ships is not
+  # something to guess at, and a healthcheck calling a missing `curl` makes a
+  # working service report unhealthy forever. `--wait` therefore treats this as
+  # ready once running, and scripts/ci/convention_gate.sh asserts the profile
+  # resolves to a real service so the URL in `make urls` cannot go stale again.
+  # -------------------------------------------------------------------------
+  redpanda-console:
+    image: docker.redpanda.com/redpandadata/console:v3.10.0
+    profiles: ["console"]
+    depends_on:
+      redpanda:
+        condition: service_healthy
+      connect:
+        condition: service_healthy
+    command: ["--config.filepath=/etc/redpanda/console.yml"]
+    volumes:
+      - ./observability/console/config.yml:/etc/redpanda/console.yml:ro
+    ports:
+      - "127.0.0.1:${REDPANDA_CONSOLE_HOST_PORT:-58090}:8080"
+    restart: unless-stopped
+
+  # -------------------------------------------------------------------------
   # The pipeline runner. Not started by `up`; invoked with
   # `docker compose run --rm pipeline ...` from the Makefile, which is why it
   # sits behind a profile.

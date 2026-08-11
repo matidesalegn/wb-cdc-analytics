@@ -1,0 +1,32 @@
+# ---------------------------------------------------------------------------
+# Redpanda Console v3.
+#
+# This is a mounted file rather than compose `environment:` keys, and that is
+# not a style preference. Console cannot take object arrays from environment
+# variables, and `kafkaConnect.clusters` is an object array. Setting it as
+# CONNECT_CLUSTERS_0_URL and friends starts a Console with no Connect tab and
+# logs nothing about why, which is the same silently-missing-feature failure
+# this file exists to fix.
+#
+# Note also that the section is `kafkaConnect`. In Console v2 it was `connect`;
+# a v2-shaped config is accepted and ignored.
+# ---------------------------------------------------------------------------
+
+kafka:
+  # The INTERNAL advertised listener. docker-compose.yml starts Redpanda with
+  # `--advertise-kafka-addr=INTERNAL://redpanda:9092,EXTERNAL://127.0.0.1:...`,
+  # so a container on the compose network must use the internal one. Pointing
+  # at the external listener resolves, connects, and then fails on metadata,
+  # because the broker hands back an address the client cannot reach.
+  brokers: ["redpanda:9092"]
+
+kafkaConnect:
+  # This is what makes the connector visible in a browser: task state, config
+  # and the last failure trace, without curling the REST API and piping to jq.
+  enabled: true
+  clusters:
+    - name: debezium
+      url: http://connect:8083
+
+server:
+  listenPort: 8080

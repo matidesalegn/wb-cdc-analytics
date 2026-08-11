@@ -87,7 +87,7 @@ check static "alert rules behave as intended (promtool test rules, 13 cases)" \
 check static "Grafana dashboard valid, every panel documented" \
   python3 scripts/ci/check_dashboard.py
 
-check static "project convention gate (11 rules)" bash scripts/ci/convention_gate.sh
+check static "project convention gate (12 rules)" bash scripts/ci/convention_gate.sh
 
 # The em-dash rule depends on a UTF-8 locale, and its failure mode is to pass silently, so it
 # is asserted directly. A convention rule that cannot fail is not a rule.

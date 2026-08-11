@@ -52,7 +52,7 @@ thing it depends on instead of sleeping.
 make help        # every target, self-documenting
 make up          # core path only: Postgres, Redpanda, Connect, ClickHouse (4 containers)
 make up-mon      # core + Prometheus + Grafana
-make up-all      # everything, including Airflow
+make up-all      # everything: + Airflow, Redpanda Console (10 containers)
 make verify      # prove data moved through every stage
 make demo-mutations   # prove an UPDATE propagates and a DELETE disappears
 make urls        # print every endpoint and its credentials
@@ -185,17 +185,30 @@ make urls    # prints the table below with the generated credentials filled in
 |---|---|---|
 | PostgreSQL (OLTP source) | `127.0.0.1:55432/wbsource` | `POSTGRES_USER` / `POSTGRES_PASSWORD` from `.env` |
 | ClickHouse HTTP | `http://127.0.0.1:58123` | `CLICKHOUSE_USER` / `CLICKHOUSE_PASSWORD` |
+| **ClickHouse Play (browser SQL editor)** | `http://127.0.0.1:58123/play` | same |
 | ClickHouse native | `127.0.0.1:59001` | same |
 | Kafka Connect REST | `http://127.0.0.1:58083/connectors` | none |
 | Redpanda admin and metrics | `http://127.0.0.1:59644/public_metrics` | none |
+| **Redpanda Console** | `http://127.0.0.1:58090` | none |
 | Airflow UI | `http://127.0.0.1:58080` | `AIRFLOW_ADMIN_USER` / `AIRFLOW_ADMIN_PASSWORD` |
 | Prometheus | `http://127.0.0.1:59090` | none |
 | Grafana | `http://127.0.0.1:53000` | `GRAFANA_ADMIN_USER` / `GRAFANA_ADMIN_PASSWORD` |
 
-Airflow, Prometheus and Grafana run under Compose profiles; `make up-all` starts
-everything. Grafana lands directly on the **Pipeline health** dashboard, provisioned from
-the repository with no clicks and no plugin downloads. Both Airflow DAGs are unpaused on
-creation, so they work on arrival.
+Airflow, Prometheus, Grafana and the Console run under Compose profiles; `make up-all`
+starts everything. Grafana lands directly on the **Pipeline health** dashboard, provisioned
+from the repository with no clicks and no plugin downloads. Both Airflow DAGs are unpaused
+on creation, so they work on arrival.
+
+Two of those are worth opening first if you only open two:
+
+- **Redpanda Console** is the fastest way to see that CDC is real rather than asserted.
+  Topics -> `wbcdc.wb.observation` -> click any message shows the Debezium envelope this
+  design is built on: `before`, `after`, `op`, and `source.lsn`, which is the ordering key
+  the landing tables deduplicate by. Its Connect tab shows `pg-wb-source` and its task
+  state without curling the REST API.
+- **ClickHouse Play** is a SQL editor served by the database itself, so the marts can be
+  queried from a browser with nothing installed. `SELECT * FROM ops.cdc_freshness` is the
+  one-query answer to "is the pipeline current".
 
 Useful shells:
 

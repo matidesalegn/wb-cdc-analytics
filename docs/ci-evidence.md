@@ -70,7 +70,7 @@ Full output of `make ci-local` on a clean working tree:
 | PASS | `static` | alert rules are syntactically valid (promtool check rules) |
 | PASS | `static` | alert rules behave as intended (promtool test rules, 13 cases) |
 | PASS | `static` | Grafana dashboard valid, every panel documented |
-| PASS | `static` | project convention gate (11 rules) |
+| PASS | `static` | project convention gate (12 rules) |
 | PASS | `static` | grep -P PCRE is live, so the em-dash rule can actually fail |
 | PASS | `dbt` | dbt parse: every model, macro, test and YAML compiles |
 | PASS | `dags` | both DAGs import cleanly, each with a watcher and a doc_md |
