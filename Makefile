@@ -108,7 +108,7 @@ demo-mutations: ## Prove an UPDATE propagates and a DELETE disappears downstream
 test: ## Run the Python unit tests (no containers needed)
 	@python3 -m pytest tests/unit -q
 
-ci-local: ## Run the CI fast lane locally, with the same commands ci.yml uses
+ci-local: ## Run the CI fast lane locally, with the same commands ci-cd.yml uses
 	@bash scripts/ci/run_locally.sh
 
 lint: ## Lint Python and check formatting

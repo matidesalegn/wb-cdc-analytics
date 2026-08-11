@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Assert both DAGs import cleanly and satisfy this project's DAG conventions.
 
-Runs inside the Airflow image. Mirrors the `dags` job in .github/workflows/ci.yml.
+Runs inside the Airflow image. Mirrors the `dags` job in .github/workflows/ci-cd.yml.
 
 Checks more than importability, because a DAG with an import error does not appear in the UI at
 all: the failure mode is a pipeline that silently is not there. Explicit exits rather than

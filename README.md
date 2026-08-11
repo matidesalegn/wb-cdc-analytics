@@ -1,6 +1,6 @@
 # wb-cdc-analytics
 
-[![CI](https://github.com/matidesalegn/wb-cdc-analytics/actions/workflows/ci.yml/badge.svg)](https://github.com/matidesalegn/wb-cdc-analytics/actions/workflows/ci.yml)
+[![CI/CD](https://github.com/matidesalegn/wb-cdc-analytics/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/matidesalegn/wb-cdc-analytics/actions/workflows/ci-cd.yml)
 
 An end-to-end analytics engineering pipeline. A public REST API is ingested into
 PostgreSQL, change events are streamed out of the write-ahead log by Debezium into
@@ -225,7 +225,7 @@ docker compose exec redpanda   rpk topic consume wbcdc.wb.observation --offset s
 
 ## How CI/CD is triggered and what it validates
 
-[`.github/workflows/ci.yml`](.github/workflows/ci.yml). Two lanes, because a check nobody
+[`.github/workflows/ci-cd.yml`](.github/workflows/ci-cd.yml). Three lanes, because a check nobody
 waits for is a check nobody runs.
 
 **Fast lane, on every push and every pull request, no containers, a couple of minutes:**
@@ -250,9 +250,27 @@ the shared macro; every Replacing engine declaring its own `order_by`; every inc
 model declaring `unique_key`; pinned images; loopback-only ports; Debezium 3.x property
 names; every alert carrying a `for` duration and a runbook.
 
-There is deliberately no deploy step: there is no environment to deploy to, and a workflow
-that pretends otherwise is theatre. What CI validates instead is that your `make demo`
-will work.
+**Delivery lane, on pushes to `main` only:** the `deploy` job. Its `needs` list includes the
+integration lane, so nothing reaches the environment unless the whole stack has already been
+stood up from empty volumes and verified end to end. A deploy job that waits only on linting
+ships broken pipelines faster.
+
+| Property | Why it is that way |
+|---|---|
+| Deploys `github.sha`, never a branch | `git checkout main` deploys whatever `main` is at the moment the command runs, so re-running an old pipeline silently ships new code. A SHA makes the deployed artifact the one CI tested |
+| Records the previous SHA, rolls back on failure | The rollback path is the same code path as the deploy, so it is exercised on every success rather than first used during an incident |
+| Health check is `verify_stages.sh --strict` | It asserts source-to-warehouse parity, not that a port answers |
+| Then smoke-tests over HTTPS **from the runner** | Checking from the host would pass with the proxy, certificate or firewall broken, which are exactly the parts a user experiences |
+| Serialised on the environment | The Compose project name and host ports are fixed, so two concurrent deploys would fight over the same containers and volumes |
+| Skips cleanly with no environment secrets | A clone of this repository should still go green, not show a red X for infrastructure it does not have |
+
+The deploy logic lives in [`scripts/deploy_remote.sh`](scripts/deploy_remote.sh) rather than in
+the workflow YAML, so it can be read without knowing GitHub Actions and run by hand during an
+incident, which is exactly when Actions is the thing that is broken.
+
+This lane was deliberately absent until there was a real environment behind it, on the grounds
+that a deploy step with nothing to deploy to is theatre. The honest thing to ship before that
+was CI plus a written promotion model, which is still in the design report.
 
 **Verify all of it yourself, in about a minute, without GitHub:**
 
@@ -326,7 +344,7 @@ Annotated with the deliverable each path satisfies.
 │   ├── prometheus/alerts_test.yml #   promtool unit tests for those rules
 │   └── grafana/                   #   provisioned datasource and a 9-panel dashboard
 │
-├── .github/workflows/ci.yml      # CI/CD workflow
+├── .github/workflows/ci-cd.yml   # CI/CD workflow: fast lane, integration, delivery
 ├── scripts/                      # bootstrap, verification, demos, the convention gate
 ├── tests/                        # 59 unit tests + 1 MB of recorded API fixtures
 ├── diagrams/                     # architecture and ERD, Mermaid source plus exports

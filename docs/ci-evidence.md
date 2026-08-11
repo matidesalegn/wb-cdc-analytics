@@ -1,6 +1,6 @@
 # CI evidence
 
-**How to verify every claim `.github/workflows/ci.yml` makes, on your own machine, in about a
+**How to verify every claim `.github/workflows/ci-cd.yml` makes, on your own machine, in about a
 minute:**
 
 ```bash
@@ -134,7 +134,7 @@ Full output of `make ci-local` on a clean working tree:
 | PASS | `static` | grep -P PCRE is live, so the em-dash rule can actually fail |
 | PASS | `dbt` | dbt parse: every model, macro, test and YAML compiles |
 | PASS | `dags` | both DAGs import cleanly, each with a watcher and a doc_md |
-| PASS | `workflow` | actionlint on .github/workflows/ci.yml |
+| PASS | `workflow` | actionlint on .github/workflows/ci-cd.yml |
 
 13 passed, 0 failed, 49s.
 

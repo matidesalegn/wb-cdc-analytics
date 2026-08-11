@@ -29,7 +29,7 @@
 # while GitHub-hosted compute is unavailable on the account. One variable, no file edit,
 # and reverting is deleting the variable.
 # ---------------------------------------------------------------------------
-name: CI
+name: CI/CD
 
 on:
   push:

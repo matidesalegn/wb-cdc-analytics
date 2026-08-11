@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ---------------------------------------------------------------------------
-# Run the CI fast lane locally, with the same commands .github/workflows/ci.yml uses.
+# Run the CI fast lane locally, with the same commands .github/workflows/ci-cd.yml uses.
 #
 #   make ci-local
 #
@@ -8,7 +8,7 @@
 #   A CI workflow is a set of claims. This script lets anyone verify those claims on their own
 #   machine, without a GitHub account, without repository access, and without waiting for a
 #   hosted runner. Each check below prints the CI job it corresponds to, so the mapping to
-#   ci.yml is checkable rather than asserted.
+#   ci-cd.yml is checkable rather than asserted.
 #
 #   It is not a replacement for CI: there is no clean checkout, no isolation, and it trusts the
 #   local toolchain. It is evidence, and a fast inner loop.
@@ -39,7 +39,7 @@ check() {
 
 START=$(date +%s)
 printf '\n\033[1mCI fast lane, run locally\033[0m\n'
-printf 'Same commands as .github/workflows/ci.yml. Bracketed names are its job names.\n'
+printf 'Same commands as .github/workflows/ci-cd.yml. Bracketed names are its job names.\n'
 
 # --- lint ------------------------------------------------------------------
 hdr "job: lint"
@@ -119,7 +119,7 @@ fi
 # --- the workflow file itself ----------------------------------------------
 hdr "workflow file"
 if command -v docker > /dev/null 2>&1; then
-  check workflow "actionlint on .github/workflows/ci.yml" \
+  check workflow "actionlint on .github/workflows/ci-cd.yml" \
     docker run --rm -v "$PWD:/repo:ro" -w /repo rhysd/actionlint:latest
 else
   skip "[workflow] docker unavailable"
