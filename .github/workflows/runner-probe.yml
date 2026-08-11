@@ -1,0 +1,14 @@
+name: runner-probe
+# Throwaway probe. Sole purpose: determine whether the account-level billing lock
+# blocks job EXECUTION, or only GitHub-hosted compute. If a step runs here, a
+# self-hosted runner bypasses the lock. If it does not, the lock is upstream of
+# runner assignment and no runner of any kind can help.
+on:
+  push:
+    branches: [runner-probe]
+jobs:
+  probe:
+    runs-on: [self-hosted, wbcdc]
+    steps:
+      - name: A step actually executed
+        run: echo "EXECUTED on $(uname -sm) at $(date -u +%FT%TZ)"
