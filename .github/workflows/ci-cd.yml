@@ -481,9 +481,17 @@ jobs:
   # -------------------------------------------------------------------------
   deploy:
     name: Deploy to demo environment
-    # Never from a pull request: a fork must not be able to reach the environment, and a
-    # PR has not run the integration lane anyway.
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    # Pushes to main, plus manual dispatch. Manual matters: redeploying the current commit
+    # is a normal operation (a host was rebuilt, a container was killed, someone wants to
+    # re-run the health check) and requiring a no-op commit to trigger it is how people end
+    # up deploying by hand instead, outside the pipeline that has all the safety in it.
+    #
+    # Never from a pull request, in either form: a fork must not be able to reach the
+    # environment, and a PR has not run the integration lane anyway. The ref guard keeps a
+    # dispatch against some other branch from shipping that branch to the environment.
+    if: >-
+      (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
+      && github.ref == 'refs/heads/main'
     needs: [lint, unit, static, dags, dbt, integration]
     runs-on: ${{ vars.CI_RUNNER || 'ubuntu-latest' }}
     timeout-minutes: 20
