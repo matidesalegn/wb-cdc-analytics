@@ -33,14 +33,22 @@ step "4/7  Applying schema, ClickHouse DDL, and registering the CDC connector"
 bash scripts/bootstrap.sh
 
 step "5/7  Ingesting from the public REST API into PostgreSQL"
-# The live API takes several minutes for 2,970 rows. SOURCE_API_MODE=fixture replays
-# committed responses instead and finishes in about a second, which is what CI uses
-# and what makes this runnable with no network.
+# `make demo-offline` sets SOURCE_API_MODE=fixture, which replays the committed
+# responses in tests/fixtures/api/ instead of hitting the network. That is what CI
+# uses and what makes this runnable on a plane.
+#
+# The export below is what makes the override survive. `.env` is sourced further down,
+# and .env pins SOURCE_API_MODE=live, so without carrying the caller's value across
+# that sourcing the offline mode is silently discarded and the run quietly goes to the
+# network anyway. The Makefile's `-include .env; export` is a second layer of the same
+# trap, which is why demo-offline sets the variable inline on the recipe command.
+CALLER_SOURCE_API_MODE="${SOURCE_API_MODE:-}"
 docker compose run --rm pipeline python -m ingest.run
 
 step "6/7  Waiting for the change events to reach ClickHouse, then building the marts"
 # shellcheck disable=SC1091
 set -a; . ./.env; set +a
+[ -n "$CALLER_SOURCE_API_MODE" ] && export SOURCE_API_MODE="$CALLER_SOURCE_API_MODE"
 expected=$(docker compose exec -T postgres psql -tA -U "${POSTGRES_USER}" -d "${POSTGRES_DB}" \
   -c "SELECT count(*) FROM wb.observation" | tr -d '[:space:]')
 printf '    PostgreSQL has %s observations, waiting for ClickHouse to match ' "$expected"

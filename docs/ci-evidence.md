@@ -50,7 +50,7 @@ infrastructure.
 |---|---|---|
 | `lint` | ruff, including the `S` security rules that flag a hardcoded credential or a shell injection | `make lint` |
 | `unit` | 59 unit tests against committed API fixtures, no network and no containers. Coverage floor 85 percent on the four modules a no-container lane can reach, currently 90 | `make test` |
-| `static` | The compose model resolves across every profile; the Debezium connector config renders to a valid Connect payload with no unresolved placeholders; **`promtool test rules`** unit-tests all 10 alert rules across 13 cases; the Grafana dashboard is valid with every panel documented; the 11-rule project convention gate | `bash scripts/ci/convention_gate.sh` |
+| `static` | The compose model resolves across every profile; the Debezium connector config renders to a valid Connect payload with no unresolved placeholders; **`promtool test rules`** unit-tests all 10 alert rules across 13 cases; the Grafana dashboard is valid with every panel documented; the 12-rule project convention gate | `bash scripts/ci/convention_gate.sh` |
 | `dags` | Both Airflow DAGs import with no errors, and each has a `one_failed` watcher and a `doc_md` | `docker compose run --rm --entrypoint python airflow /opt/airflow/tests/check_dags.py` |
 | `dbt` | `dbt parse` compiles every model, macro, test and YAML file without touching a warehouse, so a Jinja error or a bad `ref` is caught in seconds | `docker compose run --rm --entrypoint dbt pipeline parse --project-dir /app/dbt --profiles-dir /app/dbt` |
 | `integration` | The full stack end to end: `make demo` offline, strict per-stage verification, UPDATE and DELETE propagation, a second ingestion writing **nothing**, the incremental model not duplicating, and every Prometheus target up with no alerts firing | `make demo && make verify && make demo-mutations` |
@@ -98,7 +98,8 @@ the workflow makes. Measured on this stack:
 Reproduce with:
 
 ```bash
-make demo             # about 3 to 6 min warm, or SOURCE_API_MODE=fixture for about 1 second
+make demo             # about 50s warm; see the timing note below for the slow case
+make demo-offline     # the same, replaying committed fixtures with no network
 make verify           # per-stage row counts and measured CDC lag, exit code is meaningful
 make demo-mutations   # UPDATE and DELETE propagation
 ```
@@ -107,13 +108,13 @@ make demo-mutations   # UPDATE and DELETE propagation
 
 Run as a reviewer would: `git clone` of the public repository into an empty directory, with
 every container and volume of the previous stack destroyed first, so nothing was inherited.
-Images were already cached locally, which is the warm-image case the README quotes at 3 to 6
-minutes.
+Images were already cached locally, which is the warm-image case the README quotes.
 
 | Step | Command | Result |
 |---|---|---|
 | Clone | `git clone https://github.com/matidesalegn/wb-cdc-analytics.git` | 115 files, no `.env`, no `dbt/target`, no volumes |
-| One command | `SOURCE_API_MODE=fixture make demo` | **exit 0 in 47 seconds**, all six stages PASS, 58 dbt tests green |
+| One command | `make demo` | **exit 0 in about 50 seconds**, all six stages PASS, 58 dbt tests green |
+| One command, no network | `make demo-offline` | exit 0 in 53 seconds, replaying the committed fixtures |
 | Per-stage verification | `make verify` | 2,970 rows in PostgreSQL = 2,970 in ClickHouse = 2,970 in the fact table, 330 feature rows, CDC lag 10s |
 | Mutations | `make demo-mutations` | INSERT, UPDATE and DELETE all propagate to the marts; the tombstone is retained on disk and hidden from `FINAL` reads |
 | Idempotency | second ingestion | `unchanged=2970`, zero rows rewritten |

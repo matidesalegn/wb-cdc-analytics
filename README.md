@@ -37,9 +37,9 @@ make demo
 | | |
 |---|---|
 | Prerequisites | Docker with Compose v2, Python 3 on the host, roughly 4 GB free to Docker |
-| First run | 3 to 6 minutes if images are cached, 10 to 15 on a cold pull (about 8 GB) |
-| Ingestion from the live API | 8 to 10 minutes for 2,970 rows across 36 paginated requests. That is upstream latency, not pipeline latency |
-| Offline, in about 1 second | `SOURCE_API_MODE=fixture make demo` replays committed responses with no network at all |
+| First run | About 50 seconds if images are cached, 10 to 15 minutes on a cold pull (about 8 GB) |
+| Ingestion from the live API | Typically 5 seconds for 2,970 rows across 36 paginated requests, but it is the one step whose duration is not ours: the API intermittently answers valid requests with HTTP 400 and an HTML body, and the client retries with backoff. Measured range for the whole `make demo`, warm: 48 seconds typical, about 6 minutes worst observed. That is upstream latency, not pipeline latency |
+| Offline | `make demo-offline` replays committed responses with no network at all, in about the same time |
 | What "done" looks like | `verify_stages.sh` prints PASS for all six stages and exits 0 |
 
 `make demo` refuses to continue rather than guessing: `make preflight` checks Docker's
@@ -166,7 +166,7 @@ get their own executable proof.
 | Pagination | `page` and `per_page` query parameters. This pipeline requests 100 rows per page |
 | Scope | 5 countries (Chad, Ethiopia, Kenya, Rwanda, South Sudan), 9 indicators, 66 years, 2,970 observations |
 | Configuration | [`ingest/indicators.yml`](ingest/indicators.yml). Adding a series is a config change, not a schema change |
-| Offline mode | `SOURCE_API_MODE=fixture` replays committed responses in `tests/fixtures/api/` |
+| Offline mode | `make demo-offline` replays committed responses in `tests/fixtures/api/`. Note that `SOURCE_API_MODE=fixture make demo` does **not** work: this Makefile does `-include .env; export`, and a make variable overrides the inherited environment, so `.env`'s `live` wins silently |
 
 Four behaviours of this API that a naive client gets wrong are measured and documented in
 [`docs/source-api-notes.md`](docs/source-api-notes.md). In brief: **errors arrive with
@@ -343,7 +343,7 @@ decisions most worth arguing about:
 |---|---|
 | `make demo` fails at preflight | Docker has under 4 GB, a port is taken, or Compose is v1. Preflight names which |
 | A container is OOM-killed | Raise Docker's memory limit, or use `make up` for the 2.5 GB core path only |
-| Ingestion is slow or logs `HTTP 400 ... treating as transient` | Expected. The API intermittently returns 400 with an HTML body for valid requests; the client retries. Use `SOURCE_API_MODE=fixture` to skip the network |
+| Ingestion is slow or logs `HTTP 400 ... treating as transient` | Expected. The API intermittently returns 400 with an HTML body for valid requests; the client retries. This is the difference between a 50-second run and a 6-minute one. Use `make demo-offline` to skip the network |
 | ClickHouse landing tables are empty | Check `SELECT table, num_messages_read, exceptions.text FROM system.kafka_consumers`. A materialized view that throws stalls the consumer silently |
 | `dbt` reports "0 packages installed" | Packages resolve at image build time into `/opt/dbt-packages`. Rebuild: `docker compose build pipeline` |
 | Airflow shows no DAGs | Check `docker compose logs airflow` for an import error. CI catches these, so a clean checkout should not hit it |

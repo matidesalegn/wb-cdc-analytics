@@ -17,7 +17,7 @@ omission with a reason reads as judgement. A silent one reads as a gap.
 Verified mechanically against the repository on 11 August 2026, not ticked by eye. The evidence
 for each is in [`docs/ci-evidence.md`](ci-evidence.md), and the end-to-end behaviour was
 confirmed by a clean-clone test: `git clone` into an empty directory, then `make demo`, exit 0 in
-47 seconds with all six stages passing.
+about 50 seconds with all six stages passing.
 
 ### Core requirements
 

@@ -119,7 +119,7 @@ def main() -> int:
             except Exception as exc:
                 print(f"  FAILED: {type(exc).__name__}: {exc}", file=sys.stderr)
                 return 1
-    print("\nfixtures recorded. Run: SOURCE_API_MODE=fixture make ingest")
+    print("\nfixtures recorded. Run: make demo-offline")
     return 0
 
 

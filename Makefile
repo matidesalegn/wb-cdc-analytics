@@ -32,7 +32,7 @@ ALL_PROFILES := --profile observability --profile orchestration --profile consol
 export
 
 .PHONY: help preflight env config build up up-mon up-all bootstrap ingest \
-        dbt-deps dbt-build dbt-test verify demo demo-mutations test lint fmt \
+        dbt-deps dbt-build dbt-test verify demo demo-offline demo-mutations test lint fmt \
         render urls logs ps drop-slot down clean
 
 help: ## Show this help
@@ -91,6 +91,14 @@ verify: ## Print row counts and measured CDC lag for every stage
 
 demo: ## THE ONE COMMAND: clean start to verified analytics-ready tables
 	@bash scripts/demo.sh
+
+# Setting the variable inline on this command is deliberate and load-bearing. This
+# Makefile does `-include .env; export`, and a make variable overrides the inherited
+# environment, so `SOURCE_API_MODE=fixture make demo` is silently reset to .env's
+# `live` and goes to the network regardless. An inline prefix on the recipe wins, and
+# scripts/demo.sh carries it across its own sourcing of .env.
+demo-offline: ## `make demo` with no network at all: replays the committed API fixtures
+	@SOURCE_API_MODE=fixture bash scripts/demo.sh
 
 demo-mutations: ## Prove an UPDATE propagates and a DELETE disappears downstream
 	@bash scripts/demo_mutations.sh
