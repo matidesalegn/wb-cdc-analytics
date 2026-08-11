@@ -33,7 +33,7 @@ export
 
 .PHONY: help preflight env config build up up-mon up-all bootstrap ingest \
         dbt-deps dbt-build dbt-test verify demo demo-offline demo-mutations test lint fmt \
-        render urls logs ps drop-slot down clean
+        render report-pdf urls logs ps drop-slot down clean
 
 help: ## Show this help
 	@grep -hE '^[a-zA-Z_-]+:.*?## ' $(MAKEFILE_LIST) \
@@ -121,6 +121,9 @@ fmt: ## Format Python
 
 render: ## Render diagrams/src/*.mmd to SVG and PNG
 	@bash scripts/render_diagrams.sh
+
+report-pdf: ## Render docs/design-report.md to docs/design-report.pdf
+	@python3 scripts/render_report_pdf.py
 
 # --- operate ---------------------------------------------------------------
 
