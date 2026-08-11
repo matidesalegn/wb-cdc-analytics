@@ -18,9 +18,45 @@ the CI job name beside each result so the mapping is checkable rather than asser
 
 ## Where CI runs on this repository, and how that was established
 
-**The badge is green, and it comes from a self-hosted runner.** GitHub-hosted compute is
-unavailable on this account, so the workflow was pointed at a machine that is not billed. The
-diagnosis is recorded here because the reasoning is the interesting part, not the outcome.
+**Read this before looking at the badge, because the badge will not render.** This repository is
+private, and GitHub does not serve the workflow badge or the Actions run history to anyone without
+repository access. The runs below are real and were green; they are recorded here with their run
+ids and timings so the claim is checkable rather than asserted, and `make ci-local` reproduces
+every fast-lane check on your own machine in about a minute without GitHub at all.
+
+**The state of CI, stated plainly.** GitHub-hosted compute is unavailable on this account under a
+billing lock. While the repository was public, pointing the workflow at a self-hosted runner made
+it fully green, including the integration lane and a real deployment. Making the repository
+private stopped runs being created at all, because the lock blocks run creation on private
+repositories: a dispatch now returns `startup_failure` with **zero jobs created**. So the honest
+summary is that the pipeline is proven and currently cannot execute, for a reason that has nothing
+to do with this code.
+
+### The green runs, recorded
+
+| Run | Result | Head | Detail |
+|---|---|---|---|
+| `31494637176`, 13:08 | **7/7 success** | `cd36f962` | lint 27s, unit 46s, static 27s, dags 27s, dbt 36s, integration 134s, summary 13s |
+| `31496160626`, 13:26 | **7/7 success** | | unattended, no manual step |
+| `31505852373`, 15:13 | **8/8 success** | `f52a2313` | as above plus **Deploy to demo environment, 35s**, which deployed that SHA to the live host |
+
+The deployed commit on the demo host is `f52a2313`, recorded in `~/.wbcdc-deploy/current-sha`
+there, which matches the run that deployed it.
+
+### Two operational facts worth stating rather than hiding
+
+**A deployment record is created when the deploy job starts, not when it succeeds.** Run
+`31512907295` shows a deployment for its SHA and still failed: the SSH step timed out. Reading the
+deployments API as proof of a successful deploy is a mistake, and the SHA recorded on the host is
+the authority.
+
+**The delivery lane is fragile by construction here, and the cause is worth naming.** The runner
+is a laptop on a residential connection, while the demo host allowlists SSH to specific /32s. When
+the ISP rotates the laptop's address, the deploy step fails with a connection timeout even though
+nothing about the code or the host has changed. The correct fix is to stop depending on an inbound
+port at all, by driving the deploy through AWS Systems Manager Session Manager instead of SSH; the
+allowlist is a stopgap. This is recorded because a CD lane whose failure mode is "somebody's home
+IP changed" is exactly the sort of thing that should be written down rather than rediscovered.
 
 GitHub's annotation on a hosted job, verbatim:
 
