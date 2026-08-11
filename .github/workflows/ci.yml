@@ -14,6 +14,13 @@
 # Deliberately NOT here: any deploy step. There is no environment to deploy to, and a
 # workflow that pretends otherwise is theatre. What CI validates instead is that a
 # reviewer's `make demo` will work, which is the actual promise this repository makes.
+#
+# WHERE THESE JOBS RUN. Every job targets `${{ vars.CI_RUNNER || 'ubuntu-latest' }}`, so
+# the default is GitHub-hosted and anyone who forks this repository gets working CI with
+# no setup. Setting a repository variable CI_RUNNER to a runner label redirects every job
+# to a self-hosted runner with that label, which is how this repository currently runs
+# while GitHub-hosted compute is unavailable on the account. One variable, no file edit,
+# and reverting is deleting the variable.
 # ---------------------------------------------------------------------------
 name: CI
 
@@ -42,14 +49,20 @@ jobs:
   # -------------------------------------------------------------------------
   lint:
     name: Lint and format
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.CI_RUNNER || 'ubuntu-latest' }}
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: pip
+          # Hosted runners only. The Actions cache service is unreachable while the
+          # account is billing-locked, and setup-python does not fail fast on that: it
+          # spends ten minutes on a restore that ends in "Server failed to authenticate
+          # the request", which is long enough to blow this job's timeout. A self-hosted
+          # runner does not need it anyway, because pip's own ~/.cache/pip survives
+          # between runs on a persistent machine.
+          cache: ${{ runner.environment == 'github-hosted' && 'pip' || '' }}
       - run: pip install ruff==0.12.5
       - name: ruff check
         run: ruff check . --output-format=github
@@ -59,14 +72,20 @@ jobs:
   # -------------------------------------------------------------------------
   unit:
     name: Unit tests
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.CI_RUNNER || 'ubuntu-latest' }}
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: pip
+          # Hosted runners only. The Actions cache service is unreachable while the
+          # account is billing-locked, and setup-python does not fail fast on that: it
+          # spends ten minutes on a restore that ends in "Server failed to authenticate
+          # the request", which is long enough to blow this job's timeout. A self-hosted
+          # runner does not need it anyway, because pip's own ~/.cache/pip survives
+          # between runs on a persistent machine.
+          cache: ${{ runner.environment == 'github-hosted' && 'pip' || '' }}
       - run: pip install -r requirements/dev.txt
       - name: pytest
         # No containers, no network. The API fixtures are committed, so these tests are
@@ -91,7 +110,7 @@ jobs:
   # -------------------------------------------------------------------------
   static:
     name: Static checks and conventions
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.CI_RUNNER || 'ubuntu-latest' }}
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
@@ -159,14 +178,20 @@ jobs:
   # -------------------------------------------------------------------------
   dags:
     name: Airflow DAG integrity
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.CI_RUNNER || 'ubuntu-latest' }}
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: pip
+          # Hosted runners only. The Actions cache service is unreachable while the
+          # account is billing-locked, and setup-python does not fail fast on that: it
+          # spends ten minutes on a restore that ends in "Server failed to authenticate
+          # the request", which is long enough to blow this job's timeout. A self-hosted
+          # runner does not need it anyway, because pip's own ~/.cache/pip survives
+          # between runs on a persistent machine.
+          cache: ${{ runner.environment == 'github-hosted' && 'pip' || '' }}
       - name: Install Airflow with the official constraints
         # The constraints file is not optional: Airflow has a large dependency set and an
         # unconstrained install resolves to a combination nobody tests.
@@ -219,14 +244,20 @@ jobs:
   # -------------------------------------------------------------------------
   dbt:
     name: dbt parse and compile
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.CI_RUNNER || 'ubuntu-latest' }}
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: pip
+          # Hosted runners only. The Actions cache service is unreachable while the
+          # account is billing-locked, and setup-python does not fail fast on that: it
+          # spends ten minutes on a restore that ends in "Server failed to authenticate
+          # the request", which is long enough to blow this job's timeout. A self-hosted
+          # runner does not need it anyway, because pip's own ~/.cache/pip survives
+          # between runs on a persistent machine.
+          cache: ${{ runner.environment == 'github-hosted' && 'pip' || '' }}
       - name: Install dbt with the resolved pin set
         # Pinned to the set pip's resolver converges on. Unpinned, it first tries
         # dbt-core 1.12.0, discovers dbt-clickhouse needs dbt-adapters<1.23.0, and
@@ -242,6 +273,13 @@ jobs:
           CLICKHOUSE_PASSWORD: ci-not-a-real-secret
           DBT_TARGET_PATH: ${{ runner.temp }}/dbt-target
           DBT_LOG_PATH: ${{ runner.temp }}/dbt-logs
+          # dbt_project.yml defaults packages-install-path to /opt/dbt-packages, which is
+          # what the containers need: they mount the project read-only, so `dbt deps` has to
+          # write outside the mount. That default assumes a writable /opt, which is true on
+          # a hosted runner and false on an ordinary Linux box where /opt is root-owned.
+          # Pointing it at the per-job temp directory makes this job runner-agnostic and
+          # has the side benefit of not carrying packages between runs.
+          DBT_PACKAGES_PATH: ${{ runner.temp }}/dbt-packages
         run: |
           dbt deps --project-dir dbt --profiles-dir dbt
           dbt parse --project-dir dbt --profiles-dir dbt
@@ -253,7 +291,7 @@ jobs:
     # Only on main and on demand. The pulls alone are several GB, so running this on
     # every pull request would make CI something people work around rather than with.
     if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.CI_RUNNER || 'ubuntu-latest' }}
     timeout-minutes: 45
     needs: [lint, unit, static]
     # Serialised independently of ref. The Compose project name and host ports are fixed, so
@@ -266,24 +304,33 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Reclaim runner disk, then assert it was enough
-        # The stack's images total roughly 6.4 GB deduped and a GitHub runner ships with
-        # about 14 GB free, most of it preinstalled toolchains this job never uses. Without
-        # the reclaim, the job fails partway through an image pull with an error that reads
-        # like a network problem.
+      - name: Reclaim runner disk
+        # HOSTED RUNNERS ONLY, and the guard is not cosmetic. A GitHub runner ships with
+        # about 14 GB free, most of it preinstalled toolchains this job never uses, and the
+        # stack's images total roughly 6.4 GB deduped; without the reclaim the job dies
+        # partway through an image pull with an error that reads like a network problem.
         #
-        # The assertion after it is the part worth keeping: the reclaim is best-effort, so
-        # without a check the disk requirement is assumed rather than verified, and the
-        # failure it prevents surfaces 10 minutes later as something else.
+        # On a self-hosted runner the same lines are actively harmful: the paths may hold
+        # toolchains someone depends on, `sudo` is not guaranteed to be passwordless, and
+        # `|| true` would hide the failure either way. A purpose-built runner is provisioned
+        # with disk instead, which the assertion in the next step verifies rather than
+        # assumes.
+        if: runner.environment == 'github-hosted'
         run: |
           df -h /
           sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc \
                       /usr/local/share/boost /usr/share/swift || true
           df -h /
+
+      - name: Assert there is enough disk for the stack
+        # Runs on every runner type, because the requirement is real regardless of who
+        # provides the machine. Without it the disk need is assumed, and the failure it
+        # prevents surfaces 10 minutes later disguised as something else.
+        run: |
           avail_gb=$(df --output=avail --block-size=1G / | tail -1 | tr -dc '0-9')
-          echo "available after reclaim: ${avail_gb} GB"
+          echo "available: ${avail_gb} GB on ${{ runner.environment }} runner"
           if [ "${avail_gb:-0}" -lt 25 ]; then
-            echo "::error::only ${avail_gb} GB free after reclaim; this lane needs ~11 GB plus headroom for the image pull and build cache."
+            echo "::error::only ${avail_gb} GB free; this lane needs ~11 GB plus headroom for the image pull and build cache."
             exit 1
           fi
 
@@ -370,7 +417,7 @@ jobs:
     # A single required check for branch protection, so adding a job later does not mean
     # editing the protection rule and forgetting.
     if: always()
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.CI_RUNNER || 'ubuntu-latest' }}
     needs: [lint, unit, static, dags, dbt]
     steps:
       - name: Verdict
