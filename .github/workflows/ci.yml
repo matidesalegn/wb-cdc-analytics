@@ -524,7 +524,15 @@ jobs:
         env:
           SHA: ${{ github.sha }}
         run: |
+          # IdentitiesOnly is what makes "-i" a guarantee rather than a preference: without
+          # it ssh will happily offer any key already in an agent or in ~/.ssh, so on a
+          # persistent runner the connection could succeed with a broader key than the
+          # dedicated one. BatchMode stops it falling back to an interactive prompt and
+          # hanging until the job timeout.
           ssh -i ~/.ssh/wbcdc_deploy \
+              -o IdentitiesOnly=yes \
+              -o IdentityAgent=none \
+              -o BatchMode=yes \
               -o UserKnownHostsFile=~/.ssh/known_hosts_wbcdc \
               -o StrictHostKeyChecking=yes \
               -o ConnectTimeout=20 \
@@ -551,17 +559,36 @@ jobs:
           [ "$fail" = "0" ] || { echo "::error::the deployed environment is not serving correctly"; exit 1; }
 
       - name: Report what is deployed
+        # always(), because a failed deploy is exactly when someone reads this. But the text
+        # must then depend on the outcome: an unconditional "Deployed / Verified" block under
+        # always() asserts the opposite of reality after a rollback, and the job summary is
+        # one of the few things a reviewer actually reads.
         if: always() && steps.gate.outputs.configured == 'true'
+        env:
+          JOB_STATUS: ${{ job.status }}
         run: |
-          {
-            echo "### Deployed"
-            echo ""
-            echo "| | |"
-            echo "|---|---|"
-            echo "| Commit | \`${{ github.sha }}\` |"
-            echo "| Environment | ${{ vars.DEPLOY_URL }} |"
-            echo "| Verified | \`verify_stages.sh --strict\` on the host, then HTTPS from the runner |"
-          } >> "$GITHUB_STEP_SUMMARY"
+          if [ "$JOB_STATUS" = "success" ]; then
+            {
+              echo "### Deployed"
+              echo ""
+              echo "| | |"
+              echo "|---|---|"
+              echo "| Commit | \`${{ github.sha }}\` |"
+              echo "| Environment | ${{ vars.DEPLOY_URL }} |"
+              echo "| Verified | \`verify_stages.sh --strict\` on the host, then HTTPS from the runner |"
+            } >> "$GITHUB_STEP_SUMMARY"
+          else
+            {
+              echo "### Deploy FAILED"
+              echo ""
+              echo "| | |"
+              echo "|---|---|"
+              echo "| Attempted commit | \`${{ github.sha }}\` |"
+              echo "| Environment | ${{ vars.DEPLOY_URL }} |"
+              echo "| State | The host rolls back automatically when its own verification fails."
+              echo "Check the deploy step log for which SHA it returned to, and do not assume this commit is live. |"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
 
       - name: Remove the key from the runner
         # The runner is persistent and self-hosted, so the key must not be left behind on
