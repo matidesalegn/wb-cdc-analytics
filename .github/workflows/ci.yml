@@ -11,9 +11,16 @@
 # and on demand rather than on every commit. Coverage is not reduced by that choice, only
 # feedback latency, which is the right thing to trade.
 #
-# Deliberately NOT here: any deploy step. There is no environment to deploy to, and a
-# workflow that pretends otherwise is theatre. What CI validates instead is that a
-# reviewer's `make demo` will work, which is the actual promise this repository makes.
+# The DELIVERY LANE deploys the tested commit to a demo environment, gated on the
+# integration lane so nothing ships that has not already been stood up from scratch and
+# verified end to end. It deploys a SHA rather than a branch, health-checks with the same
+# per-stage verification CI uses, and rolls back automatically if that fails.
+#
+# It is worth saying why this lane did not exist until there was somewhere to deliver to.
+# A deploy step with no environment behind it is theatre, and the honest thing to ship was
+# CI plus a written promotion model. Now that a real host exists, the theatre becomes a
+# gate. If the environment secrets are absent, as on a fork, the job skips with a notice
+# rather than failing, because a fork's CI should still be green.
 #
 # WHERE THESE JOBS RUN. Every job targets `${{ vars.CI_RUNNER || 'ubuntu-latest' }}`, so
 # the default is GitHub-hosted and anyone who forks this repository gets working CI with
@@ -447,3 +454,117 @@ jobs:
             exit 1
           fi
           echo "fast lane green"
+
+  # -------------------------------------------------------------------------
+  # CONTINUOUS DELIVERY.
+  #
+  # This job exists only because there is now a real environment to deliver to. Until
+  # there was one, this file deliberately had no deploy step, on the grounds that a
+  # workflow which pretends to deploy is worse than one that admits it does not.
+  #
+  # The gate is the whole point: `needs` includes the integration lane, so nothing reaches
+  # the environment unless the full stack has already been stood up from scratch, had its
+  # six stages verified, and had UPDATE and DELETE propagation proven. A deploy job that
+  # only waits for linting is a deploy job that ships broken data pipelines quickly.
+  #
+  # What makes this safe rather than merely automated:
+  #   - it deploys github.sha, never a branch, so the artifact is the one CI tested;
+  #   - the host records the previous SHA and rolls back automatically if the post-deploy
+  #     verification fails, so the rollback path is exercised on every deploy;
+  #   - the health check is scripts/verify_stages.sh --strict, which asserts source to
+  #     warehouse parity rather than merely checking that a port answers;
+  #   - concurrency is serialised on the environment, because two concurrent deploys to
+  #     one host would fight over the same containers, volumes and fixed host ports;
+  #   - the SSH key is dedicated to this host and authorises nothing else, so a compromised
+  #     workflow cannot reach anything but the demo box;
+  #   - the host key is pinned from a secret, so the connection is not trust-on-first-use.
+  # -------------------------------------------------------------------------
+  deploy:
+    name: Deploy to demo environment
+    # Never from a pull request: a fork must not be able to reach the environment, and a
+    # PR has not run the integration lane anyway.
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: [lint, unit, static, dags, dbt, integration]
+    runs-on: ${{ vars.CI_RUNNER || 'ubuntu-latest' }}
+    timeout-minutes: 20
+    # Surfaces the deployment and its URL in the repository UI, and gives a single place to
+    # add a required reviewer later without touching this file.
+    environment:
+      name: demo
+      url: ${{ vars.DEPLOY_URL }}
+    concurrency:
+      group: deploy-demo
+      cancel-in-progress: false
+    steps:
+      - name: Skip cleanly when the environment is not configured
+        # A fork, or this repository before the secrets exist, should not see a red X for
+        # something that is not its fault.
+        id: gate
+        run: |
+          if [ -z "${{ secrets.DEPLOY_HOST }}" ]; then
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::No DEPLOY_HOST secret; skipping deployment. This is expected on a fork."
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Set up the dedicated deploy key
+        if: steps.gate.outputs.configured == 'true'
+        run: |
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          printf '%s\n' "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/wbcdc_deploy
+          chmod 600 ~/.ssh/wbcdc_deploy
+          # Pinned host key rather than StrictHostKeyChecking=no, so this cannot be
+          # silently redirected to another host.
+          printf '%s\n' "${{ secrets.DEPLOY_KNOWN_HOSTS }}" > ~/.ssh/known_hosts_wbcdc
+          chmod 600 ~/.ssh/known_hosts_wbcdc
+
+      - name: Deploy this exact commit, with rollback on failure
+        if: steps.gate.outputs.configured == 'true'
+        env:
+          SHA: ${{ github.sha }}
+        run: |
+          ssh -i ~/.ssh/wbcdc_deploy \
+              -o UserKnownHostsFile=~/.ssh/known_hosts_wbcdc \
+              -o StrictHostKeyChecking=yes \
+              -o ConnectTimeout=20 \
+              "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
+              "bash ~/wb-cdc-analytics/scripts/deploy_remote.sh '$SHA'"
+
+      - name: Smoke test the public surface from outside the host
+        if: steps.gate.outputs.configured == 'true'
+        # Deliberately run from the runner, not over SSH. Checking from the host itself
+        # would pass even if the proxy, the certificate or the firewall were broken, which
+        # are exactly the parts a user experiences.
+        run: |
+          fail=0
+          for url in "${{ vars.DEPLOY_URL }}" \
+                     "$(echo '${{ vars.DEPLOY_URL }}' | sed 's|https://|https://grafana.|')" \
+                     "$(echo '${{ vars.DEPLOY_URL }}' | sed 's|https://|https://console.|')"; do
+            # No -k: an expired or invalid certificate must fail this step.
+            code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 25 "$url" || echo 000)
+            case "$code" in
+              200|301|302|401) echo "  ok   $url -> $code" ;;
+              *) echo "  FAIL $url -> $code"; fail=1 ;;
+            esac
+          done
+          [ "$fail" = "0" ] || { echo "::error::the deployed environment is not serving correctly"; exit 1; }
+
+      - name: Report what is deployed
+        if: always() && steps.gate.outputs.configured == 'true'
+        run: |
+          {
+            echo "### Deployed"
+            echo ""
+            echo "| | |"
+            echo "|---|---|"
+            echo "| Commit | \`${{ github.sha }}\` |"
+            echo "| Environment | ${{ vars.DEPLOY_URL }} |"
+            echo "| Verified | \`verify_stages.sh --strict\` on the host, then HTTPS from the runner |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Remove the key from the runner
+        # The runner is persistent and self-hosted, so the key must not be left behind on
+        # disk between jobs. `always()` so this also runs when the deploy failed.
+        if: always()
+        run: rm -f ~/.ssh/wbcdc_deploy ~/.ssh/known_hosts_wbcdc
