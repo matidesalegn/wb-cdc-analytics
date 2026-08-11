@@ -26,8 +26,35 @@ airflow-webserver.pid
 standalone_admin_password.txt
 logs/
 
-# Rendered diagram exports. The .mmd source is committed; exports are built by
-# `make render` and committed deliberately, so only stray output is ignored.
+# Images: ignore every image anywhere, then re-include diagrams/.
+#
+# The default is deny because pasted screenshots land in the repository root and
+# a stray one in a public repository is a leak, not just clutter. The only images
+# this project commits deliberately are the rendered architecture and ERD exports
+# that `make render` produces from diagrams/src/*.mmd.
+#
+# Re-inclusion works here only because the exclusions are by file extension and
+# never by directory: git cannot re-include a file whose parent directory is
+# itself excluded.
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.svg
+*.bmp
+*.ico
+*.avif
+*.tiff
+*.tif
+!diagrams/**
+
+# Rendered diagram exports. The .mmd source is committed and so are the exports,
+# so only stray render output is ignored.
+#
+# This rule MUST stay below the `!diagrams/**` above. The last matching pattern
+# in a .gitignore wins, so putting the re-inclusion after this line would
+# silently start tracking scratch renders.
 diagrams/exports/tmp/
 
 # Local scratch
