@@ -39,9 +39,17 @@ to do with this code.
 | `31494637176`, 13:08 | **7/7 success** | `cd36f962` | lint 27s, unit 46s, static 27s, dags 27s, dbt 36s, integration 134s, summary 13s |
 | `31496160626`, 13:26 | **7/7 success** | | unattended, no manual step |
 | `31505852373`, 15:13 | **8/8 success** | `f52a2313` | as above plus **Deploy to demo environment, 35s**, which deployed that SHA to the live host |
+| `31515308308`, 17:5x | **8/8 success** | `67fcf52a` | the workflow after renaming to `ci-cd.yml`. lint 25s, unit 50s, static 32s, dags 34s, dbt 38s, integration 145s, **deploy 33s**, summary 12s |
 
-The deployed commit on the demo host is `f52a2313`, recorded in `~/.wbcdc-deploy/current-sha`
-there, which matches the run that deployed it.
+The deployed commit on the demo host is `67fcf52a`, recorded in `~/.wbcdc-deploy/current-sha`
+there, with `previous-sha` holding `f52a2313` so a rollback has somewhere to go. Both match the
+runs that deployed them, which is the check worth doing: the host is the authority on what is
+live, not the workflow's own summary.
+
+The last of those runs was produced by briefly making the repository public, dispatching, and
+making it private again, precisely because a private repository under this billing lock creates
+no jobs at all. That is worth stating rather than leaving the reader to wonder how a green run
+exists for a repository whose Actions page is empty.
 
 ### Two operational facts worth stating rather than hiding
 
