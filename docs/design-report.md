@@ -205,11 +205,18 @@ repository with **no plugins**, because the ClickHouse datasource plugin would m
 container's start depend on reaching grafana.com.
 
 **Alert rules are code, and untested rules fail silently**, so all 10 have `promtool` tests
-covering firing *and* staying quiet. That caught two bugs review would not have.
-`CdcParityBroken` divided two series with different label names, and PromQL matches on the
-full label set, so it evaluated to an empty vector and **could never have fired** while
-looking exactly like a passing rule. And `ServiceDown` set a static `component` label, which
-overrides the scraped one, so a ClickHouse outage would have been relabelled "platform".
+covering firing *and* staying quiet. `CdcParityBroken` is why: it divided two series carrying
+different label names, and PromQL matches on the full label set, so the expression evaluated to
+an empty vector and the alert **could never have fired**, while looking exactly like one that was
+passing.
+
+The same lesson then recursed one level up. Auditing this report's claim that every rule was
+tested found that **four of the ten had no test at all**, and `promtool` had been reporting
+SUCCESS throughout, because it only runs the cases it is given and cannot know which rules were
+never named. The suite was silently incomplete in precisely the way it exists to prevent. The gap
+is closed: 13 cases now cover all 10 rules, verified by comparing the alertnames the tests
+reference against the rules defined rather than by trusting the exit code.
+
 Alertmanager routing is deliberately not wired: it adds a container and credentials to prove
 something invisible in a ten-minute review. Every rule carries a runbook instead.
 
