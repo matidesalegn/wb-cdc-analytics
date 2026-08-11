@@ -202,10 +202,15 @@ on creation, so they work on arrival.
 Two of those are worth opening first if you only open two:
 
 - **Redpanda Console** is the fastest way to see that CDC is real rather than asserted.
-  Topics -> `wbcdc.wb.observation` -> click any message shows the Debezium envelope this
-  design is built on: `before`, `after`, `op`, and `source.lsn`, which is the ordering key
-  the landing tables deduplicate by. Its Connect tab shows `pg-wb-source` and its task
-  state without curling the REST API.
+  Topics -> `wbcdc.wb.observation` -> click any message. Note the shape: the connector
+  applies `ExtractNewRecordState`, so a message is **the row itself, flattened**, with the
+  metadata carried alongside as `__op` (`r` snapshot, `c` insert, `u` update, `d` delete),
+  `__deleted`, and `__lsn`. That last one is the contract the landing tables are built on:
+  `sql/clickhouse/002_raw_cdc.sql` extracts it as `_version` for
+  `ReplacingMergeTree(_version, _is_deleted)`, so the LSN decides which version of a key
+  wins. Run `make demo-mutations`, then read the last three messages on that topic: the
+  same key appears as `c`, then `u`, then `d`, with `__lsn` increasing each time. Its
+  Connect tab shows `pg-wb-source` and its task state without curling the REST API.
 - **ClickHouse Play** is a SQL editor served by the database itself, so the marts can be
   queried from a browser with nothing installed. `SELECT * FROM ops.cdc_freshness` is the
   one-query answer to "is the pipeline current".
