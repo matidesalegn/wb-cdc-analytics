@@ -111,8 +111,9 @@ flowchart LR
     end
     AF["Airflow<br/>4 quality gates"] ==> ING
     AF ==> MARTS
-    RAW -.-> PROM["Prometheus<br/>10 alert rules"] --> GRAF["Grafana<br/>9 panels"]
-    WB -.->|"slot WAL bytes"| PROM
+    PROM["Prometheus<br/>10 alert rules"] --> GRAF["Grafana<br/>9 panels"]
+    PROM -.->|scrapes| RAW
+    PROM -.->|"scrapes slot WAL bytes"| WB
 ```
 
 Rendered exports: [`diagrams/exports/architecture.png`](diagrams/exports/architecture.png),
