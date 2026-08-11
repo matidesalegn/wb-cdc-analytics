@@ -19,7 +19,7 @@ seed-paths: ["seeds"]
 #
 # Note that this is a project-file key, not an environment variable: there is no
 # DBT_PACKAGES_INSTALL_PATH, which is a quiet way to lose an afternoon.
-packages-install-path: "/opt/dbt-packages"
+packages-install-path: "{{ env_var('DBT_PACKAGES_PATH', '/opt/dbt-packages') }}"
 
 # target-path and log-path are deliberately NOT set here. dbt 1.11 deprecates both
 # in dbt_project.yml, so they are supplied as the DBT_TARGET_PATH and DBT_LOG_PATH

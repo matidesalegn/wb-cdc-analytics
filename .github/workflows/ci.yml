@@ -56,7 +56,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: pip
+          # Hosted runners only. The Actions cache service is unreachable while the
+          # account is billing-locked, and setup-python does not fail fast on that: it
+          # spends ten minutes on a restore that ends in "Server failed to authenticate
+          # the request", which is long enough to blow this job's timeout. A self-hosted
+          # runner does not need it anyway, because pip's own ~/.cache/pip survives
+          # between runs on a persistent machine.
+          cache: ${{ runner.environment == 'github-hosted' && 'pip' || '' }}
       - run: pip install ruff==0.12.5
       - name: ruff check
         run: ruff check . --output-format=github
@@ -73,7 +79,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: pip
+          # Hosted runners only. The Actions cache service is unreachable while the
+          # account is billing-locked, and setup-python does not fail fast on that: it
+          # spends ten minutes on a restore that ends in "Server failed to authenticate
+          # the request", which is long enough to blow this job's timeout. A self-hosted
+          # runner does not need it anyway, because pip's own ~/.cache/pip survives
+          # between runs on a persistent machine.
+          cache: ${{ runner.environment == 'github-hosted' && 'pip' || '' }}
       - run: pip install -r requirements/dev.txt
       - name: pytest
         # No containers, no network. The API fixtures are committed, so these tests are
@@ -173,7 +185,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: pip
+          # Hosted runners only. The Actions cache service is unreachable while the
+          # account is billing-locked, and setup-python does not fail fast on that: it
+          # spends ten minutes on a restore that ends in "Server failed to authenticate
+          # the request", which is long enough to blow this job's timeout. A self-hosted
+          # runner does not need it anyway, because pip's own ~/.cache/pip survives
+          # between runs on a persistent machine.
+          cache: ${{ runner.environment == 'github-hosted' && 'pip' || '' }}
       - name: Install Airflow with the official constraints
         # The constraints file is not optional: Airflow has a large dependency set and an
         # unconstrained install resolves to a combination nobody tests.
@@ -233,7 +251,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-          cache: pip
+          # Hosted runners only. The Actions cache service is unreachable while the
+          # account is billing-locked, and setup-python does not fail fast on that: it
+          # spends ten minutes on a restore that ends in "Server failed to authenticate
+          # the request", which is long enough to blow this job's timeout. A self-hosted
+          # runner does not need it anyway, because pip's own ~/.cache/pip survives
+          # between runs on a persistent machine.
+          cache: ${{ runner.environment == 'github-hosted' && 'pip' || '' }}
       - name: Install dbt with the resolved pin set
         # Pinned to the set pip's resolver converges on. Unpinned, it first tries
         # dbt-core 1.12.0, discovers dbt-clickhouse needs dbt-adapters<1.23.0, and
@@ -249,6 +273,13 @@ jobs:
           CLICKHOUSE_PASSWORD: ci-not-a-real-secret
           DBT_TARGET_PATH: ${{ runner.temp }}/dbt-target
           DBT_LOG_PATH: ${{ runner.temp }}/dbt-logs
+          # dbt_project.yml defaults packages-install-path to /opt/dbt-packages, which is
+          # what the containers need: they mount the project read-only, so `dbt deps` has to
+          # write outside the mount. That default assumes a writable /opt, which is true on
+          # a hosted runner and false on an ordinary Linux box where /opt is root-owned.
+          # Pointing it at the per-job temp directory makes this job runner-agnostic and
+          # has the side benefit of not carrying packages between runs.
+          DBT_PACKAGES_PATH: ${{ runner.temp }}/dbt-packages
         run: |
           dbt deps --project-dir dbt --profiles-dir dbt
           dbt parse --project-dir dbt --profiles-dir dbt
