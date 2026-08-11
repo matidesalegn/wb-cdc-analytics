@@ -278,12 +278,17 @@ volume; the first thing to size for at production volume.
 
 Three horizons, each with a **numeric trigger** rather than a vague "at scale".
 
-**Horizon 1, same shape, 100x data (~300M fact rows).** Adopt monthly
-`PARTITION BY toYYYYMM(...)` past ~100M rows so expiry and backfill drop whole parts. Switch
-staging views to incremental tables once `FINAL` at query time becomes measurable. Raise
-topic partitions and `kafka_num_consumers` together, since ClickHouse consumer parallelism
-is bounded by partitions. Move the fact model from `delete+insert` to `insert_overwrite` on
-the partition, avoiding mutations entirely.
+**Horizon 1, the same shape at 100M rows and beyond.** Worth being honest that this source
+cannot reach it: the entire World Bank catalogue at monthly grain, roughly 200 countries by 500
+indicators by 66 years by 12, is about 80M rows, and the configured slice is 2,970. The volume
+that triggers this horizon comes from a different source shape, and for a MERL deployment the
+obvious one is ERP change data plus survey submissions, where the row count is transactional
+rather than statistical. What changes past ~100M rows per table: adopt monthly
+`PARTITION BY toYYYYMM(...)` so expiry and backfill drop whole parts; switch the staging views to
+incremental tables once `FINAL` at query time becomes measurable; raise topic partitions and
+`kafka_num_consumers` together, since ClickHouse consumer parallelism is bounded by partitions;
+and move the fact model from `delete+insert` to `insert_overwrite` on the partition, avoiding
+mutations entirely.
 
 **Horizon 2, more sources and durability.** A Schema Registry with Avro, so schema evolution
 has a wire-level contract instead of being discovered in the data. `ReplicatedMergeTree` with
@@ -292,6 +297,15 @@ materializations are experimental and read-after-write on a cluster needs care. 
 connectors, so a slow source cannot hold up another's slot. Airflow moves to
 KubernetesExecutor with one pod per task, and the DAG becomes a factory over a source
 manifest, so a new source is a config entry. Alertmanager routing on the existing rules.
+
+One trap in this direction is worth naming, because it makes the platform look more
+production-ready while making CDC less reliable: **a logical replication slot does not survive a
+Postgres failover.** Put the source on a three-instance HA cluster and a switchover leaves the
+connector's slot on the old primary, so it silently loses its position and either gaps or
+re-snapshots. PostgreSQL 17 added slot synchronisation to standbys, and it has to be configured
+and then tested by actually killing the primary, because a backup job reporting success is not
+evidence that a slot survived. The single-node source here sidesteps the problem entirely, which
+is the honest reason it is single-node rather than an oversight.
 
 **Horizon 3, what changes qualitatively.** Below ~10M rows per table this design is
 over-engineered and a scheduled batch copy would do. Above ~1B the single-node assumption
