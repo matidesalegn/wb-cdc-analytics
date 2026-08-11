@@ -263,14 +263,20 @@ make ci-local
 That runs each fast-lane check with the same command the corresponding CI job uses, printing
 the CI job name beside each result. Currently 13 of 13 pass in 49 seconds.
 
-Worth knowing before you look at the badge: **no run has executed on GitHub**, because this
-account is under a billing lock, which GitHub reports as *"The job was not started because your
-account is locked due to a billing issue."* It is not the workflow (a five-line minimal
-workflow fails identically), not this repository (a second repository fails the same way), and
-not runner availability (a self-hosted runner was registered and still hit it). Making this
-repository public restored job creation, which was the part under this repository's control:
-7 jobs are now created and dispatched. [`docs/ci-evidence.md`](docs/ci-evidence.md) records the
-full diagnosis and what every job validates.
+**Where CI runs, and why it is worth a sentence.** GitHub-hosted compute is unavailable on this
+account: hosted jobs are created and then killed before their first step with *"The job was not
+started because your account is locked due to a billing issue."* Self-hosted minutes are not
+billed, so the badge above is green from a self-hosted runner. Every job targets
+`${{ vars.CI_RUNNER || 'ubuntu-latest' }}`, so the default is unchanged and **a fork gets
+working hosted CI with no setup**; a repository variable redirects the jobs without editing the
+workflow, and reverting is deleting the variable.
+
+Running on a real machine rather than a throwaway VM found two latent bugs that hosted runners
+had been hiding, both now fixed: the observability step asserted Prometheus scrape targets were
+up in the same instant the containers went healthy, 20ms before the first 15-second scrape could
+have happened; and `dbt_project.yml` hardcoded a packages path under `/opt`, which only works
+where the CI user can write there. [`docs/ci-evidence.md`](docs/ci-evidence.md) records the full
+diagnosis, the run timings, and what every job validates.
 
 ## Repository layout
 

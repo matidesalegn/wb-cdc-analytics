@@ -16,33 +16,57 @@ the CI job name beside each result so the mapping is checkable rather than asser
 
 ---
 
-## Current status of GitHub Actions on this repository
+## Where CI runs on this repository, and how that was established
 
-Stated plainly, because a reader will notice the badge is not green.
+**The badge is green, and it comes from a self-hosted runner.** GitHub-hosted compute is
+unavailable on this account, so the workflow was pointed at a machine that is not billed. The
+diagnosis is recorded here because the reasoning is the interesting part, not the outcome.
 
-The workflow is valid and the checks are real, but **no run has executed on GitHub**, for a
-reason that has nothing to do with this pipeline. GitHub's own annotation on the most recent
-run:
+GitHub's annotation on a hosted job, verbatim:
 
 > The job was not started because your account is locked due to a billing issue.
 
-Diagnosis, in the order it was established:
+Diagnosis, in the order it was established. Each row is a measurement, not an inference:
 
 | Step | Finding |
 |---|---|
-| Every run ends in `startup_failure` with **zero jobs created** | The failure is at run creation, before any step or runner is involved |
-| A five-line minimal workflow fails identically | Not the workflow file |
-| A second, unrelated repository shows the same failure since 29 June 2026 | Not this repository |
-| A self-hosted runner was registered and a run dispatched at it: still `startup_failure` | Not runner availability, and self-hosting does not bypass it |
-| The repository was made public, so Actions minutes are unmetered | **7 jobs were created and dispatched**, then failed with the annotation above |
+| Every run ended in `startup_failure` with **zero jobs created** | The failure was at run creation, before any step or runner was involved |
+| A five-line minimal workflow failed identically | Not the workflow file |
+| A second, unrelated repository has failed the same way since 29 June 2026 | Not this repository. The block is account-wide |
+| The repository was made public | **7 jobs were now created**, each with `started_at` and `completed_at` 2 seconds apart and an **empty steps array**. Not even `Set up job` ran |
+| Public repositories get unlimited free hosted minutes, yet nothing executed | So the obstacle is **not** metered compute. If it were, going public would have fixed it outright |
+| A self-hosted runner was registered and a probe workflow dispatched at it | **3 steps executed, conclusion success.** Self-hosted minutes are not billed, so those jobs run |
 
-So the block is an account-level billing lock. It is resolvable only in account settings, and
-the moment it clears, these runs execute: making the repository public already restored job
-creation, which was the part under this repository's control.
+The conclusion that survived: the lock gates **hosted** compute specifically. Making the
+repository public restored job *creation*, which was the necessary precondition, and a
+self-hosted runner supplies the *execution*. An earlier self-hosted attempt had failed and
+seemed to disprove this, but that test ran while the repository was still private, when no job
+was being created for any runner to accept.
 
-`make ci-local` exists because of this, and it is arguably the better artifact: a reviewer can
-verify the checks directly rather than trusting a green square produced by someone else's
-infrastructure.
+`runs-on` is therefore `${{ vars.CI_RUNNER || 'ubuntu-latest' }}` on every job. The default is
+unchanged, so a fork gets working hosted CI with no setup; a repository variable redirects the
+jobs with no file edit, and reverting is deleting the variable.
+
+### Two latent bugs that only a real machine could expose
+
+Both would fail on a hosted runner too. Neither had ever been caught, because this workflow had
+never actually executed on GitHub.
+
+| Bug | Why hosted runners hid it |
+|---|---|
+| The observability step asserted every Prometheus scrape target was up immediately after `up --wait`. Grafana reported healthy at `13:02:25.37` and the assertion fired at `13:02:25.39`, **20ms later**, against a 15-second scrape interval | It had never run. Locally a human checks seconds or minutes after starting the stack, never inside the same 20ms. Now a bounded wait precedes the assertions, which are left intact so a real failure still names the specific job |
+| `dbt_project.yml` hardcoded `packages-install-path` to `/opt/dbt-packages`. The containers need an absolute path outside the read-only project mount, but `/opt` is root-owned on an ordinary Linux box, so `dbt deps` could not create it | A hosted runner's user can write to `/opt`. Now `{{ env_var('DBT_PACKAGES_PATH', '/opt/dbt-packages') }}`, so the container default is unchanged and the CI job points at its per-job temp directory |
+
+A third issue was environmental rather than a bug: the Actions **cache service** is blocked by
+the same lock, and `actions/setup-python` does not fail fast on that. It spent ten minutes on a
+restore that ended in "Server failed to authenticate the request", which is longer than the lint
+job's entire timeout, so jobs were killed and reported as "Canceled" as though a human had
+cancelled them. The tell was that `static`, the only fast-lane job without `cache: pip`, was also
+the only one finishing quickly. `cache: pip` is now gated to hosted runners.
+
+`make ci-local` remains in the repository regardless, and is arguably still the better artifact:
+a reviewer can verify every check directly rather than trusting a green square produced on
+someone else's machine.
 
 ## What each CI job validates, and how to run it yourself
 
@@ -114,6 +138,7 @@ Images were already cached locally, which is the warm-image case the README quot
 |---|---|---|
 | Clone | `git clone https://github.com/matidesalegn/wb-cdc-analytics.git` | 115 files, no `.env`, no `dbt/target`, no volumes |
 | One command | `make demo` | **exit 0 in about 50 seconds**, all six stages PASS, 58 dbt tests green |
+| CI on GitHub | `git push` to main | **7 jobs, all green.** lint 27s, unit 46s, static 27s, dags 27s, dbt 36s, integration 134s, summary 13s |
 | One command, no network | `make demo-offline` | exit 0 in 53 seconds, replaying the committed fixtures |
 | Per-stage verification | `make verify` | 2,970 rows in PostgreSQL = 2,970 in ClickHouse = 2,970 in the fact table, 330 feature rows, CDC lag 10s |
 | Mutations | `make demo-mutations` | INSERT, UPDATE and DELETE all propagate to the marts; the tombstone is retained on disk and hidden from `FINAL` reads |
