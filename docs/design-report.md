@@ -323,7 +323,7 @@ The thing I found most interesting here was smaller and more specific. Measuring
 table looked obviously correct and was wrong: an idle dimension reports the same number as a
 stopped connector, so the signal cannot distinguish "nothing changed" from "nothing is
 arriving". Splitting connector liveness from data freshness took about ten minutes and changed
-which alert I would trust at three in the morning.
+which of the two signals I would act on.
 
 ---
 
