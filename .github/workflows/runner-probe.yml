@@ -1,14 +1,17 @@
 name: runner-probe
-# Throwaway probe. Sole purpose: determine whether the account-level billing lock
-# blocks job EXECUTION, or only GitHub-hosted compute. If a step runs here, a
-# self-hosted runner bypasses the lock. If it does not, the lock is upstream of
-# runner assignment and no runner of any kind can help.
 on:
   push:
     branches: [runner-probe]
 jobs:
   probe:
-    runs-on: [self-hosted, wbcdc]
+    # Probe 2: does the `vars` context work in runs-on, and does setup-python
+    # find a writable tool cache without sudo on /opt?
+    runs-on: ${{ vars.CI_RUNNER || 'ubuntu-latest' }}
     steps:
-      - name: A step actually executed
-        run: echo "EXECUTED on $(uname -sm) at $(date -u +%FT%TZ)"
+      - uses: actions/checkout@v4
+      - run: echo "runner=$RUNNER_NAME  tool_cache=$RUNNER_TOOL_CACHE  temp=$RUNNER_TEMP"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -V && which python
+      - run: echo "LANG=$LANG"; printf 'a\xe2\x80\x94b\n' | grep -qP '[\x{2014}]' && echo "PCRE em-dash rule is ALIVE" || echo "PCRE rule DEAD"
