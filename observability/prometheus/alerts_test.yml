@@ -242,3 +242,123 @@ tests:
             exp_annotations:
               summary: "Scrape target clickhouse (clickhouse:9363) has been down for 2 minutes"
               runbook: "docker compose ps, then docker compose logs clickhouse."
+
+  # -------------------------------------------------------------------------
+  # The four rules below had no test until an audit of the report's claim that every
+  # rule is unit-tested found they were uncovered: 10 rules, 9 cases, but only 6 rules
+  # actually asserted on. Rather than weaken the claim, the gap is closed. Each case
+  # checks both directions, because a rule that cannot stay quiet is as useless as one
+  # that cannot fire.
+  - name: An inactive slot retaining WAL alerts, an active one does not
+    interval: 1m
+    input_series:
+      # An inactive slot retaining anything at all is a problem: nothing is reading it,
+      # so it will never drain on its own.
+      - series: 'wb_pipeline_replication_slot_retained_wal_bytes{slot_name="orphan_slot",active="false"}'
+        values: "4096+0x20"
+      # An ACTIVE slot retaining the same amount is normal operation, and the rule must
+      # not fire on it. This is the half that keeps the alert usable.
+      - series: 'wb_pipeline_replication_slot_retained_wal_bytes{slot_name="wb_cdc_slot",active="true"}'
+        values: "4096+0x20"
+    alert_rule_test:
+      - eval_time: 5m
+        alertname: ReplicationSlotInactive
+        exp_alerts: []
+      - eval_time: 15m
+        alertname: ReplicationSlotInactive
+        exp_alerts:
+          - exp_labels:
+              severity: warning
+              component: postgres
+              slot_name: orphan_slot
+              active: "false"
+            exp_annotations:
+              summary: "Replication slot orphan_slot has been inactive for 10 minutes and is still retaining WAL"
+              runbook: >-
+                An inactive slot retains WAL forever. Either restart the connector so it
+                resumes, or drop the slot with `make drop-slot`. Do not leave it.
+
+  - name: A non-empty quarantine alerts, an empty one does not
+    interval: 1m
+    input_series:
+      - series: 'wb_pipeline_cdc_quarantine_rows'
+        # Healthy for 3 minutes, then three events cannot be attributed to a business key.
+        values: "0 0 0 3 3 3 3 3 3 3"
+    alert_rule_test:
+      - eval_time: 2m
+        alertname: IngestionQuarantineNonEmpty
+        exp_alerts: []
+      - eval_time: 9m
+        alertname: IngestionQuarantineNonEmpty
+        exp_alerts:
+          - exp_labels:
+              severity: warning
+              component: quality
+            exp_annotations:
+              summary: "3 change events are quarantined and are not reaching the typed tables"
+              runbook: >-
+                Inspect them with `SELECT reason, count() FROM raw.cdc_quarantine GROUP BY
+                reason`. An incomplete primary key usually means a source schema change; an
+                unknown operation code usually means a Debezium version change.
+
+  - name: A sustained rise in rejected rows alerts, a handful does not
+    interval: 1m
+    input_series:
+      # A slow trickle of rejections is normal for a public dataset. This climbs by 1 per
+      # minute, so increase() over an hour stays at or under 10 for the first stretch and
+      # only crosses the threshold once the rise is sustained.
+      - series: 'wb_pipeline_ingest_rejected_rows{stream="observation"}'
+        values: "0+1x90"
+    alert_rule_test:
+      # Ten minutes in, the hourly increase is about 10: at the threshold, not over it.
+      - eval_time: 10m
+        alertname: IngestionRejectingRows
+        exp_alerts: []
+      # An hour and a half in, the hourly increase is about 60 and has been over the
+      # threshold for well past the 15 minute for-duration.
+      - eval_time: 90m
+        alertname: IngestionRejectingRows
+        exp_alerts:
+          - exp_labels:
+              severity: warning
+              component: quality
+              stream: observation
+            exp_annotations:
+              summary: "The pre-load gate rejected 60 rows from observation in the last hour"
+              runbook: >-
+                Read the reasons in ops.ingest_reject. A handful is normal for a public
+                dataset; a sustained rise means the source's shape changed. The gate is
+                working as intended either way, so this is a data question rather than an
+                outage.
+
+  - name: Part count over the insert threshold alerts, a healthy table does not
+    interval: 1m
+    input_series:
+      # 350 parts is past the 300 at which ClickHouse refuses inserts, so this is an
+      # approaching write outage rather than a performance note.
+      - series: 'wb_pipeline_active_parts{database="raw",table="observation"}'
+        values: "350+0x25"
+      # The unpartitioned tables this project actually runs sit in single digits. The rule
+      # must stay quiet for them, which is the evidence that the no-partition decision is
+      # monitored rather than merely asserted.
+      - series: 'wb_pipeline_active_parts{database="marts",table="fct_indicator_observation"}'
+        values: "4+0x25"
+    alert_rule_test:
+      - eval_time: 10m
+        alertname: ClickHouseTooManyParts
+        exp_alerts: []
+      - eval_time: 20m
+        alertname: ClickHouseTooManyParts
+        exp_alerts:
+          - exp_labels:
+              severity: warning
+              component: olap
+              database: raw
+              table: observation
+            exp_annotations:
+              summary: "raw.observation has 350 active parts; merges are falling behind"
+              runbook: >-
+                ClickHouse refuses inserts at 300 parts per partition by default, so this is
+                an approaching write outage rather than a performance note. Usually caused by
+                many small inserts or by an over-granular partition key. Check the insert
+                batch size first, then the PARTITION BY choice.

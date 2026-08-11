@@ -80,7 +80,7 @@ check static "alert rules are syntactically valid (promtool check rules)" \
   docker run --rm -v "$PWD/observability/prometheus:/p:ro" \
     --entrypoint promtool prom/prometheus:v3.1.0 check rules /p/alerts.yml
 
-check static "alert rules behave as intended (promtool test rules, 9 cases)" \
+check static "alert rules behave as intended (promtool test rules, 13 cases)" \
   docker run --rm -v "$PWD/observability/prometheus:/p:ro" \
     --entrypoint promtool prom/prometheus:v3.1.0 test rules /p/alerts_test.yml
 

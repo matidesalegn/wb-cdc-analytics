@@ -14,7 +14,7 @@ mart and an ML feature table. It starts with `make demo` and verifies itself wit
 
 Measured on this stack: 2,970 observations (5 countries, 9 indicators, 66 years); **about 3
 seconds** from PostgreSQL commit to a queryable ClickHouse row; 58 dbt tests and 59 unit
-tests green; 10 Prometheus alert rules, each unit-tested with `promtool`.
+tests green; 10 Prometheus alert rules, all 10 unit-tested with `promtool` across 13 cases.
 
 Three decisions I would defend, each preventing a failure that produces **no error at all**:
 

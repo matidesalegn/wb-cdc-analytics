@@ -50,7 +50,7 @@ infrastructure.
 |---|---|---|
 | `lint` | ruff, including the `S` security rules that flag a hardcoded credential or a shell injection | `make lint` |
 | `unit` | 59 unit tests against committed API fixtures, no network and no containers. Coverage floor 85 percent on the four modules a no-container lane can reach, currently 90 | `make test` |
-| `static` | The compose model resolves across every profile; the Debezium connector config renders to a valid Connect payload with no unresolved placeholders; **`promtool test rules`** unit-tests all 10 alert rules; the Grafana dashboard is valid with every panel documented; the 11-rule project convention gate | `bash scripts/ci/convention_gate.sh` |
+| `static` | The compose model resolves across every profile; the Debezium connector config renders to a valid Connect payload with no unresolved placeholders; **`promtool test rules`** unit-tests all 10 alert rules across 13 cases; the Grafana dashboard is valid with every panel documented; the 11-rule project convention gate | `bash scripts/ci/convention_gate.sh` |
 | `dags` | Both Airflow DAGs import with no errors, and each has a `one_failed` watcher and a `doc_md` | `docker compose run --rm --entrypoint python airflow /opt/airflow/tests/check_dags.py` |
 | `dbt` | `dbt parse` compiles every model, macro, test and YAML file without touching a warehouse, so a Jinja error or a bad `ref` is caught in seconds | `docker compose run --rm --entrypoint dbt pipeline parse --project-dir /app/dbt --profiles-dir /app/dbt` |
 | `integration` | The full stack end to end: `make demo` offline, strict per-stage verification, UPDATE and DELETE propagation, a second ingestion writing **nothing**, the incremental model not duplicating, and every Prometheus target up with no alerts firing | `make demo && make verify && make demo-mutations` |
@@ -68,7 +68,7 @@ Full output of `make ci-local` on a clean working tree:
 | PASS | `static` | compose model resolves across every profile |
 | PASS | `static` | connector config renders to a valid Connect payload |
 | PASS | `static` | alert rules are syntactically valid (promtool check rules) |
-| PASS | `static` | alert rules behave as intended (promtool test rules, 9 cases) |
+| PASS | `static` | alert rules behave as intended (promtool test rules, 13 cases) |
 | PASS | `static` | Grafana dashboard valid, every panel documented |
 | PASS | `static` | project convention gate (11 rules) |
 | PASS | `static` | grep -P PCRE is live, so the em-dash rule can actually fail |
