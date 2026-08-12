@@ -1,0 +1,59 @@
+# Build context for docker/pipeline.Dockerfile and docker/airflow.Dockerfile.
+#
+# Both declare `context: .` in docker-compose.yml, so without this file the whole repository
+# is sent to the Docker daemon on every build: about 15 MB, of which 4.6 MB is .git and none
+# of which any build stage reads beyond four paths.
+#
+# DENY BY DEFAULT, then allow exactly what a Dockerfile copies. A denylist is the more common
+# shape and the weaker one: it protects against the files you thought of, and a new secret
+# added later is included by default. With deny-first, a new file has to be named before it can
+# reach a build, which is the correct direction for that mistake to fail in.
+#
+# This also closes a latent leak rather than a hypothetical one. `COPY dbt/ /app/dbt/` is
+# unfiltered, so running `make dbt-build` locally and then rebuilding would place dbt/logs/ in
+# the image, and a dbt log records the connection profile it used. Nothing is leaking today
+# because those directories happen not to exist; that is luck, not a control.
+
+# ---------------------------------------------------------------------------
+# 1. Everything is excluded to begin with. This covers .env and .env.* without
+#    naming them, which matters because the generated .env holds live database
+#    passwords and sits in the repository root.
+# ---------------------------------------------------------------------------
+*
+
+# ---------------------------------------------------------------------------
+# 2. Allow only the paths a Dockerfile actually reads.
+#    pipeline.Dockerfile: requirements/pipeline.txt, ingest/, dbt/, scripts/
+#    airflow.Dockerfile:  requirements/pipeline.txt, dbt/
+#    tests/ is deliberately absent: it reaches the containers as a read-only
+#    volume mount, not by COPY, so it does not belong in a build context.
+# ---------------------------------------------------------------------------
+!requirements/
+!ingest/
+!dbt/
+!scripts/
+
+# ---------------------------------------------------------------------------
+# 3. Re-exclude generated output inside those allowed trees. Order matters: a
+#    later pattern wins, so these override the allow rules above.
+#
+#    dbt writes target/, logs/ and dbt_packages/ into the project directory. All
+#    three are build output, all three are gitignored, and all three would be
+#    swept into the image by the unfiltered `COPY dbt/`. logs/ is the one that
+#    matters: dbt.log contains the resolved connection profile.
+# ---------------------------------------------------------------------------
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+dbt/package-lock.yml.bak
+
+# Python bytecode: never useful in an image, and it invalidates the COPY layer
+# cache on every local test run.
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.ruff_cache/
+
+# Editor and OS noise that would otherwise bust the cache for the copied trees.
+**/*.swp
+**/.DS_Store
