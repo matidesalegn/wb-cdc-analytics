@@ -42,14 +42,18 @@ OUT = REPO / "docs" / "design-report.pdf"
 # content space, which is why `width: 100%` is safe rather than a gamble.
 CSS = """
 @page { size: A4 portrait; margin: 18mm 16mm 20mm 16mm; }
-/* Named pages, so each diagram gets a sheet of its own with tighter margins: 194mm of column
-   instead of 178mm. Deliberately PORTRAIT. Landscape looks like the obvious choice for a
-   diagram and is wrong for these two, because both are taller than they are wide, so the
-   binding constraint is height and a landscape sheet has less of it. Tried it: each figure
-   overflowed onto three pages. */
-@page figure { size: A4 portrait; margin: 8mm; }
-.figure-wide { page: figure; break-before: page; break-after: page; }
-.figure-wide svg { width: 100%; height: auto; max-height: 272mm; display: block; }
+/* Figures get NO forced page break, only break-inside: avoid.
+   A forced break-before conflicts with `h2 { break-after: avoid }` on the heading immediately
+   above, and the forced break wins: it left "Data model and schema documentation" alone on a
+   page containing five words and nothing else. A forced break-after was just as wasteful,
+   discarding the ~77mm below a figure that text could have filled.
+   break-inside: avoid is enough. The figure moves to the next page only when it genuinely
+   does not fit, and the heading moves with it.
+   The cost is the column width: 178mm rather than the 194mm a dedicated sheet allowed. That
+   is 8 percent, and irrelevant here because the figures are vector and zoomable, whereas an
+   orphaned heading and a near-empty page are visible to anyone. */
+.figure-wide { break-inside: avoid; page-break-inside: avoid; margin: 3mm 0 4mm; }
+.figure-wide svg { width: 100%; height: auto; max-height: 232mm; display: block; }
 .figure-cap { font-size: 8.5pt; color: #55554f; margin: 1.5mm 0 0; text-align: center; }
 html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 body {
