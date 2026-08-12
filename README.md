@@ -282,18 +282,16 @@ make ci-local
 That runs each fast-lane check with the same command the corresponding CI job uses, printing
 the CI job name beside each result. Currently 13 of 13 pass in 49 seconds.
 
-**The badge will not render, and here is why.** This repository is private, so GitHub serves
-neither the badge nor the Actions history to anyone without access. Separately, GitHub-hosted
-compute is unavailable on this account under a billing lock: hosted jobs are created and then
-killed before their first step with *"The job was not started because your account is locked due to
-a billing issue."* Self-hosted minutes are not billed, so while the repository was public a
-self-hosted runner made the whole pipeline green, including the integration lane and a real
-deployment. Going private stopped runs being created at all.
+**About the badge.** GitHub-hosted compute is unavailable on this account under a billing
+lock: hosted jobs are created and then killed before their first step with *"The job was not
+started because your account is locked due to a billing issue."* Self-hosted minutes are not
+billed, so the badge above is green from a self-hosted runner, and the runner is taken offline
+between runs rather than left listening on a public repository.
 
-So: the pipeline is proven and currently cannot execute.
-[`docs/ci-evidence.md`](docs/ci-evidence.md) records the green runs with their ids and per-job
-timings, and **`make ci-local` reproduces every fast-lane check on your machine in about a minute**,
-using the same commands the workflow uses. That is the artifact to trust, because you can run it.
+[`docs/ci-evidence.md`](docs/ci-evidence.md) records each green run with its id and per-job
+timings, and **`make ci-local` reproduces every fast-lane check on your machine in about a
+minute** using the same commands the workflow uses. That is the artifact worth trusting,
+because you can run it yourself rather than take a green square on faith.
 
 Every job targets `${{ vars.CI_RUNNER || 'ubuntu-latest' }}`, so the default is GitHub-hosted and
 **a clone of this repository gets working CI with no setup**; a repository variable redirects the

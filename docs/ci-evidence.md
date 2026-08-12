@@ -18,19 +18,41 @@ the CI job name beside each result so the mapping is checkable rather than asser
 
 ## Where CI runs on this repository, and how that was established
 
-**Read this before looking at the badge, because the badge will not render.** This repository is
-private, and GitHub does not serve the workflow badge or the Actions run history to anyone without
-repository access. The runs below are real and were green; they are recorded here with their run
-ids and timings so the claim is checkable rather than asserted, and `make ci-local` reproduces
-every fast-lane check on your own machine in about a minute without GitHub at all.
+**The badge is green, and it comes from a self-hosted runner.** GitHub-hosted compute is
+unavailable on this account under a billing lock, so the workflow is pointed at a machine that
+is not billed. The runs below are listed with their ids and per-job timings so the claim is
+checkable, and `make ci-local` reproduces every fast-lane check on your own machine in about a
+minute without GitHub at all.
 
-**The state of CI, stated plainly.** GitHub-hosted compute is unavailable on this account under a
-billing lock. While the repository was public, pointing the workflow at a self-hosted runner made
-it fully green, including the integration lane and a real deployment. Making the repository
-private stopped runs being created at all, because the lock blocks run creation on private
-repositories: a dispatch now returns `startup_failure` with **zero jobs created**. So the honest
-summary is that the pipeline is proven and currently cannot execute, for a reason that has nothing
-to do with this code.
+The diagnosis is recorded here because the reasoning is the interesting part, not the outcome.
+
+GitHub's annotation on a hosted job, verbatim:
+
+> The job was not started because your account is locked due to a billing issue.
+
+Diagnosis, in the order it was established. Each row is a measurement, not an inference:
+
+| Step | Finding |
+|---|---|
+| Every run ended in `startup_failure` with **zero jobs created** | The failure was at run creation, before any step or runner was involved |
+| A five-line minimal workflow failed identically | Not the workflow file |
+| A second, unrelated repository has failed the same way since 29 June 2026 | Not this repository. The block is account-wide |
+| The repository was made public | **7 jobs were now created**, each with `started_at` and `completed_at` 2 seconds apart and an **empty steps array**. Not even `Set up job` ran |
+| Public repositories get unlimited free hosted minutes, yet nothing executed | So the obstacle is **not** metered compute. If it were, going public would have fixed it outright |
+| A self-hosted runner was registered and a probe workflow dispatched at it | **3 steps executed, conclusion success.** Self-hosted minutes are not billed, so those jobs run |
+| The repository was later made private again | Back to `startup_failure` with **zero jobs**. So the lock blocks run CREATION on private repositories, not merely hosted execution |
+
+The conclusion that survived: the lock gates **hosted** compute specifically, and job creation
+on a private repository. Public restores creation; a self-hosted runner supplies execution. An
+earlier self-hosted attempt had failed and seemed to disprove this, but that test ran while the
+repository was still private, when no job was being created for any runner to accept.
+
+**On runner hygiene, since this repository is public.** A self-hosted runner attached to a
+public repository is a documented hazard: a fork's pull request can execute its own workflow
+definition, so an in-YAML guard cannot contain it. Two controls apply here. Approval is
+required for **all** external contributors, not just first-time ones, and the runner is
+deregistered between runs rather than left listening. A badge renders the stored conclusion of
+the last run, so it stays green with no runner online.
 
 ### The green runs, recorded
 
@@ -65,27 +87,6 @@ nothing about the code or the host has changed. The correct fix is to stop depen
 port at all, by driving the deploy through AWS Systems Manager Session Manager instead of SSH; the
 allowlist is a stopgap. This is recorded because a CD lane whose failure mode is "somebody's home
 IP changed" is exactly the sort of thing that should be written down rather than rediscovered.
-
-GitHub's annotation on a hosted job, verbatim:
-
-> The job was not started because your account is locked due to a billing issue.
-
-Diagnosis, in the order it was established. Each row is a measurement, not an inference:
-
-| Step | Finding |
-|---|---|
-| Every run ended in `startup_failure` with **zero jobs created** | The failure was at run creation, before any step or runner was involved |
-| A five-line minimal workflow failed identically | Not the workflow file |
-| A second, unrelated repository has failed the same way since 29 June 2026 | Not this repository. The block is account-wide |
-| The repository was made public | **7 jobs were now created**, each with `started_at` and `completed_at` 2 seconds apart and an **empty steps array**. Not even `Set up job` ran |
-| Public repositories get unlimited free hosted minutes, yet nothing executed | So the obstacle is **not** metered compute. If it were, going public would have fixed it outright |
-| A self-hosted runner was registered and a probe workflow dispatched at it | **3 steps executed, conclusion success.** Self-hosted minutes are not billed, so those jobs run |
-
-The conclusion that survived: the lock gates **hosted** compute specifically. Making the
-repository public restored job *creation*, which was the necessary precondition, and a
-self-hosted runner supplies the *execution*. An earlier self-hosted attempt had failed and
-seemed to disprove this, but that test ran while the repository was still private, when no job
-was being created for any runner to accept.
 
 `runs-on` is therefore `${{ vars.CI_RUNNER || 'ubuntu-latest' }}` on every job. The default is
 unchanged, so a fork gets working hosted CI with no setup; a repository variable redirects the
