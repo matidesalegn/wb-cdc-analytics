@@ -3,9 +3,16 @@
 # it to one image keeps the build time and the image count down.
 FROM python:3.12-slim
 
-# ca-certificates for the HTTPS call to the public API. postgresql-client and
-# curl so the verification scripts can run inside this container rather than
-# depending on what the host happens to have installed.
+# ca-certificates for the HTTPS call to the public API.
+#
+# curl is load bearing: the pipeline-exporter service shares this image and its
+# healthcheck is `curl -sf http://localhost:9108/metrics`, so removing it turns that
+# container permanently unhealthy.
+#
+# postgresql-client is kept as a debugging convenience, so `docker compose exec` into
+# this container can reach the source database directly. Nothing in the image needs it:
+# scripts/verify_stages.sh runs on the host and reaches PostgreSQL through
+# `docker compose exec postgres psql`, not from in here.
 RUN apt-get update \
  && apt-get install -y --no-install-recommends \
       ca-certificates \
@@ -30,9 +37,17 @@ RUN pip install --no-cache-dir -r /tmp/pipeline.txt
 
 # Source is bind-mounted in Compose for a fast edit loop, but copied here too so
 # the image is self-contained and CI can run it without the mount.
+# ingest/ is the application. dbt/ has to be present at BUILD time, because `dbt deps`
+# runs below and resolves packages against this project.
+#
+# scripts/ is deliberately NOT copied. Nothing in the image reads it: the entrypoint is
+# `python -m ingest.run`, the exporter is `python -m ingest.exporter`, the Airflow DAGs
+# run ingestion in-process and dbt through its own binary, and no build stage touches it.
+# Under compose the directory is bind-mounted read-only anyway, so a COPY was shadowed
+# at runtime and only ever added weight, including deployment and PDF-rendering scripts
+# that have no business inside a data-pipeline image.
 COPY ingest/ /app/ingest/
 COPY dbt/ /app/dbt/
-COPY scripts/ /app/scripts/
 
 # dbt writes target/, logs/ and dbt_packages/ relative to the project dir by
 # default. All three are redirected outside /app/dbt, for two different reasons:

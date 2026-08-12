@@ -23,15 +23,15 @@
 
 # ---------------------------------------------------------------------------
 # 2. Allow only the paths a Dockerfile actually reads.
-#    pipeline.Dockerfile: requirements/pipeline.txt, ingest/, dbt/, scripts/
+#    pipeline.Dockerfile: requirements/pipeline.txt, ingest/, dbt/
 #    airflow.Dockerfile:  requirements/pipeline.txt, dbt/
+#    scripts/ is absent on purpose: no Dockerfile copies it and no container reads it.
 #    tests/ is deliberately absent: it reaches the containers as a read-only
 #    volume mount, not by COPY, so it does not belong in a build context.
 # ---------------------------------------------------------------------------
 !requirements/
 !ingest/
 !dbt/
-!scripts/
 
 # ---------------------------------------------------------------------------
 # 3. Re-exclude generated output inside those allowed trees. Order matters: a
