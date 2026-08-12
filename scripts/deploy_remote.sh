@@ -14,7 +14,9 @@
 #
 # Deploys a SHA, never a branch. `git checkout main` deploys whatever main happens to be
 # when the command runs, which means a re-run of an old pipeline silently ships new code.
-# A SHA makes the deployed artifact identical to the one CI tested.
+# A SHA pins the SOURCE to the revision CI tested. It does not make the running image
+# identical to CI's: the images built from this repository are rebuilt here, because there is
+# no registry to promote them from. See docs/ci-cd-evidence.md.
 #
 # Records the previous SHA before changing anything, so rollback is a fact rather than a
 # hope. The rollback path is the same code path as the deploy, so it is exercised every

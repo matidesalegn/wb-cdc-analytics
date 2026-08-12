@@ -19,7 +19,7 @@ It is idempotent: run it twice and the second run exercises the change-detection
 incremental paths rather than repeating the first.
 
 **Design report:** [`docs/design-report.md`](docs/design-report.md)
-**CI evidence and how to verify it yourself:** [`docs/ci-evidence.md`](docs/ci-evidence.md)
+**CI evidence and how to verify it yourself:** [`docs/ci-cd-evidence.md`](docs/ci-cd-evidence.md)
 **Measured source-API behaviour:** [`docs/source-api-notes.md`](docs/source-api-notes.md)
 **Measured CDC wire format:** [`docs/cdc-wire-format.md`](docs/cdc-wire-format.md)
 **Scope contract and deliberate omissions:** [`docs/SCOPE.md`](docs/SCOPE.md)
@@ -258,7 +258,7 @@ ships broken pipelines faster.
 
 | Property | Why it is that way |
 |---|---|
-| Deploys `github.sha`, never a branch | `git checkout main` deploys whatever `main` is at the moment the command runs, so re-running an old pipeline silently ships new code. A SHA makes the deployed artifact the one CI tested |
+| Deploys `github.sha`, never a branch | `git checkout main` deploys whatever `main` is at the moment the command runs, so re-running an old pipeline silently ships new code. A SHA pins the **source**. Note the limit honestly: there is no image registry here, so the four images built from this repository are rebuilt on the target rather than promoted as artifacts, and only the eight pinned third-party images are byte-identical to what CI used. [`docs/ci-cd-evidence.md`](docs/ci-cd-evidence.md) sets out the consequences and the fix |
 | Records the previous SHA, rolls back on failure | The rollback path is the same code path as the deploy, so it is exercised on every success rather than first used during an incident |
 | Health check is `verify_stages.sh --strict` | It asserts source-to-warehouse parity, not that a port answers |
 | Then smoke-tests over HTTPS **from the runner** | Checking from the host would pass with the proxy, certificate or firewall broken, which are exactly the parts a user experiences |
@@ -288,7 +288,7 @@ started because your account is locked due to a billing issue."* Self-hosted min
 billed, so the badge above is green from a self-hosted runner, and the runner is taken offline
 between runs rather than left listening on a public repository.
 
-[`docs/ci-evidence.md`](docs/ci-evidence.md) records each green run with its id and per-job
+[`docs/ci-cd-evidence.md`](docs/ci-cd-evidence.md) records each green run with its id and per-job
 timings, and **`make ci-local` reproduces every fast-lane check on your machine in about a
 minute** using the same commands the workflow uses. That is the artifact worth trusting,
 because you can run it yourself rather than take a green square on faith.
@@ -301,7 +301,7 @@ Running on a real machine rather than a throwaway VM found two latent bugs that 
 had been hiding, both now fixed: the observability step asserted Prometheus scrape targets were
 up in the same instant the containers went healthy, 20ms before the first 15-second scrape could
 have happened; and `dbt_project.yml` hardcoded a packages path under `/opt`, which only works
-where the CI user can write there. [`docs/ci-evidence.md`](docs/ci-evidence.md) records the full
+where the CI user can write there. [`docs/ci-cd-evidence.md`](docs/ci-cd-evidence.md) records the full
 diagnosis, the run timings, and what every job validates.
 
 ## Repository layout

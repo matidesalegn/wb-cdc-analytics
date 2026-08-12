@@ -125,6 +125,62 @@ someone else's machine.
 | `integration` | The full stack end to end: `make demo` offline, strict per-stage verification, UPDATE and DELETE propagation, a second ingestion writing **nothing**, the incremental model not duplicating, and every Prometheus target up with no alerts firing | `make demo && make verify && make demo-mutations` |
 | `ci-summary` | A single required check, so branch protection does not need editing when a job is added | n/a |
 
+## The delivery lane, and how images actually reach the host
+
+The `deploy` job runs on pushes to `main` and on manual dispatch, gated on
+`needs: [lint, unit, static, dags, dbt, integration]`, so nothing reaches the environment unless
+the whole stack has already been stood up from empty volumes and verified end to end. It deploys
+`github.sha` rather than a branch, health-checks with `verify_stages.sh --strict`, and rolls back
+to the previously recorded SHA if that check fails. Logic lives in
+[`scripts/deploy_remote.sh`](../scripts/deploy_remote.sh) rather than in YAML, so it can be read
+without knowing GitHub Actions and run by hand during an incident, which is exactly when Actions
+is the broken thing.
+
+### It ships source, not images, and that is a real limitation
+
+Worth stating precisely, because "deploys a SHA" invites an assumption that is only partly true.
+There is **no image registry in this pipeline**: no ECR, no Docker Hub, no GHCR. The deploy is
+`git fetch`, `git reset --hard <sha>`, then `docker compose up -d --wait` on the target.
+
+| | Services | Where the image comes from |
+|---|---|---|
+| Built **on the target host** at deploy time | `pipeline`, `pipeline-exporter`, `airflow`, `airflow-init` | Dockerfiles in this repository |
+| Pulled, version-pinned | `postgres` 17 and 16, `clickhouse` 25.8, `connect` 3.6.1.Final, `redpanda` v26.1.15, `redpanda-console` v3.10.0, `prometheus` v3.1.0, `grafana` 11.5.0 | Public registries |
+
+So the guarantee "the artifact CI tested is the artifact that runs" **holds for the eight pinned
+images and does not hold for the four that contain this project's code.** CI builds its own copy
+during the integration lane; the host builds a different copy from the same Dockerfile. Same
+source, not the same bytes: base images can re-resolve, and any dependency layer that is not
+fully pinned resolves at build time on whichever machine is building.
+
+Three consequences, none hypothetical:
+
+- **Rollback is incomplete.** Resetting to the previous SHA restores source and rebuilds the
+  image. It does not restore a known-good artifact, which is the thing a rollback should give you.
+- **Building on the target is what broke a deploy here.** The Debezium connector went
+  `UNASSIGNED` with coordinator timeouts because a two-vCPU host was building images while
+  Redpanda needed to stay responsive. A clean re-run after the image was cached finished in 76
+  seconds. That failure is a symptom of building at deploy time, not a coincidence.
+- **The host needs a full git clone** in order to build, which is more of this repository on the
+  deploy target than a deploy target has any need for.
+
+### What would close it
+
+Promote an artifact instead of source. A `build` job tags each of the four images
+`ghcr.io/<owner>/wb-cdc-analytics/<service>:<sha>` and pushes once; the host pulls that exact tag
+and never builds. Rollback becomes re-pulling the previous tag, which is a restore rather than a
+rebuild.
+
+**GHCR rather than ECR**, deliberately. This repository is public and already on GitHub, so
+`ghcr.io` needs no new credential: the built-in `GITHUB_TOKEN` with `packages: write` is
+sufficient, and public images are free. ECR would mean configuring OIDC federation and paying per
+GB for an artifact store that is not otherwise needed. If the deployment target were EKS inside
+the same AWS account, that calculation reverses and ECR becomes the right answer.
+
+This is recorded as a known gap rather than quietly left as an implied guarantee, because the
+distinction between deploying source and promoting an artifact is most of what separates a deploy
+script from a delivery pipeline.
+
 ## Local run, 11 August 2026
 
 Full output of `make ci-local` on a clean working tree:

@@ -1,5 +1,5 @@
 # ---------------------------------------------------------------------------
-# Two lanes, and the split is the design decision worth explaining.
+# Three lanes, and the split is the design decision worth explaining.
 #
 # The FAST LANE runs on every push and every pull request and needs no containers at
 # all: lint, unit tests against committed API fixtures, DAG import checks, dbt parse,
@@ -468,7 +468,11 @@ jobs:
   # only waits for linting is a deploy job that ships broken data pipelines quickly.
   #
   # What makes this safe rather than merely automated:
-  #   - it deploys github.sha, never a branch, so the artifact is the one CI tested;
+  #   - it deploys github.sha, never a branch, so the SOURCE is the revision CI tested. Note
+  #     the limit rather than implying more: there is no image registry here, so images built
+  #     from this repository are rebuilt on the target instead of promoted as artifacts. Only
+  #     the pinned third-party images are byte-identical to CI's. docs/ci-cd-evidence.md has
+  #     the consequences and what would close it;
   #   - the host records the previous SHA and rolls back automatically if the post-deploy
   #     verification fails, so the rollback path is exercised on every deploy;
   #   - the health check is scripts/verify_stages.sh --strict, which asserts source to

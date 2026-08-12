@@ -128,7 +128,7 @@ fi
 ELAPSED=$(( $(date +%s) - START ))
 printf '\n\033[1m%d passed, %d failed, %d skipped, in %ds\033[0m\n' "$PASS" "$FAIL" "$SKIP" "$ELAPSED"
 
-# Machine-readable summary, so docs/ci-evidence.md can be regenerated rather than hand-edited.
+# Machine-readable summary, so docs/ci-cd-evidence.md can be regenerated rather than hand-edited.
 {
   printf '| Result | CI job | Check |\n|---|---|---|\n'
   for r in "${RESULTS[@]}"; do
